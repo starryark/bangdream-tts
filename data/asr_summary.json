@@ -1,0 +1,345 @@
+{
+ "ag_himari": {
+  "n": 292,
+  "review": 1,
+  "review_pct": 0.3,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.014
+ },
+ "ag_moca": {
+  "n": 395,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.004
+ },
+ "ag_ran": {
+  "n": 173,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.006
+ },
+ "ag_tomoe": {
+  "n": 230,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.009
+ },
+ "ag_tsugumi": {
+  "n": 197,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.004
+ },
+ "hhw_hagumi": {
+  "n": 150,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.016
+ },
+ "hhw_kanon": {
+  "n": 241,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.007
+ },
+ "hhw_kaoru": {
+  "n": 197,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.008
+ },
+ "hhw_kokoro": {
+  "n": 191,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.009
+ },
+ "hhw_misaki": {
+  "n": 244,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.006
+ },
+ "mo_mashiro": {
+  "n": 149,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.008
+ },
+ "mo_nanami": {
+  "n": 223,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.005
+ },
+ "mo_rui": {
+  "n": 184,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 2,
+  "cer_best_mean": 0.005
+ },
+ "mo_touko": {
+  "n": 143,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.01
+ },
+ "mo_tsukushi": {
+  "n": 162,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.011
+ },
+ "mujica_mortis": {
+  "n": 95,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.017
+ },
+ "mujica_mutsumi": {
+  "n": 61,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.025
+ },
+ "mujica_nyamu": {
+  "n": 124,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.019
+ },
+ "mujica_sakiko": {
+  "n": 115,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.015
+ },
+ "mujica_sakiko_tsuki": {
+  "n": 203,
+  "review": 1,
+  "review_pct": 0.5,
+  "qwen_echo": 4,
+  "cer_best_mean": 0.016
+ },
+ "mujica_uika": {
+  "n": 113,
+  "review": 2,
+  "review_pct": 1.8,
+  "qwen_echo": 3,
+  "cer_best_mean": 0.015
+ },
+ "mujica_umiri": {
+  "n": 71,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 3,
+  "cer_best_mean": 0.01
+ },
+ "mygo_anon": {
+  "n": 88,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.017
+ },
+ "mygo_raana": {
+  "n": 272,
+  "review": 3,
+  "review_pct": 1.1,
+  "qwen_echo": 2,
+  "cer_best_mean": 0.026
+ },
+ "mygo_soyo": {
+  "n": 77,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.003
+ },
+ "mygo_soyo_tsuki": {
+  "n": 126,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 6,
+  "cer_best_mean": 0.01
+ },
+ "mygo_taki": {
+  "n": 196,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.015
+ },
+ "mygo_tomori": {
+  "n": 216,
+  "review": 1,
+  "review_pct": 0.5,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.024
+ },
+ "pp_aya": {
+  "n": 372,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.01
+ },
+ "pp_chisato": {
+  "n": 197,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.001
+ },
+ "pp_eve": {
+  "n": 299,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 3,
+  "cer_best_mean": 0.012
+ },
+ "pp_hina": {
+  "n": 248,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.012
+ },
+ "pp_maya": {
+  "n": 296,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.006
+ },
+ "ppp_arisa": {
+  "n": 434,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 2,
+  "cer_best_mean": 0.008
+ },
+ "ppp_kasumi": {
+  "n": 258,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.012
+ },
+ "ppp_rimi": {
+  "n": 163,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.009
+ },
+ "ppp_saaya": {
+  "n": 334,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.005
+ },
+ "ppp_tae": {
+  "n": 215,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.009
+ },
+ "ras_chuchu": {
+  "n": 282,
+  "review": 1,
+  "review_pct": 0.4,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.023
+ },
+ "ras_layer": {
+  "n": 220,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.005
+ },
+ "ras_lock": {
+  "n": 226,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.02
+ },
+ "ras_masking": {
+  "n": 151,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.009
+ },
+ "ras_pareo": {
+  "n": 154,
+  "review": 1,
+  "review_pct": 0.6,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.017
+ },
+ "ro_ako": {
+  "n": 102,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.015
+ },
+ "ro_ako_maou": {
+  "n": 44,
+  "review": 1,
+  "review_pct": 2.3,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.067
+ },
+ "ro_lisa": {
+  "n": 254,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.013
+ },
+ "ro_rinko": {
+  "n": 270,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 1,
+  "cer_best_mean": 0.007
+ },
+ "ro_sayo": {
+  "n": 204,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.004
+ },
+ "ro_yukina": {
+  "n": 153,
+  "review": 0,
+  "review_pct": 0.0,
+  "qwen_echo": 0,
+  "cer_best_mean": 0.005
+ }
+}

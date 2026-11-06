@@ -1,0 +1,228 @@
+{
+ "max_cos": 0.7,
+ "dropped": [],
+ "rows_before": 2323,
+ "rows_after": 2323,
+ "speakers": {
+  "zh_SSB0005": {
+   "max_cos": 0.253,
+   "nearest": "ppp_arisa"
+  },
+  "zh_SSB0012": {
+   "max_cos": 0.359,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0122": {
+   "max_cos": 0.35,
+   "nearest": "ras_layer"
+  },
+  "zh_SSB0145": {
+   "max_cos": 0.313,
+   "nearest": "mujica_umiri"
+  },
+  "zh_SSB0241": {
+   "max_cos": 0.403,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0273": {
+   "max_cos": 0.34,
+   "nearest": "ro_yukina"
+  },
+  "zh_SSB0287": {
+   "max_cos": 0.304,
+   "nearest": "mujica_umiri"
+  },
+  "zh_SSB0316": {
+   "max_cos": 0.327,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0338": {
+   "max_cos": 0.286,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0382": {
+   "max_cos": 0.386,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0394": {
+   "max_cos": 0.417,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0427": {
+   "max_cos": 0.311,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0470": {
+   "max_cos": 0.368,
+   "nearest": "mujica_umiri"
+  },
+  "zh_SSB0502": {
+   "max_cos": 0.321,
+   "nearest": "hhw_kaoru"
+  },
+  "zh_SSB0544": {
+   "max_cos": 0.401,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0603": {
+   "max_cos": 0.34,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0629": {
+   "max_cos": 0.367,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0700": {
+   "max_cos": 0.354,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0758": {
+   "max_cos": 0.257,
+   "nearest": "hhw_misaki"
+  },
+  "zh_SSB0780": {
+   "max_cos": 0.307,
+   "nearest": "ras_layer"
+  },
+  "zh_SSB0786": {
+   "max_cos": 0.286,
+   "nearest": "hhw_kaoru"
+  },
+  "zh_SSB0919": {
+   "max_cos": 0.273,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB0966": {
+   "max_cos": 0.319,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB1024": {
+   "max_cos": 0.272,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB1607": {
+   "max_cos": 0.263,
+   "nearest": "ppp_arisa"
+  },
+  "zh_SSB1650": {
+   "max_cos": 0.246,
+   "nearest": "ro_ako_maou"
+  },
+  "zh_SSB1686": {
+   "max_cos": 0.234,
+   "nearest": "mujica_umiri"
+  },
+  "zh_SSB1837": {
+   "max_cos": 0.275,
+   "nearest": "mujica_umiri"
+  },
+  "zh_SSB1935": {
+   "max_cos": 0.341,
+   "nearest": "mo_rui"
+  },
+  "zh_SSB1939": {
+   "max_cos": 0.334,
+   "nearest": "ro_ako_maou"
+  },
+  "en_1088": {
+   "max_cos": 0.348,
+   "nearest": "mo_rui"
+  },
+  "en_1116": {
+   "max_cos": 0.397,
+   "nearest": "hhw_kaoru"
+  },
+  "en_1183": {
+   "max_cos": 0.314,
+   "nearest": "mujica_umiri"
+  },
+  "en_1263": {
+   "max_cos": 0.384,
+   "nearest": "ro_yukina"
+  },
+  "en_1355": {
+   "max_cos": 0.378,
+   "nearest": "mo_rui"
+  },
+  "en_2136": {
+   "max_cos": 0.428,
+   "nearest": "ro_yukina"
+  },
+  "en_2182": {
+   "max_cos": 0.369,
+   "nearest": "hhw_kaoru"
+  },
+  "en_2436": {
+   "max_cos": 0.377,
+   "nearest": "mo_rui"
+  },
+  "en_250": {
+   "max_cos": 0.344,
+   "nearest": "hhw_kaoru"
+  },
+  "en_2836": {
+   "max_cos": 0.32,
+   "nearest": "hhw_kaoru"
+  },
+  "en_3242": {
+   "max_cos": 0.39,
+   "nearest": "hhw_kaoru"
+  },
+  "en_3259": {
+   "max_cos": 0.399,
+   "nearest": "hhw_kaoru"
+  },
+  "en_3664": {
+   "max_cos": 0.345,
+   "nearest": "mo_rui"
+  },
+  "en_3879": {
+   "max_cos": 0.347,
+   "nearest": "mo_rui"
+  },
+  "en_3982": {
+   "max_cos": 0.41,
+   "nearest": "hhw_kaoru"
+  },
+  "en_3983": {
+   "max_cos": 0.356,
+   "nearest": "mo_rui"
+  },
+  "en_5393": {
+   "max_cos": 0.34,
+   "nearest": "hhw_kaoru"
+  },
+  "en_6064": {
+   "max_cos": 0.374,
+   "nearest": "hhw_kaoru"
+  },
+  "en_6415": {
+   "max_cos": 0.364,
+   "nearest": "hhw_kaoru"
+  },
+  "en_7059": {
+   "max_cos": 0.373,
+   "nearest": "hhw_kaoru"
+  },
+  "en_7367": {
+   "max_cos": 0.383,
+   "nearest": "ro_yukina"
+  },
+  "en_7511": {
+   "max_cos": 0.4,
+   "nearest": "mo_rui"
+  },
+  "en_8468": {
+   "max_cos": 0.384,
+   "nearest": "hhw_kaoru"
+  },
+  "en_8838": {
+   "max_cos": 0.427,
+   "nearest": "mo_rui"
+  },
+  "en_887": {
+   "max_cos": 0.331,
+   "nearest": "hhw_kaoru"
+  }
+ }
+}

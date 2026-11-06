@@ -1,0 +1,270 @@
+{
+ "200|ppp_rimi": {
+  "n": 24,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.2083,
+   "accent": 0.0,
+   "text": 0.875,
+   "length": 1.0
+  },
+  "pred_is_row": 0.9167,
+  "ratio_ge_0.5": 0.2083,
+  "codec_pred_is_row": 0.7083,
+  "codec_ratio_ge_0.5": 0.1667,
+  "lid_median_vc": -10.26,
+  "lid_median_src": -21.0,
+  "ser_mean_vc": 0.2499,
+  "ser_mean_src": 0.048,
+  "cer_mean_vc": 0.0123,
+  "p_true_mean": 0.3135,
+  "pred_top": [
+   [
+    "ppp_rimi",
+    22
+   ],
+   [
+    "hhw_hagumi",
+    1
+   ],
+   [
+    "ro_ako",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "200|ro_ako_maou": {
+  "n": 28,
+  "pass": 0.0714,
+  "gates": {
+   "identity": 0.5,
+   "accent": 0.2857,
+   "text": 0.9643,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.5,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.4643,
+  "lid_median_vc": -16.62,
+  "lid_median_src": -22.66,
+  "ser_mean_vc": 0.0989,
+  "ser_mean_src": 0.0096,
+  "cer_mean_vc": 0.004,
+  "p_true_mean": 0.454,
+  "pred_top": [
+   [
+    "ro_ako_maou",
+    28
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ppp_rimi": {
+  "n": 24,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 0.0833,
+   "text": 0.9583,
+   "length": 1.0
+  },
+  "pred_is_row": 0.3333,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.3333,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -13.09,
+  "lid_median_src": -21.0,
+  "ser_mean_vc": 0.1775,
+  "ser_mean_src": 0.048,
+  "cer_mean_vc": 0.0036,
+  "p_true_mean": 0.1072,
+  "pred_top": [
+   [
+    "ppp_rimi",
+    8
+   ],
+   [
+    "ppp_kasumi",
+    6
+   ],
+   [
+    "mujica_mortis",
+    6
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ro_ako_maou": {
+  "n": 28,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 0.75,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.4643,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -21.96,
+  "lid_median_src": -22.66,
+  "ser_mean_vc": 0.0282,
+  "ser_mean_src": 0.0096,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.1518,
+  "pred_top": [
+   [
+    "ro_ako_maou",
+    14
+   ],
+   [
+    "mujica_sakiko",
+    7
+   ],
+   [
+    "ro_ako",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ppp_rimi": {
+  "n": 24,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 0.125,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.3333,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.2917,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -15.44,
+  "lid_median_src": -21.0,
+  "ser_mean_vc": 0.1937,
+  "ser_mean_src": 0.048,
+  "cer_mean_vc": 0.0037,
+  "p_true_mean": 0.0925,
+  "pred_top": [
+   [
+    "ppp_rimi",
+    8
+   ],
+   [
+    "mygo_raana",
+    5
+   ],
+   [
+    "ag_tsugumi",
+    5
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ro_ako_maou": {
+  "n": 28,
+  "pass": 0.0714,
+  "gates": {
+   "identity": 0.5,
+   "accent": 0.3571,
+   "text": 0.9643,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.5,
+  "codec_pred_is_row": 0.9286,
+  "codec_ratio_ge_0.5": 0.3929,
+  "lid_median_vc": -16.32,
+  "lid_median_src": -22.66,
+  "ser_mean_vc": 0.1027,
+  "ser_mean_src": 0.0096,
+  "cer_mean_vc": 0.004,
+  "p_true_mean": 0.4393,
+  "pred_top": [
+   [
+    "ro_ako_maou",
+    28
+   ]
+  ],
+  "feasible": false
+ },
+ "source|ppp_rimi": {
+  "n": 24,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.0417,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.0417,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -21.0,
+  "lid_median_src": -21.0,
+  "ser_mean_vc": 0.048,
+  "ser_mean_src": 0.048,
+  "cer_mean_vc": 0.0037,
+  "p_true_mean": 0.0511,
+  "pred_top": [
+   [
+    "mujica_sakiko_tsuki",
+    8
+   ],
+   [
+    "ras_pareo",
+    4
+   ],
+   [
+    "mujica_sakiko",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "source|ro_ako_maou": {
+  "n": 28,
+  "pass": 0.0357,
+  "gates": {
+   "identity": 0.0357,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5,
+  "ratio_ge_0.5": 0.0357,
+  "codec_pred_is_row": 0.5357,
+  "codec_ratio_ge_0.5": 0.0357,
+  "lid_median_vc": -22.66,
+  "lid_median_src": -22.66,
+  "ser_mean_vc": 0.0096,
+  "ser_mean_src": 0.0096,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.1778,
+  "pred_top": [
+   [
+    "ro_ako_maou",
+    14
+   ],
+   [
+    "mujica_nyamu",
+    4
+   ],
+   [
+    "mujica_uika",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "feasibility_gate": {
+  "cell": "200",
+  "passed": false
+ }
+}

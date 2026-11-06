@@ -1,0 +1,14 @@
+# E5 converter queue (one row per line, worst E1b zh leak first); re-read before each voice
+ppp_rimi
+ro_ako_maou
+mygo_tomori
+mygo_soyo_tsuki
+ras_lock
+ro_rinko
+hhw_kanon
+hhw_hagumi
+ras_chuchu
+mujica_sakiko_tsuki
+ras_masking
+pp_aya
+hhw_kaoru

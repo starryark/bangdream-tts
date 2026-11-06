@@ -1,0 +1,614 @@
+{
+ "hhw_hagumi": {
+  "n": 26,
+  "row_pass": 0.8846,
+  "identity_raw": 1.0,
+  "identity_codec": 0.8846,
+  "text": 1.0,
+  "length": 1.0,
+  "text_fail": 0.0,
+  "flagged": false,
+  "cer_vc": 0.0,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0365,
+  "lid_median": {
+   "source": -21.15,
+   "shift": -11.98,
+   "200_noshift": -15.15,
+   "200": -8.09
+  },
+  "ser_mean": {
+   "source": 0.0394,
+   "shift": 0.2327,
+   "200_noshift": 0.1815,
+   "200": 0.2692
+  },
+  "pred_top": [
+   [
+    "hhw_hagumi",
+    26
+   ]
+  ],
+  "passing": 23,
+  "weak": false,
+  "trained": 20,
+  "src_donor": {
+   "sources": 10,
+   "passing": 10,
+   "trained": 8
+  },
+  "pitch_clipped": 0.0769
+ },
+ "hhw_kanon": {
+  "n": 26,
+  "row_pass": 0.2308,
+  "identity_raw": 0.6923,
+  "identity_codec": 0.2692,
+  "text": 0.9615,
+  "length": 1.0,
+  "text_fail": 0.038,
+  "flagged": false,
+  "cer_vc": 0.0148,
+  "cer_src": 0.0033,
+  "ser_vc_minus_shift": 0.0374,
+  "lid_median": {
+   "source": -21.85,
+   "shift": -17.73,
+   "200_noshift": -14.74,
+   "200": -11.49
+  },
+  "ser_mean": {
+   "source": 0.0771,
+   "shift": 0.1462,
+   "200_noshift": 0.1668,
+   "200": 0.1836
+  },
+  "pred_top": [
+   [
+    "hhw_kanon",
+    25
+   ],
+   [
+    "ro_ako",
+    1
+   ]
+  ],
+  "passing": 6,
+  "weak": true,
+  "trained": 6,
+  "src_donor": {
+   "sources": 16,
+   "passing": 3,
+   "trained": 3
+  },
+  "pitch_clipped": 0.0
+ },
+ "hhw_kaoru": {
+  "n": 30,
+  "row_pass": 0.8667,
+  "identity_raw": 1.0,
+  "identity_codec": 0.9667,
+  "text": 0.8667,
+  "length": 1.0,
+  "text_fail": 0.133,
+  "flagged": false,
+  "cer_vc": 0.0138,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0622,
+  "lid_median": {
+   "source": -22.93,
+   "shift": -21.47,
+   "200_noshift": -14.39,
+   "200": -15.47
+  },
+  "ser_mean": {
+   "source": 0.0396,
+   "shift": 0.0585,
+   "200_noshift": 0.1449,
+   "200": 0.1207
+  },
+  "pred_top": [
+   [
+    "hhw_kaoru",
+    30
+   ]
+  ],
+  "passing": 26,
+  "weak": false,
+  "trained": 20,
+  "src_donor": {
+   "sources": 3,
+   "passing": 1,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0
+ },
+ "mujica_sakiko_tsuki": {
+  "n": 25,
+  "row_pass": 0.8,
+  "identity_raw": 0.84,
+  "identity_codec": 0.8,
+  "text": 1.0,
+  "length": 1.0,
+  "text_fail": 0.0,
+  "flagged": false,
+  "cer_vc": 0.0,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0821,
+  "lid_median": {
+   "source": -21.73,
+   "shift": -20.87,
+   "200_noshift": -15.05,
+   "200": -15.3
+  },
+  "ser_mean": {
+   "source": 0.0577,
+   "shift": 0.07,
+   "200_noshift": 0.1496,
+   "200": 0.152
+  },
+  "pred_top": [
+   [
+    "mujica_sakiko_tsuki",
+    22
+   ],
+   [
+    "mujica_sakiko",
+    3
+   ]
+  ],
+  "passing": 20,
+  "weak": false,
+  "trained": 17,
+  "src_donor": {
+   "sources": 2,
+   "passing": 1,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0
+ },
+ "mygo_soyo_tsuki": {
+  "n": 32,
+  "row_pass": 0.6875,
+  "identity_raw": 0.6875,
+  "identity_codec": 0.6875,
+  "text": 1.0,
+  "length": 1.0,
+  "text_fail": 0.0,
+  "flagged": false,
+  "cer_vc": 0.0,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.1276,
+  "lid_median": {
+   "source": -21.7,
+   "shift": -17.62,
+   "200_noshift": -13.14,
+   "200": -12.04
+  },
+  "ser_mean": {
+   "source": 0.0611,
+   "shift": 0.101,
+   "200_noshift": 0.2279,
+   "200": 0.2286
+  },
+  "pred_top": [
+   [
+    "mygo_soyo_tsuki",
+    32
+   ]
+  ],
+  "passing": 22,
+  "weak": false,
+  "trained": 20,
+  "src_donor": {
+   "sources": 7,
+   "passing": 3,
+   "trained": 2
+  },
+  "pitch_clipped": 0.0
+ },
+ "mygo_tomori": {
+  "n": 25,
+  "row_pass": 0.56,
+  "identity_raw": 0.72,
+  "identity_codec": 0.6,
+  "text": 0.96,
+  "length": 1.0,
+  "text_fail": 0.04,
+  "flagged": false,
+  "cer_vc": 0.0027,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0725,
+  "lid_median": {
+   "source": -22.52,
+   "shift": -22.69,
+   "200_noshift": -14.56,
+   "200": -15.05
+  },
+  "ser_mean": {
+   "source": 0.0282,
+   "shift": 0.0334,
+   "200_noshift": 0.1008,
+   "200": 0.1059
+  },
+  "pred_top": [
+   [
+    "mygo_tomori",
+    25
+   ]
+  ],
+  "passing": 14,
+  "weak": false,
+  "trained": 14,
+  "src_donor": {
+   "sources": 4,
+   "passing": 0,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0
+ },
+ "pp_aya": {
+  "n": 27,
+  "row_pass": 0.7778,
+  "identity_raw": 0.8148,
+  "identity_codec": 0.8148,
+  "text": 0.963,
+  "length": 1.0,
+  "text_fail": 0.037,
+  "flagged": false,
+  "cer_vc": 0.0037,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.1213,
+  "lid_median": {
+   "source": -21.23,
+   "shift": -19.01,
+   "200_noshift": -13.64,
+   "200": -13.42
+  },
+  "ser_mean": {
+   "source": 0.0561,
+   "shift": 0.0932,
+   "200_noshift": 0.1987,
+   "200": 0.2145
+  },
+  "pred_top": [
+   [
+    "pp_aya",
+    27
+   ]
+  ],
+  "passing": 21,
+  "weak": false,
+  "trained": 20,
+  "src_donor": {
+   "sources": 8,
+   "passing": 3,
+   "trained": 3
+  },
+  "pitch_clipped": 0.0
+ },
+ "pp_eve": {
+  "n": 23,
+  "row_pass": 0.5217,
+  "identity_raw": 0.7826,
+  "identity_codec": 0.5652,
+  "text": 0.9565,
+  "length": 1.0,
+  "text_fail": 0.043,
+  "flagged": false,
+  "cer_vc": 0.0064,
+  "cer_src": 0.0021,
+  "ser_vc_minus_shift": 0.0953,
+  "lid_median": {
+   "source": -22.46,
+   "shift": -13.42,
+   "200_noshift": -11.83,
+   "200": -7.27
+  },
+  "ser_mean": {
+   "source": 0.0483,
+   "shift": 0.1989,
+   "200_noshift": 0.1516,
+   "200": 0.2942
+  },
+  "pred_top": [
+   [
+    "pp_eve",
+    23
+   ]
+  ],
+  "passing": 12,
+  "weak": false,
+  "trained": 11,
+  "src_donor": {
+   "sources": 18,
+   "passing": 7,
+   "trained": 6
+  },
+  "pitch_clipped": 0.087
+ },
+ "ppp_kasumi": {
+  "n": 24,
+  "row_pass": 0.7083,
+  "identity_raw": 0.8333,
+  "identity_codec": 0.9167,
+  "text": 0.875,
+  "length": 1.0,
+  "text_fail": 0.125,
+  "flagged": false,
+  "cer_vc": 0.0094,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0812,
+  "lid_median": {
+   "source": -23.85,
+   "shift": -15.49,
+   "200_noshift": -18.02,
+   "200": -12.95
+  },
+  "ser_mean": {
+   "source": 0.0365,
+   "shift": 0.1943,
+   "200_noshift": 0.1284,
+   "200": 0.2755
+  },
+  "pred_top": [
+   [
+    "ppp_kasumi",
+    24
+   ]
+  ],
+  "passing": 17,
+  "weak": false,
+  "trained": 15,
+  "src_donor": {
+   "sources": 0,
+   "passing": 0,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0833
+ },
+ "ppp_rimi": {
+  "n": 24,
+  "row_pass": 0.0833,
+  "identity_raw": 0.2083,
+  "identity_codec": 0.1667,
+  "text": 0.875,
+  "length": 1.0,
+  "text_fail": 0.125,
+  "flagged": false,
+  "cer_vc": 0.0123,
+  "cer_src": 0.0037,
+  "ser_vc_minus_shift": 0.0724,
+  "lid_median": {
+   "source": -21.0,
+   "shift": -13.09,
+   "200_noshift": -15.44,
+   "200": -10.26
+  },
+  "ser_mean": {
+   "source": 0.048,
+   "shift": 0.1775,
+   "200_noshift": 0.1937,
+   "200": 0.2499
+  },
+  "pred_top": [
+   [
+    "ppp_rimi",
+    22
+   ],
+   [
+    "ro_ako",
+    1
+   ]
+  ],
+  "passing": 2,
+  "weak": true,
+  "trained": 2,
+  "src_donor": {
+   "sources": 11,
+   "passing": 0,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0833
+ },
+ "ras_chuchu": {
+  "n": 20,
+  "row_pass": 0.9,
+  "identity_raw": 1.0,
+  "identity_codec": 1.0,
+  "text": 0.9,
+  "length": 1.0,
+  "text_fail": 0.1,
+  "flagged": false,
+  "cer_vc": 0.0271,
+  "cer_src": 0.0021,
+  "ser_vc_minus_shift": 0.1164,
+  "lid_median": {
+   "source": -21.67,
+   "shift": -20.85,
+   "200_noshift": -14.67,
+   "200": -16.14
+  },
+  "ser_mean": {
+   "source": 0.0918,
+   "shift": 0.1032,
+   "200_noshift": 0.2402,
+   "200": 0.2196
+  },
+  "pred_top": [
+   [
+    "ras_chuchu",
+    20
+   ]
+  ],
+  "passing": 18,
+  "weak": false,
+  "trained": 18,
+  "src_donor": {
+   "sources": 1,
+   "passing": 1,
+   "trained": 1
+  },
+  "pitch_clipped": 0.0
+ },
+ "ras_lock": {
+  "n": 27,
+  "row_pass": 0.7778,
+  "identity_raw": 0.8889,
+  "identity_codec": 0.8148,
+  "text": 0.8889,
+  "length": 1.0,
+  "text_fail": 0.111,
+  "flagged": false,
+  "cer_vc": 0.0091,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0669,
+  "lid_median": {
+   "source": -20.08,
+   "shift": -10.22,
+   "200_noshift": -13.69,
+   "200": -6.59
+  },
+  "ser_mean": {
+   "source": 0.0789,
+   "shift": 0.2417,
+   "200_noshift": 0.1947,
+   "200": 0.3086
+  },
+  "pred_top": [
+   [
+    "ras_lock",
+    27
+   ]
+  ],
+  "passing": 21,
+  "weak": false,
+  "trained": 19,
+  "src_donor": {
+   "sources": 7,
+   "passing": 5,
+   "trained": 4
+  },
+  "pitch_clipped": 0.0741
+ },
+ "ras_masking": {
+  "n": 28,
+  "row_pass": 0.3929,
+  "identity_raw": 0.3929,
+  "identity_codec": 0.5357,
+  "text": 1.0,
+  "length": 1.0,
+  "text_fail": 0.0,
+  "flagged": false,
+  "cer_vc": 0.0,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0415,
+  "lid_median": {
+   "source": -21.12,
+   "shift": -20.02,
+   "200_noshift": -16.96,
+   "200": -17.16
+  },
+  "ser_mean": {
+   "source": 0.0222,
+   "shift": 0.0308,
+   "200_noshift": 0.0831,
+   "200": 0.0723
+  },
+  "pred_top": [
+   [
+    "ras_masking",
+    28
+   ]
+  ],
+  "passing": 11,
+  "weak": false,
+  "trained": 11,
+  "src_donor": {
+   "sources": 3,
+   "passing": 0,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0
+ },
+ "ro_ako_maou": {
+  "n": 28,
+  "row_pass": 0.4286,
+  "identity_raw": 0.5,
+  "identity_codec": 0.4643,
+  "text": 0.9643,
+  "length": 1.0,
+  "text_fail": 0.036,
+  "flagged": false,
+  "cer_vc": 0.004,
+  "cer_src": 0.0,
+  "ser_vc_minus_shift": 0.0707,
+  "lid_median": {
+   "source": -22.66,
+   "shift": -21.96,
+   "200_noshift": -16.32,
+   "200": -16.62
+  },
+  "ser_mean": {
+   "source": 0.0096,
+   "shift": 0.0282,
+   "200_noshift": 0.1027,
+   "200": 0.0989
+  },
+  "pred_top": [
+   [
+    "ro_ako_maou",
+    28
+   ]
+  ],
+  "passing": 12,
+  "weak": false,
+  "trained": 12,
+  "src_donor": {
+   "sources": 2,
+   "passing": 0,
+   "trained": 0
+  },
+  "pitch_clipped": 0.0
+ },
+ "ro_rinko": {
+  "n": 22,
+  "row_pass": 0.5909,
+  "identity_raw": 0.9091,
+  "identity_codec": 0.6364,
+  "text": 0.9091,
+  "length": 1.0,
+  "text_fail": 0.091,
+  "flagged": false,
+  "cer_vc": 0.0111,
+  "cer_src": 0.0023,
+  "ser_vc_minus_shift": 0.0746,
+  "lid_median": {
+   "source": -21.62,
+   "shift": -16.04,
+   "200_noshift": -12.93,
+   "200": -10.24
+  },
+  "ser_mean": {
+   "source": 0.0411,
+   "shift": 0.1159,
+   "200_noshift": 0.1927,
+   "200": 0.1905
+  },
+  "pred_top": [
+   [
+    "ro_rinko",
+    22
+   ]
+  ],
+  "passing": 13,
+  "weak": false,
+  "trained": 13,
+  "src_donor": {
+   "sources": 6,
+   "passing": 2,
+   "trained": 2
+  },
+  "pitch_clipped": 0.0
+ }
+}

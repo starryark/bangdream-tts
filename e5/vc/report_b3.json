@@ -1,0 +1,1418 @@
+{
+ "200|hhw_hagumi": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 1.0,
+   "accent": 0.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 1.0,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.8846,
+  "lid_median_vc": -8.09,
+  "lid_median_src": -21.15,
+  "ser_mean_vc": 0.2692,
+  "ser_mean_src": 0.0394,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.5569,
+  "pred_top": [
+   [
+    "hhw_hagumi",
+    26
+   ]
+  ],
+  "feasible": false
+ },
+ "200|hhw_kanon": {
+  "n": 26,
+  "pass": 0.0385,
+  "gates": {
+   "identity": 0.6923,
+   "accent": 0.0385,
+   "text": 0.9615,
+   "length": 1.0
+  },
+  "pred_is_row": 0.9615,
+  "ratio_ge_0.5": 0.6923,
+  "codec_pred_is_row": 0.6923,
+  "codec_ratio_ge_0.5": 0.2692,
+  "lid_median_vc": -11.49,
+  "lid_median_src": -21.85,
+  "ser_mean_vc": 0.1836,
+  "ser_mean_src": 0.0771,
+  "cer_mean_vc": 0.0148,
+  "p_true_mean": 0.5121,
+  "pred_top": [
+   [
+    "hhw_kanon",
+    25
+   ],
+   [
+    "ro_ako",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "200|hhw_kaoru": {
+  "n": 30,
+  "pass": 0.1,
+  "gates": {
+   "identity": 1.0,
+   "accent": 0.1333,
+   "text": 0.8667,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 1.0,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.9667,
+  "lid_median_vc": -15.47,
+  "lid_median_src": -22.93,
+  "ser_mean_vc": 0.1207,
+  "ser_mean_src": 0.0396,
+  "cer_mean_vc": 0.0138,
+  "p_true_mean": 0.7677,
+  "pred_top": [
+   [
+    "hhw_kaoru",
+    30
+   ]
+  ],
+  "feasible": false
+ },
+ "200|mujica_sakiko_tsuki": {
+  "n": 25,
+  "pass": 0.16,
+  "gates": {
+   "identity": 0.84,
+   "accent": 0.16,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.88,
+  "ratio_ge_0.5": 0.84,
+  "codec_pred_is_row": 0.8,
+  "codec_ratio_ge_0.5": 0.84,
+  "lid_median_vc": -15.3,
+  "lid_median_src": -21.73,
+  "ser_mean_vc": 0.152,
+  "ser_mean_src": 0.0577,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.4614,
+  "pred_top": [
+   [
+    "mujica_sakiko_tsuki",
+    22
+   ],
+   [
+    "mujica_sakiko",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "200|mygo_soyo_tsuki": {
+  "n": 32,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.6875,
+   "accent": 0.0312,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.6875,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.6875,
+  "lid_median_vc": -12.04,
+  "lid_median_src": -21.7,
+  "ser_mean_vc": 0.2286,
+  "ser_mean_src": 0.0611,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.4801,
+  "pred_top": [
+   [
+    "mygo_soyo_tsuki",
+    32
+   ]
+  ],
+  "feasible": false
+ },
+ "200|mygo_tomori": {
+  "n": 25,
+  "pass": 0.12,
+  "gates": {
+   "identity": 0.72,
+   "accent": 0.16,
+   "text": 0.96,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.72,
+  "codec_pred_is_row": 0.88,
+  "codec_ratio_ge_0.5": 0.6,
+  "lid_median_vc": -15.05,
+  "lid_median_src": -22.52,
+  "ser_mean_vc": 0.1059,
+  "ser_mean_src": 0.0282,
+  "cer_mean_vc": 0.0027,
+  "p_true_mean": 0.4571,
+  "pred_top": [
+   [
+    "mygo_tomori",
+    25
+   ]
+  ],
+  "feasible": false
+ },
+ "200|pp_aya": {
+  "n": 27,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.8148,
+   "accent": 0.037,
+   "text": 0.963,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.8148,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.8148,
+  "lid_median_vc": -13.42,
+  "lid_median_src": -21.23,
+  "ser_mean_vc": 0.2145,
+  "ser_mean_src": 0.0561,
+  "cer_mean_vc": 0.0037,
+  "p_true_mean": 0.5348,
+  "pred_top": [
+   [
+    "pp_aya",
+    27
+   ]
+  ],
+  "feasible": false
+ },
+ "200|ras_chuchu": {
+  "n": 20,
+  "pass": 0.05,
+  "gates": {
+   "identity": 1.0,
+   "accent": 0.05,
+   "text": 0.9,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 1.0,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 1.0,
+  "lid_median_vc": -16.14,
+  "lid_median_src": -21.67,
+  "ser_mean_vc": 0.2196,
+  "ser_mean_src": 0.0918,
+  "cer_mean_vc": 0.0271,
+  "p_true_mean": 0.6649,
+  "pred_top": [
+   [
+    "ras_chuchu",
+    20
+   ]
+  ],
+  "feasible": false
+ },
+ "200|ras_lock": {
+  "n": 27,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.8889,
+   "accent": 0.0,
+   "text": 0.8889,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.8889,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.8148,
+  "lid_median_vc": -6.59,
+  "lid_median_src": -20.08,
+  "ser_mean_vc": 0.3086,
+  "ser_mean_src": 0.0789,
+  "cer_mean_vc": 0.0091,
+  "p_true_mean": 0.5359,
+  "pred_top": [
+   [
+    "ras_lock",
+    27
+   ]
+  ],
+  "feasible": false
+ },
+ "200|ras_masking": {
+  "n": 28,
+  "pass": 0.1429,
+  "gates": {
+   "identity": 0.3929,
+   "accent": 0.2857,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.4286,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.5357,
+  "lid_median_vc": -17.16,
+  "lid_median_src": -21.12,
+  "ser_mean_vc": 0.0723,
+  "ser_mean_src": 0.0222,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.3975,
+  "pred_top": [
+   [
+    "ras_masking",
+    28
+   ]
+  ],
+  "feasible": false
+ },
+ "200|ro_rinko": {
+  "n": 22,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.9091,
+   "accent": 0.0,
+   "text": 0.9091,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.9091,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.6364,
+  "lid_median_vc": -10.24,
+  "lid_median_src": -21.62,
+  "ser_mean_vc": 0.1905,
+  "ser_mean_src": 0.0411,
+  "cer_mean_vc": 0.0111,
+  "p_true_mean": 0.6486,
+  "pred_top": [
+   [
+    "ro_rinko",
+    22
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|hhw_hagumi": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.1538,
+   "accent": 0.0385,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5769,
+  "ratio_ge_0.5": 0.1538,
+  "codec_pred_is_row": 0.4615,
+  "codec_ratio_ge_0.5": 0.1538,
+  "lid_median_vc": -11.98,
+  "lid_median_src": -21.15,
+  "ser_mean_vc": 0.2327,
+  "ser_mean_src": 0.0394,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.1655,
+  "pred_top": [
+   [
+    "hhw_hagumi",
+    15
+   ],
+   [
+    "ppp_kasumi",
+    7
+   ],
+   [
+    "ag_himari",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|hhw_kanon": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.1154,
+   "accent": 0.3846,
+   "text": 0.9615,
+   "length": 1.0
+  },
+  "pred_is_row": 0.3462,
+  "ratio_ge_0.5": 0.1154,
+  "codec_pred_is_row": 0.2308,
+  "codec_ratio_ge_0.5": 0.0385,
+  "lid_median_vc": -17.73,
+  "lid_median_src": -21.85,
+  "ser_mean_vc": 0.1462,
+  "ser_mean_src": 0.0771,
+  "cer_mean_vc": 0.0062,
+  "p_true_mean": 0.1297,
+  "pred_top": [
+   [
+    "hhw_kanon",
+    9
+   ],
+   [
+    "ppp_kasumi",
+    7
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    4
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|hhw_kaoru": {
+  "n": 30,
+  "pass": 0.6333,
+  "gates": {
+   "identity": 0.6667,
+   "accent": 0.8,
+   "text": 0.9667,
+   "length": 1.0
+  },
+  "pred_is_row": 0.8333,
+  "ratio_ge_0.5": 0.6667,
+  "codec_pred_is_row": 0.8667,
+  "codec_ratio_ge_0.5": 0.6667,
+  "lid_median_vc": -21.47,
+  "lid_median_src": -22.93,
+  "ser_mean_vc": 0.0585,
+  "ser_mean_src": 0.0396,
+  "cer_mean_vc": 0.0037,
+  "p_true_mean": 0.5311,
+  "pred_top": [
+   [
+    "hhw_kaoru",
+    25
+   ],
+   [
+    "ag_tomoe",
+    1
+   ],
+   [
+    "ro_yukina",
+    1
+   ]
+  ],
+  "feasible": true
+ },
+ "shift|mujica_sakiko_tsuki": {
+  "n": 25,
+  "pass": 0.68,
+  "gates": {
+   "identity": 0.84,
+   "accent": 0.8,
+   "text": 0.96,
+   "length": 1.0
+  },
+  "pred_is_row": 0.96,
+  "ratio_ge_0.5": 0.84,
+  "codec_pred_is_row": 0.96,
+  "codec_ratio_ge_0.5": 0.88,
+  "lid_median_vc": -20.87,
+  "lid_median_src": -21.73,
+  "ser_mean_vc": 0.07,
+  "ser_mean_src": 0.0577,
+  "cer_mean_vc": 0.0024,
+  "p_true_mean": 0.5276,
+  "pred_top": [
+   [
+    "mujica_sakiko_tsuki",
+    24
+   ],
+   [
+    "ppp_kasumi",
+    1
+   ]
+  ],
+  "feasible": true
+ },
+ "shift|mygo_soyo_tsuki": {
+  "n": 32,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 0.4062,
+   "text": 0.9688,
+   "length": 1.0
+  },
+  "pred_is_row": 0.6562,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.6875,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -17.62,
+  "lid_median_src": -21.7,
+  "ser_mean_vc": 0.101,
+  "ser_mean_src": 0.0611,
+  "cer_mean_vc": 0.0024,
+  "p_true_mean": 0.2042,
+  "pred_top": [
+   [
+    "mygo_soyo_tsuki",
+    21
+   ],
+   [
+    "ro_ako",
+    6
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|mygo_tomori": {
+  "n": 25,
+  "pass": 0.08,
+  "gates": {
+   "identity": 0.08,
+   "accent": 0.88,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.72,
+  "ratio_ge_0.5": 0.08,
+  "codec_pred_is_row": 0.6,
+  "codec_ratio_ge_0.5": 0.08,
+  "lid_median_vc": -22.69,
+  "lid_median_src": -22.52,
+  "ser_mean_vc": 0.0334,
+  "ser_mean_src": 0.0282,
+  "cer_mean_vc": 0.0019,
+  "p_true_mean": 0.1933,
+  "pred_top": [
+   [
+    "mygo_tomori",
+    18
+   ],
+   [
+    "mygo_raana",
+    4
+   ],
+   [
+    "ppp_saaya",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|pp_aya": {
+  "n": 27,
+  "pass": 0.1481,
+  "gates": {
+   "identity": 0.1852,
+   "accent": 0.5185,
+   "text": 0.963,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5556,
+  "ratio_ge_0.5": 0.1852,
+  "codec_pred_is_row": 0.5185,
+  "codec_ratio_ge_0.5": 0.2222,
+  "lid_median_vc": -19.01,
+  "lid_median_src": -21.23,
+  "ser_mean_vc": 0.0932,
+  "ser_mean_src": 0.0561,
+  "cer_mean_vc": 0.0034,
+  "p_true_mean": 0.1961,
+  "pred_top": [
+   [
+    "pp_aya",
+    15
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    3
+   ],
+   [
+    "mujica_mortis",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ras_chuchu": {
+  "n": 20,
+  "pass": 0.2,
+  "gates": {
+   "identity": 0.2,
+   "accent": 0.8,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.85,
+  "ratio_ge_0.5": 0.2,
+  "codec_pred_is_row": 0.55,
+  "codec_ratio_ge_0.5": 0.2,
+  "lid_median_vc": -20.85,
+  "lid_median_src": -21.67,
+  "ser_mean_vc": 0.1032,
+  "ser_mean_src": 0.0918,
+  "cer_mean_vc": 0.0021,
+  "p_true_mean": 0.2807,
+  "pred_top": [
+   [
+    "ras_chuchu",
+    17
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    2
+   ],
+   [
+    "ag_himari",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ras_lock": {
+  "n": 27,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.037,
+   "accent": 0.0,
+   "text": 0.9259,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5556,
+  "ratio_ge_0.5": 0.037,
+  "codec_pred_is_row": 0.4074,
+  "codec_ratio_ge_0.5": 0.037,
+  "lid_median_vc": -10.22,
+  "lid_median_src": -20.08,
+  "ser_mean_vc": 0.2417,
+  "ser_mean_src": 0.0789,
+  "cer_mean_vc": 0.0058,
+  "p_true_mean": 0.1787,
+  "pred_top": [
+   [
+    "ras_lock",
+    15
+   ],
+   [
+    "ag_himari",
+    5
+   ],
+   [
+    "mujica_mortis",
+    4
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ras_masking": {
+  "n": 28,
+  "pass": 0.1429,
+  "gates": {
+   "identity": 0.2143,
+   "accent": 0.7143,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.75,
+  "ratio_ge_0.5": 0.2143,
+  "codec_pred_is_row": 0.7143,
+  "codec_ratio_ge_0.5": 0.1071,
+  "lid_median_vc": -20.02,
+  "lid_median_src": -21.12,
+  "ser_mean_vc": 0.0308,
+  "ser_mean_src": 0.0222,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.3155,
+  "pred_top": [
+   [
+    "ras_masking",
+    21
+   ],
+   [
+    "mujica_sakiko",
+    3
+   ],
+   [
+    "ppp_saaya",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "shift|ro_rinko": {
+  "n": 22,
+  "pass": 0.0455,
+  "gates": {
+   "identity": 0.1818,
+   "accent": 0.1364,
+   "text": 0.9091,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5909,
+  "ratio_ge_0.5": 0.1818,
+  "codec_pred_is_row": 0.5455,
+  "codec_ratio_ge_0.5": 0.1818,
+  "lid_median_vc": -16.04,
+  "lid_median_src": -21.62,
+  "ser_mean_vc": 0.1159,
+  "ser_mean_src": 0.0411,
+  "cer_mean_vc": 0.0096,
+  "p_true_mean": 0.2372,
+  "pred_top": [
+   [
+    "ro_rinko",
+    13
+   ],
+   [
+    "ppp_kasumi",
+    3
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|hhw_hagumi": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.6154,
+   "accent": 0.0,
+   "text": 0.9231,
+   "length": 1.0
+  },
+  "pred_is_row": 0.8846,
+  "ratio_ge_0.5": 0.6154,
+  "codec_pred_is_row": 0.7692,
+  "codec_ratio_ge_0.5": 0.2692,
+  "lid_median_vc": -15.15,
+  "lid_median_src": -21.15,
+  "ser_mean_vc": 0.1815,
+  "ser_mean_src": 0.0394,
+  "cer_mean_vc": 0.0106,
+  "p_true_mean": 0.3535,
+  "pred_top": [
+   [
+    "hhw_hagumi",
+    23
+   ],
+   [
+    "mygo_soyo",
+    1
+   ],
+   [
+    "mujica_mutsumi",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|hhw_kanon": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.3846,
+   "accent": 0.0769,
+   "text": 0.9231,
+   "length": 1.0
+  },
+  "pred_is_row": 0.8077,
+  "ratio_ge_0.5": 0.3846,
+  "codec_pred_is_row": 0.5,
+  "codec_ratio_ge_0.5": 0.1923,
+  "lid_median_vc": -14.74,
+  "lid_median_src": -21.85,
+  "ser_mean_vc": 0.1668,
+  "ser_mean_src": 0.0771,
+  "cer_mean_vc": 0.0177,
+  "p_true_mean": 0.341,
+  "pred_top": [
+   [
+    "hhw_kanon",
+    21
+   ],
+   [
+    "pp_maya",
+    3
+   ],
+   [
+    "mo_nanami",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|hhw_kaoru": {
+  "n": 30,
+  "pass": 0.1667,
+  "gates": {
+   "identity": 0.9,
+   "accent": 0.2,
+   "text": 0.8667,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.9,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.9,
+  "lid_median_vc": -14.39,
+  "lid_median_src": -22.93,
+  "ser_mean_vc": 0.1449,
+  "ser_mean_src": 0.0396,
+  "cer_mean_vc": 0.0119,
+  "p_true_mean": 0.7444,
+  "pred_top": [
+   [
+    "hhw_kaoru",
+    30
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|mujica_sakiko_tsuki": {
+  "n": 25,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.28,
+   "accent": 0.16,
+   "text": 0.96,
+   "length": 1.0
+  },
+  "pred_is_row": 0.28,
+  "ratio_ge_0.5": 0.44,
+  "codec_pred_is_row": 0.36,
+  "codec_ratio_ge_0.5": 0.56,
+  "lid_median_vc": -15.05,
+  "lid_median_src": -21.73,
+  "ser_mean_vc": 0.1496,
+  "ser_mean_src": 0.0577,
+  "cer_mean_vc": 0.0024,
+  "p_true_mean": 0.3252,
+  "pred_top": [
+   [
+    "mujica_sakiko",
+    18
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    7
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|mygo_soyo_tsuki": {
+  "n": 32,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.25,
+   "accent": 0.0938,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5312,
+  "ratio_ge_0.5": 0.25,
+  "codec_pred_is_row": 0.5,
+  "codec_ratio_ge_0.5": 0.3125,
+  "lid_median_vc": -13.14,
+  "lid_median_src": -21.7,
+  "ser_mean_vc": 0.2279,
+  "ser_mean_src": 0.0611,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.3219,
+  "pred_top": [
+   [
+    "mygo_soyo_tsuki",
+    17
+   ],
+   [
+    "mygo_soyo",
+    15
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|mygo_tomori": {
+  "n": 25,
+  "pass": 0.08,
+  "gates": {
+   "identity": 0.52,
+   "accent": 0.16,
+   "text": 0.96,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.52,
+  "codec_pred_is_row": 0.8,
+  "codec_ratio_ge_0.5": 0.4,
+  "lid_median_vc": -14.56,
+  "lid_median_src": -22.52,
+  "ser_mean_vc": 0.1008,
+  "ser_mean_src": 0.0282,
+  "cer_mean_vc": 0.0027,
+  "p_true_mean": 0.4076,
+  "pred_top": [
+   [
+    "mygo_tomori",
+    25
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|pp_aya": {
+  "n": 27,
+  "pass": 0.037,
+  "gates": {
+   "identity": 0.7778,
+   "accent": 0.037,
+   "text": 0.8889,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 0.7778,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.7407,
+  "lid_median_vc": -13.64,
+  "lid_median_src": -21.23,
+  "ser_mean_vc": 0.1987,
+  "ser_mean_src": 0.0561,
+  "cer_mean_vc": 0.0101,
+  "p_true_mean": 0.4507,
+  "pred_top": [
+   [
+    "pp_aya",
+    27
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ras_chuchu": {
+  "n": 20,
+  "pass": 0.1,
+  "gates": {
+   "identity": 1.0,
+   "accent": 0.1,
+   "text": 0.95,
+   "length": 1.0
+  },
+  "pred_is_row": 1.0,
+  "ratio_ge_0.5": 1.0,
+  "codec_pred_is_row": 1.0,
+  "codec_ratio_ge_0.5": 0.95,
+  "lid_median_vc": -14.67,
+  "lid_median_src": -21.67,
+  "ser_mean_vc": 0.2402,
+  "ser_mean_src": 0.0918,
+  "cer_mean_vc": 0.0171,
+  "p_true_mean": 0.7174,
+  "pred_top": [
+   [
+    "ras_chuchu",
+    20
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ras_lock": {
+  "n": 27,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0741,
+   "accent": 0.037,
+   "text": 0.9259,
+   "length": 1.0
+  },
+  "pred_is_row": 0.5926,
+  "ratio_ge_0.5": 0.0741,
+  "codec_pred_is_row": 0.4444,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -13.69,
+  "lid_median_src": -20.08,
+  "ser_mean_vc": 0.1947,
+  "ser_mean_src": 0.0789,
+  "cer_mean_vc": 0.006,
+  "p_true_mean": 0.1679,
+  "pred_top": [
+   [
+    "ras_lock",
+    16
+   ],
+   [
+    "ag_tsugumi",
+    8
+   ],
+   [
+    "ras_chuchu",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ras_masking": {
+  "n": 28,
+  "pass": 0.1786,
+  "gates": {
+   "identity": 0.5714,
+   "accent": 0.25,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.9286,
+  "ratio_ge_0.5": 0.5714,
+  "codec_pred_is_row": 0.9643,
+  "codec_ratio_ge_0.5": 0.6429,
+  "lid_median_vc": -16.96,
+  "lid_median_src": -21.12,
+  "ser_mean_vc": 0.0831,
+  "ser_mean_src": 0.0222,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.4011,
+  "pred_top": [
+   [
+    "ras_masking",
+    26
+   ],
+   [
+    "pp_maya",
+    1
+   ],
+   [
+    "pp_chisato",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "200_noshift|ro_rinko": {
+  "n": 22,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.3182,
+   "accent": 0.1364,
+   "text": 0.9545,
+   "length": 1.0
+  },
+  "pred_is_row": 0.9091,
+  "ratio_ge_0.5": 0.3182,
+  "codec_pred_is_row": 0.7727,
+  "codec_ratio_ge_0.5": 0.1364,
+  "lid_median_vc": -12.93,
+  "lid_median_src": -21.62,
+  "ser_mean_vc": 0.1927,
+  "ser_mean_src": 0.0411,
+  "cer_mean_vc": 0.0058,
+  "p_true_mean": 0.3442,
+  "pred_top": [
+   [
+    "ro_rinko",
+    20
+   ],
+   [
+    "pp_chisato",
+    1
+   ],
+   [
+    "mygo_tomori",
+    1
+   ]
+  ],
+  "feasible": false
+ },
+ "source|hhw_hagumi": {
+  "n": 26,
+  "pass": 0.0769,
+  "gates": {
+   "identity": 0.0769,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.2308,
+  "ratio_ge_0.5": 0.0769,
+  "codec_pred_is_row": 0.2692,
+  "codec_ratio_ge_0.5": 0.0769,
+  "lid_median_vc": -21.15,
+  "lid_median_src": -21.15,
+  "ser_mean_vc": 0.0394,
+  "ser_mean_src": 0.0394,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.1095,
+  "pred_top": [
+   [
+    "hhw_hagumi",
+    6
+   ],
+   [
+    "ro_ako",
+    5
+   ],
+   [
+    "mujica_nyamu",
+    4
+   ]
+  ],
+  "feasible": false
+ },
+ "source|hhw_kanon": {
+  "n": 26,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.2308,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.1538,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -21.85,
+  "lid_median_src": -21.85,
+  "ser_mean_vc": 0.0771,
+  "ser_mean_src": 0.0771,
+  "cer_mean_vc": 0.0033,
+  "p_true_mean": 0.0639,
+  "pred_top": [
+   [
+    "hhw_kanon",
+    6
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    5
+   ],
+   [
+    "ag_himari",
+    4
+   ]
+  ],
+  "feasible": false
+ },
+ "source|hhw_kaoru": {
+  "n": 30,
+  "pass": 0.6667,
+  "gates": {
+   "identity": 0.6667,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.8333,
+  "ratio_ge_0.5": 0.6667,
+  "codec_pred_is_row": 0.8333,
+  "codec_ratio_ge_0.5": 0.6333,
+  "lid_median_vc": -22.93,
+  "lid_median_src": -22.93,
+  "ser_mean_vc": 0.0396,
+  "ser_mean_src": 0.0396,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.5281,
+  "pred_top": [
+   [
+    "hhw_kaoru",
+    25
+   ],
+   [
+    "mujica_sakiko",
+    1
+   ],
+   [
+    "ag_tomoe",
+    1
+   ]
+  ],
+  "feasible": true
+ },
+ "source|mujica_sakiko_tsuki": {
+  "n": 25,
+  "pass": 0.76,
+  "gates": {
+   "identity": 0.76,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.88,
+  "ratio_ge_0.5": 0.76,
+  "codec_pred_is_row": 0.88,
+  "codec_ratio_ge_0.5": 0.8,
+  "lid_median_vc": -21.73,
+  "lid_median_src": -21.73,
+  "ser_mean_vc": 0.0577,
+  "ser_mean_src": 0.0577,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.4571,
+  "pred_top": [
+   [
+    "mujica_sakiko_tsuki",
+    22
+   ],
+   [
+    "mujica_sakiko",
+    2
+   ],
+   [
+    "ag_himari",
+    1
+   ]
+  ],
+  "feasible": true
+ },
+ "source|mygo_soyo_tsuki": {
+  "n": 32,
+  "pass": 0.0312,
+  "gates": {
+   "identity": 0.0312,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.3438,
+  "ratio_ge_0.5": 0.0312,
+  "codec_pred_is_row": 0.3125,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -21.7,
+  "lid_median_src": -21.7,
+  "ser_mean_vc": 0.0611,
+  "ser_mean_src": 0.0611,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.164,
+  "pred_top": [
+   [
+    "mygo_soyo",
+    13
+   ],
+   [
+    "mygo_soyo_tsuki",
+    11
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "source|mygo_tomori": {
+  "n": 25,
+  "pass": 0.04,
+  "gates": {
+   "identity": 0.04,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.56,
+  "ratio_ge_0.5": 0.04,
+  "codec_pred_is_row": 0.32,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -22.52,
+  "lid_median_src": -22.52,
+  "ser_mean_vc": 0.0282,
+  "ser_mean_src": 0.0282,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.1685,
+  "pred_top": [
+   [
+    "mygo_tomori",
+    14
+   ],
+   [
+    "ro_sayo",
+    4
+   ],
+   [
+    "mujica_sakiko",
+    3
+   ]
+  ],
+  "feasible": false
+ },
+ "source|pp_aya": {
+  "n": 27,
+  "pass": 0.4074,
+  "gates": {
+   "identity": 0.4074,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.6296,
+  "ratio_ge_0.5": 0.4074,
+  "codec_pred_is_row": 0.6296,
+  "codec_ratio_ge_0.5": 0.2963,
+  "lid_median_vc": -21.23,
+  "lid_median_src": -21.23,
+  "ser_mean_vc": 0.0561,
+  "ser_mean_src": 0.0561,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.2872,
+  "pred_top": [
+   [
+    "pp_aya",
+    17
+   ],
+   [
+    "mujica_nyamu",
+    5
+   ],
+   [
+    "mujica_sakiko_tsuki",
+    2
+   ]
+  ],
+  "feasible": true
+ },
+ "source|ras_chuchu": {
+  "n": 20,
+  "pass": 0.55,
+  "gates": {
+   "identity": 0.55,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.85,
+  "ratio_ge_0.5": 0.55,
+  "codec_pred_is_row": 0.8,
+  "codec_ratio_ge_0.5": 0.5,
+  "lid_median_vc": -21.67,
+  "lid_median_src": -21.67,
+  "ser_mean_vc": 0.0918,
+  "ser_mean_src": 0.0918,
+  "cer_mean_vc": 0.0021,
+  "p_true_mean": 0.3995,
+  "pred_top": [
+   [
+    "ras_chuchu",
+    17
+   ],
+   [
+    "mujica_nyamu",
+    3
+   ]
+  ],
+  "feasible": true
+ },
+ "source|ras_lock": {
+  "n": 27,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.037,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.0,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -20.08,
+  "lid_median_src": -20.08,
+  "ser_mean_vc": 0.0789,
+  "ser_mean_src": 0.0789,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.0444,
+  "pred_top": [
+   [
+    "ras_pareo",
+    6
+   ],
+   [
+    "ag_moca",
+    5
+   ],
+   [
+    "mujica_nyamu",
+    5
+   ]
+  ],
+  "feasible": false
+ },
+ "source|ras_masking": {
+  "n": 28,
+  "pass": 0.3929,
+  "gates": {
+   "identity": 0.3929,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.7857,
+  "ratio_ge_0.5": 0.3929,
+  "codec_pred_is_row": 0.7857,
+  "codec_ratio_ge_0.5": 0.2857,
+  "lid_median_vc": -21.12,
+  "lid_median_src": -21.12,
+  "ser_mean_vc": 0.0222,
+  "ser_mean_src": 0.0222,
+  "cer_mean_vc": 0.0,
+  "p_true_mean": 0.3438,
+  "pred_top": [
+   [
+    "ras_masking",
+    22
+   ],
+   [
+    "mujica_sakiko",
+    2
+   ],
+   [
+    "ppp_saaya",
+    1
+   ]
+  ],
+  "feasible": true
+ },
+ "source|ro_rinko": {
+  "n": 22,
+  "pass": 0.0,
+  "gates": {
+   "identity": 0.0,
+   "accent": 1.0,
+   "text": 1.0,
+   "length": 1.0
+  },
+  "pred_is_row": 0.0909,
+  "ratio_ge_0.5": 0.0,
+  "codec_pred_is_row": 0.0909,
+  "codec_ratio_ge_0.5": 0.0,
+  "lid_median_vc": -21.62,
+  "lid_median_src": -21.62,
+  "ser_mean_vc": 0.0411,
+  "ser_mean_src": 0.0411,
+  "cer_mean_vc": 0.0023,
+  "p_true_mean": 0.062,
+  "pred_top": [
+   [
+    "pp_chisato",
+    10
+   ],
+   [
+    "mujica_nyamu",
+    2
+   ],
+   [
+    "ro_rinko",
+    2
+   ]
+  ],
+  "feasible": false
+ },
+ "feasibility_gate": {
+  "cell": "200",
+  "passed": false
+ }
+}

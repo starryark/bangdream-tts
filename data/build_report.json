@@ -1,0 +1,436 @@
+{
+ "kept": 9804,
+ "duplicates_dropped": 46,
+ "rejects": [],
+ "hours": 22.08,
+ "per_row": {
+  "ppp_kasumi": {
+   "n": 258,
+   "min": 35.48
+  },
+  "ppp_tae": {
+   "n": 215,
+   "min": 30.85
+  },
+  "ppp_rimi": {
+   "n": 163,
+   "min": 24.44
+  },
+  "ppp_saaya": {
+   "n": 334,
+   "min": 47.37
+  },
+  "ppp_arisa": {
+   "n": 434,
+   "min": 60.76
+  },
+  "ag_ran": {
+   "n": 173,
+   "min": 26.14
+  },
+  "ag_moca": {
+   "n": 395,
+   "min": 59.42
+  },
+  "ag_himari": {
+   "n": 292,
+   "min": 44.93
+  },
+  "ag_tomoe": {
+   "n": 230,
+   "min": 30.56
+  },
+  "ag_tsugumi": {
+   "n": 197,
+   "min": 30.33
+  },
+  "pp_aya": {
+   "n": 372,
+   "min": 51.86
+  },
+  "pp_hina": {
+   "n": 248,
+   "min": 33.54
+  },
+  "pp_chisato": {
+   "n": 197,
+   "min": 25.71
+  },
+  "pp_maya": {
+   "n": 296,
+   "min": 45.01
+  },
+  "pp_eve": {
+   "n": 299,
+   "min": 45.89
+  },
+  "ro_yukina": {
+   "n": 153,
+   "min": 18.94
+  },
+  "ro_sayo": {
+   "n": 204,
+   "min": 31.46
+  },
+  "ro_lisa": {
+   "n": 254,
+   "min": 39.47
+  },
+  "ro_ako": {
+   "n": 102,
+   "min": 8.35
+  },
+  "ro_ako_maou": {
+   "n": 44,
+   "min": 5.42
+  },
+  "ro_rinko": {
+   "n": 270,
+   "min": 41.52
+  },
+  "hhw_kokoro": {
+   "n": 191,
+   "min": 29.14
+  },
+  "hhw_kaoru": {
+   "n": 197,
+   "min": 30.25
+  },
+  "hhw_hagumi": {
+   "n": 150,
+   "min": 22.52
+  },
+  "hhw_kanon": {
+   "n": 241,
+   "min": 36.38
+  },
+  "hhw_misaki": {
+   "n": 244,
+   "min": 36.67
+  },
+  "mo_mashiro": {
+   "n": 149,
+   "min": 22.72
+  },
+  "mo_touko": {
+   "n": 143,
+   "min": 21.79
+  },
+  "mo_nanami": {
+   "n": 223,
+   "min": 34.27
+  },
+  "mo_tsukushi": {
+   "n": 162,
+   "min": 24.67
+  },
+  "mo_rui": {
+   "n": 184,
+   "min": 26.36
+  },
+  "ras_layer": {
+   "n": 220,
+   "min": 33.09
+  },
+  "ras_lock": {
+   "n": 226,
+   "min": 34.0
+  },
+  "ras_masking": {
+   "n": 151,
+   "min": 22.52
+  },
+  "ras_pareo": {
+   "n": 154,
+   "min": 22.25
+  },
+  "ras_chuchu": {
+   "n": 282,
+   "min": 42.21
+  },
+  "mygo_tomori": {
+   "n": 216,
+   "min": 29.88
+  },
+  "mygo_anon": {
+   "n": 88,
+   "min": 11.0
+  },
+  "mygo_raana": {
+   "n": 272,
+   "min": 12.53
+  },
+  "mygo_soyo": {
+   "n": 77,
+   "min": 9.82
+  },
+  "mygo_soyo_tsuki": {
+   "n": 126,
+   "min": 16.38
+  },
+  "mygo_taki": {
+   "n": 196,
+   "min": 26.96
+  },
+  "mujica_uika": {
+   "n": 113,
+   "min": 5.54
+  },
+  "mujica_mutsumi": {
+   "n": 61,
+   "min": 2.8
+  },
+  "mujica_mortis": {
+   "n": 95,
+   "min": 5.07
+  },
+  "mujica_umiri": {
+   "n": 71,
+   "min": 3.11
+  },
+  "mujica_nyamu": {
+   "n": 124,
+   "min": 6.02
+  },
+  "mujica_sakiko": {
+   "n": 115,
+   "min": 6.29
+  },
+  "mujica_sakiko_tsuki": {
+   "n": 203,
+   "min": 12.8
+  }
+ },
+ "duplicates": [
+  {
+   "id": "pp_hina_2530de70bb",
+   "dup_of": "pp_hina_2530de70bb",
+   "set": "Pastel＊Palettes/冰川日菜"
+  },
+  {
+   "id": "pp_maya_dc4262a917",
+   "dup_of": "pp_maya_dc4262a917",
+   "set": "Pastel＊Palettes/大和麻彌"
+  },
+  {
+   "id": "ro_ako_1bb3ae0048",
+   "dup_of": "ro_ako_1bb3ae0048",
+   "set": "Roselia/宇田川亞子"
+  },
+  {
+   "id": "ro_ako_fad2181a6d",
+   "dup_of": "ro_ako_fad2181a6d",
+   "set": "Roselia/宇田川亞子"
+  },
+  {
+   "id": "hhw_kokoro_a46cb42647",
+   "dup_of": "hhw_kokoro_a46cb42647",
+   "set": "ハロー、ハッピーワールド！/弦卷心"
+  },
+  {
+   "id": "hhw_kokoro_23bb98d3f5",
+   "dup_of": "hhw_kokoro_23bb98d3f5",
+   "set": "ハロー、ハッピーワールド！/弦卷心"
+  },
+  {
+   "id": "hhw_kokoro_a47d7c4bef",
+   "dup_of": "hhw_kokoro_a47d7c4bef",
+   "set": "ハロー、ハッピーワールド！/弦卷心"
+  },
+  {
+   "id": "hhw_kokoro_37eb868339",
+   "dup_of": "hhw_kokoro_37eb868339",
+   "set": "ハロー、ハッピーワールド！/弦卷心"
+  },
+  {
+   "id": "mo_nanami_29079d81ca",
+   "dup_of": "mo_nanami_29079d81ca",
+   "set": "Morfonica/廣町七深"
+  },
+  {
+   "id": "mo_tsukushi_5cbf7b7640",
+   "dup_of": "mo_tsukushi_5cbf7b7640",
+   "set": "Morfonica/二葉筑紫"
+  },
+  {
+   "id": "mygo_tomori_1c86499477",
+   "dup_of": "mygo_tomori_1c86499477",
+   "set": "MyGO!!!!!/高松燈"
+  },
+  {
+   "id": "mygo_anon_a32954bc1c",
+   "dup_of": "mygo_anon_a32954bc1c",
+   "set": "MyGO!!!!!/千早愛音"
+  },
+  {
+   "id": "mygo_raana_500b5f5787",
+   "dup_of": "mygo_raana_500b5f5787",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_6a2930face",
+   "dup_of": "mygo_raana_6a2930face",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_85f17d9b06",
+   "dup_of": "mygo_raana_85f17d9b06",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_0300aab26d",
+   "dup_of": "mygo_raana_0300aab26d",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_90d2c7ac80",
+   "dup_of": "mygo_raana_90d2c7ac80",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_e08ee41cbe",
+   "dup_of": "mygo_raana_e08ee41cbe",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_ee25a4ef0d",
+   "dup_of": "mygo_raana_ee25a4ef0d",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_4c145e9cc8",
+   "dup_of": "mygo_raana_4c145e9cc8",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_9e477a3d6b",
+   "dup_of": "mygo_raana_9e477a3d6b",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_e1a3f62092",
+   "dup_of": "mygo_raana_e1a3f62092",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_687624eb79",
+   "dup_of": "mygo_raana_687624eb79",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_e1edf54243",
+   "dup_of": "mygo_raana_e1edf54243",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_f1a9f23698",
+   "dup_of": "mygo_raana_f1a9f23698",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_586aff22f4",
+   "dup_of": "mygo_raana_586aff22f4",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_f60cfb89df",
+   "dup_of": "mygo_raana_f60cfb89df",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_ba73d8e63a",
+   "dup_of": "mygo_raana_ba73d8e63a",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_3b1472d816",
+   "dup_of": "mygo_raana_3b1472d816",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_f373d52a6d",
+   "dup_of": "mygo_raana_f373d52a6d",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mygo_raana_748518a012",
+   "dup_of": "mygo_raana_748518a012",
+   "set": "MyGO!!!!!/要樂奈"
+  },
+  {
+   "id": "mujica_nyamu_41a80c841d",
+   "dup_of": "mujica_nyamu_41a80c841d",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_8ecc58edd1",
+   "dup_of": "mujica_nyamu_8ecc58edd1",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_d30f61666d",
+   "dup_of": "mujica_nyamu_d30f61666d",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_fb24a93be8",
+   "dup_of": "mujica_nyamu_fb24a93be8",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_077d7ebf52",
+   "dup_of": "mujica_nyamu_077d7ebf52",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_95e86e38cf",
+   "dup_of": "mujica_nyamu_95e86e38cf",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_ef03afcf9b",
+   "dup_of": "mujica_nyamu_ef03afcf9b",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_b75ffc2c48",
+   "dup_of": "mujica_nyamu_b75ffc2c48",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_f387305b85",
+   "dup_of": "mujica_nyamu_f387305b85",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_2bfdb6aca2",
+   "dup_of": "mujica_nyamu_2bfdb6aca2",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_0ade235d90",
+   "dup_of": "mujica_nyamu_0ade235d90",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_742369dd94",
+   "dup_of": "mujica_nyamu_742369dd94",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_nyamu_8cedf13d45",
+   "dup_of": "mujica_nyamu_8cedf13d45",
+   "set": "Mujica/祐天寺若麥"
+  },
+  {
+   "id": "mujica_sakiko_b6cc930234",
+   "dup_of": "mujica_sakiko_b6cc930234",
+   "set": "Mujica/豐川祥子"
+  },
+  {
+   "id": "mujica_sakiko_71ca519b3e",
+   "dup_of": "mujica_sakiko_71ca519b3e",
+   "set": "Mujica/豐川祥子"
+  }
+ ]
+}

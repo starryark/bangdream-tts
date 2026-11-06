@@ -1,0 +1,1001 @@
+{
+ "rows": {
+  "ag_himari": {
+   "n_clips": 292,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 590.5,
+   "n_candidates": 281
+  },
+  "ag_moca": {
+   "n_clips": 395,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 573.9,
+   "n_candidates": 385
+  },
+  "ag_ran": {
+   "n_clips": 173,
+   "n_test": 9,
+   "n_ref": 64,
+   "ref_seconds": 582.4,
+   "n_candidates": 164
+  },
+  "ag_tomoe": {
+   "n_clips": 230,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 480.3,
+   "n_candidates": 220
+  },
+  "ag_tsugumi": {
+   "n_clips": 197,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 592.8,
+   "n_candidates": 187
+  },
+  "hhw_hagumi": {
+   "n_clips": 150,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 576.2,
+   "n_candidates": 142
+  },
+  "hhw_kanon": {
+   "n_clips": 241,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 581.8,
+   "n_candidates": 231
+  },
+  "hhw_kaoru": {
+   "n_clips": 197,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 586.3,
+   "n_candidates": 187
+  },
+  "hhw_kokoro": {
+   "n_clips": 191,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 583.0,
+   "n_candidates": 181
+  },
+  "hhw_misaki": {
+   "n_clips": 244,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 574.3,
+   "n_candidates": 234
+  },
+  "mo_mashiro": {
+   "n_clips": 149,
+   "n_test": 7,
+   "n_ref": 64,
+   "ref_seconds": 595.3,
+   "n_candidates": 142
+  },
+  "mo_nanami": {
+   "n_clips": 223,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 590.8,
+   "n_candidates": 213
+  },
+  "mo_rui": {
+   "n_clips": 184,
+   "n_test": 9,
+   "n_ref": 64,
+   "ref_seconds": 549.2,
+   "n_candidates": 175
+  },
+  "mo_touko": {
+   "n_clips": 143,
+   "n_test": 7,
+   "n_ref": 64,
+   "ref_seconds": 582.7,
+   "n_candidates": 136
+  },
+  "mo_tsukushi": {
+   "n_clips": 162,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 581.1,
+   "n_candidates": 154
+  },
+  "mujica_mortis": {
+   "n_clips": 95,
+   "n_test": 5,
+   "n_ref": 53,
+   "ref_seconds": 192.9,
+   "n_candidates": 66
+  },
+  "mujica_mutsumi": {
+   "n_clips": 61,
+   "n_test": 4,
+   "n_ref": 25,
+   "ref_seconds": 104.7,
+   "n_candidates": 31
+  },
+  "mujica_nyamu": {
+   "n_clips": 124,
+   "n_test": 6,
+   "n_ref": 64,
+   "ref_seconds": 221.7,
+   "n_candidates": 90
+  },
+  "mujica_sakiko": {
+   "n_clips": 115,
+   "n_test": 6,
+   "n_ref": 58,
+   "ref_seconds": 229.6,
+   "n_candidates": 73
+  },
+  "mujica_sakiko_tsuki": {
+   "n_clips": 203,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 271.3,
+   "n_candidates": 159
+  },
+  "mujica_uika": {
+   "n_clips": 113,
+   "n_test": 6,
+   "n_ref": 64,
+   "ref_seconds": 229.6,
+   "n_candidates": 80
+  },
+  "mujica_umiri": {
+   "n_clips": 71,
+   "n_test": 4,
+   "n_ref": 35,
+   "ref_seconds": 104.2,
+   "n_candidates": 44
+  },
+  "mygo_anon": {
+   "n_clips": 88,
+   "n_test": 4,
+   "n_ref": 64,
+   "ref_seconds": 484.7,
+   "n_candidates": 84
+  },
+  "mygo_raana": {
+   "n_clips": 272,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 206.6,
+   "n_candidates": 186
+  },
+  "mygo_soyo": {
+   "n_clips": 77,
+   "n_test": 4,
+   "n_ref": 58,
+   "ref_seconds": 445.0,
+   "n_candidates": 73
+  },
+  "mygo_soyo_tsuki": {
+   "n_clips": 126,
+   "n_test": 6,
+   "n_ref": 64,
+   "ref_seconds": 509.4,
+   "n_candidates": 120
+  },
+  "mygo_taki": {
+   "n_clips": 196,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 537.0,
+   "n_candidates": 186
+  },
+  "mygo_tomori": {
+   "n_clips": 216,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 535.7,
+   "n_candidates": 205
+  },
+  "pp_aya": {
+   "n_clips": 372,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 533.3,
+   "n_candidates": 362
+  },
+  "pp_chisato": {
+   "n_clips": 197,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 500.6,
+   "n_candidates": 187
+  },
+  "pp_eve": {
+   "n_clips": 299,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 589.4,
+   "n_candidates": 289
+  },
+  "pp_hina": {
+   "n_clips": 248,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 509.1,
+   "n_candidates": 238
+  },
+  "pp_maya": {
+   "n_clips": 296,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 586.5,
+   "n_candidates": 286
+  },
+  "ppp_arisa": {
+   "n_clips": 434,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 536.2,
+   "n_candidates": 424
+  },
+  "ppp_kasumi": {
+   "n_clips": 258,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 530.1,
+   "n_candidates": 248
+  },
+  "ppp_rimi": {
+   "n_clips": 163,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 575.1,
+   "n_candidates": 155
+  },
+  "ppp_saaya": {
+   "n_clips": 334,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 539.7,
+   "n_candidates": 324
+  },
+  "ppp_tae": {
+   "n_clips": 215,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 551.0,
+   "n_candidates": 205
+  },
+  "ras_chuchu": {
+   "n_clips": 282,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 581.5,
+   "n_candidates": 271
+  },
+  "ras_layer": {
+   "n_clips": 220,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 569.0,
+   "n_candidates": 210
+  },
+  "ras_lock": {
+   "n_clips": 226,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 578.8,
+   "n_candidates": 216
+  },
+  "ras_masking": {
+   "n_clips": 151,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 569.7,
+   "n_candidates": 143
+  },
+  "ras_pareo": {
+   "n_clips": 154,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 559.0,
+   "n_candidates": 142
+  },
+  "ro_ako": {
+   "n_clips": 102,
+   "n_test": 5,
+   "n_ref": 64,
+   "ref_seconds": 326.9,
+   "n_candidates": 97
+  },
+  "ro_ako_maou": {
+   "n_clips": 44,
+   "n_test": 4,
+   "n_ref": 30,
+   "ref_seconds": 250.6,
+   "n_candidates": 38
+  },
+  "ro_lisa": {
+   "n_clips": 254,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 594.5,
+   "n_candidates": 244
+  },
+  "ro_rinko": {
+   "n_clips": 270,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 586.6,
+   "n_candidates": 260
+  },
+  "ro_sayo": {
+   "n_clips": 204,
+   "n_test": 10,
+   "n_ref": 64,
+   "ref_seconds": 589.1,
+   "n_candidates": 194
+  },
+  "ro_yukina": {
+   "n_clips": 153,
+   "n_test": 8,
+   "n_ref": 64,
+   "ref_seconds": 485.5,
+   "n_candidates": 145
+  }
+ },
+ "locked_centred": {
+  "median": -0.029,
+  "p95": 0.571,
+  "max": 0.822,
+  "top_pairs": [
+   [
+    "pp_eve",
+    "ras_lock",
+    0.822
+   ],
+   [
+    "mujica_sakiko",
+    "mujica_sakiko_tsuki",
+    0.801
+   ],
+   [
+    "mujica_uika",
+    "mujica_umiri",
+    0.799
+   ],
+   [
+    "hhw_hagumi",
+    "ro_ako",
+    0.769
+   ],
+   [
+    "ag_himari",
+    "ppp_kasumi",
+    0.755
+   ],
+   [
+    "mo_rui",
+    "ro_yukina",
+    0.742
+   ],
+   [
+    "hhw_hagumi",
+    "pp_eve",
+    0.74
+   ],
+   [
+    "ppp_rimi",
+    "ras_lock",
+    0.733
+   ],
+   [
+    "hhw_hagumi",
+    "ras_lock",
+    0.731
+   ],
+   [
+    "mujica_nyamu",
+    "mujica_uika",
+    0.708
+   ],
+   [
+    "hhw_hagumi",
+    "ppp_rimi",
+    0.707
+   ],
+   [
+    "ag_ran",
+    "mygo_taki",
+    0.706
+   ],
+   [
+    "hhw_kokoro",
+    "ppp_kasumi",
+    0.699
+   ],
+   [
+    "ppp_kasumi",
+    "ras_pareo",
+    0.696
+   ],
+   [
+    "pp_eve",
+    "ppp_rimi",
+    0.686
+   ]
+  ]
+ },
+ "mujica_ab": {
+  "mujica_mortis": {
+   "nearest_mujica_all": [
+    "mujica_nyamu",
+    0.652
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_nyamu",
+    0.665
+   ]
+  },
+  "mujica_mutsumi": {
+   "nearest_mujica_all": [
+    "mujica_sakiko",
+    0.205
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_sakiko",
+    0.152
+   ]
+  },
+  "mujica_nyamu": {
+   "nearest_mujica_all": [
+    "mujica_uika",
+    0.712
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_uika",
+    0.706
+   ]
+  },
+  "mujica_sakiko": {
+   "nearest_mujica_all": [
+    "mujica_sakiko_tsuki",
+    0.775
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_sakiko_tsuki",
+    0.803
+   ]
+  },
+  "mujica_sakiko_tsuki": {
+   "nearest_mujica_all": [
+    "mujica_sakiko",
+    0.775
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_sakiko",
+    0.803
+   ]
+  },
+  "mujica_uika": {
+   "nearest_mujica_all": [
+    "mujica_umiri",
+    0.791
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_umiri",
+    0.799
+   ]
+  },
+  "mujica_umiri": {
+   "nearest_mujica_all": [
+    "mujica_uika",
+    0.791
+   ],
+   "nearest_mujica_cluster": [
+    "mujica_uika",
+    0.799
+   ]
+  }
+ },
+ "probe_real_heldout": {
+  "acc_mean": 0.99,
+  "per_row": {
+   "ag_himari": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.747,
+    "confused_with": null
+   },
+   "ag_moca": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.882,
+    "confused_with": null
+   },
+   "ag_ran": {
+    "n": 9,
+    "acc": 1.0,
+    "p_true_mean": 0.838,
+    "confused_with": null
+   },
+   "ag_tomoe": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.88,
+    "confused_with": null
+   },
+   "ag_tsugumi": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.772,
+    "confused_with": null
+   },
+   "hhw_hagumi": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.759,
+    "confused_with": null
+   },
+   "hhw_kanon": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.822,
+    "confused_with": null
+   },
+   "hhw_kaoru": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.912,
+    "confused_with": null
+   },
+   "hhw_kokoro": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.844,
+    "confused_with": null
+   },
+   "hhw_misaki": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.835,
+    "confused_with": null
+   },
+   "mo_mashiro": {
+    "n": 7,
+    "acc": 1.0,
+    "p_true_mean": 0.832,
+    "confused_with": null
+   },
+   "mo_nanami": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.847,
+    "confused_with": null
+   },
+   "mo_rui": {
+    "n": 9,
+    "acc": 1.0,
+    "p_true_mean": 0.887,
+    "confused_with": null
+   },
+   "mo_touko": {
+    "n": 7,
+    "acc": 1.0,
+    "p_true_mean": 0.838,
+    "confused_with": null
+   },
+   "mo_tsukushi": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.87,
+    "confused_with": null
+   },
+   "mujica_mortis": {
+    "n": 5,
+    "acc": 1.0,
+    "p_true_mean": 0.767,
+    "confused_with": null
+   },
+   "mujica_mutsumi": {
+    "n": 4,
+    "acc": 1.0,
+    "p_true_mean": 0.861,
+    "confused_with": null
+   },
+   "mujica_nyamu": {
+    "n": 6,
+    "acc": 1.0,
+    "p_true_mean": 0.89,
+    "confused_with": null
+   },
+   "mujica_sakiko": {
+    "n": 6,
+    "acc": 0.833,
+    "p_true_mean": 0.598,
+    "confused_with": "mujica_sakiko_tsuki"
+   },
+   "mujica_sakiko_tsuki": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.721,
+    "confused_with": null
+   },
+   "mujica_uika": {
+    "n": 6,
+    "acc": 0.833,
+    "p_true_mean": 0.667,
+    "confused_with": "mujica_mutsumi"
+   },
+   "mujica_umiri": {
+    "n": 4,
+    "acc": 1.0,
+    "p_true_mean": 0.896,
+    "confused_with": null
+   },
+   "mygo_anon": {
+    "n": 4,
+    "acc": 1.0,
+    "p_true_mean": 0.741,
+    "confused_with": null
+   },
+   "mygo_raana": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.849,
+    "confused_with": null
+   },
+   "mygo_soyo": {
+    "n": 4,
+    "acc": 1.0,
+    "p_true_mean": 0.82,
+    "confused_with": null
+   },
+   "mygo_soyo_tsuki": {
+    "n": 6,
+    "acc": 1.0,
+    "p_true_mean": 0.881,
+    "confused_with": null
+   },
+   "mygo_taki": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.835,
+    "confused_with": null
+   },
+   "mygo_tomori": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.81,
+    "confused_with": null
+   },
+   "pp_aya": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.798,
+    "confused_with": null
+   },
+   "pp_chisato": {
+    "n": 10,
+    "acc": 0.9,
+    "p_true_mean": 0.641,
+    "confused_with": "mujica_mortis"
+   },
+   "pp_eve": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.819,
+    "confused_with": null
+   },
+   "pp_hina": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.726,
+    "confused_with": null
+   },
+   "pp_maya": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.872,
+    "confused_with": null
+   },
+   "ppp_arisa": {
+    "n": 10,
+    "acc": 0.9,
+    "p_true_mean": 0.828,
+    "confused_with": "ppp_rimi"
+   },
+   "ppp_kasumi": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.613,
+    "confused_with": null
+   },
+   "ppp_rimi": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.889,
+    "confused_with": null
+   },
+   "ppp_saaya": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.877,
+    "confused_with": null
+   },
+   "ppp_tae": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.815,
+    "confused_with": null
+   },
+   "ras_chuchu": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.811,
+    "confused_with": null
+   },
+   "ras_layer": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.874,
+    "confused_with": null
+   },
+   "ras_lock": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.792,
+    "confused_with": null
+   },
+   "ras_masking": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.883,
+    "confused_with": null
+   },
+   "ras_pareo": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.701,
+    "confused_with": null
+   },
+   "ro_ako": {
+    "n": 5,
+    "acc": 1.0,
+    "p_true_mean": 0.731,
+    "confused_with": null
+   },
+   "ro_ako_maou": {
+    "n": 4,
+    "acc": 1.0,
+    "p_true_mean": 0.911,
+    "confused_with": null
+   },
+   "ro_lisa": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.759,
+    "confused_with": null
+   },
+   "ro_rinko": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.839,
+    "confused_with": null
+   },
+   "ro_sayo": {
+    "n": 10,
+    "acc": 1.0,
+    "p_true_mean": 0.86,
+    "confused_with": null
+   },
+   "ro_yukina": {
+    "n": 8,
+    "acc": 1.0,
+    "p_true_mean": 0.886,
+    "confused_with": null
+   }
+  }
+ },
+ "probe_real_cv5": {
+  "acc_mean": 0.987,
+  "per_row": {
+   "ag_himari": {
+    "acc": 0.979,
+    "confused_with": "hhw_hagumi"
+   },
+   "ag_moca": {
+    "acc": 0.995,
+    "confused_with": "mujica_mortis"
+   },
+   "ag_ran": {
+    "acc": 0.994,
+    "confused_with": "ag_tomoe"
+   },
+   "ag_tomoe": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ag_tsugumi": {
+    "acc": 0.979,
+    "confused_with": "hhw_hagumi"
+   },
+   "hhw_hagumi": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "hhw_kanon": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "hhw_kaoru": {
+    "acc": 0.989,
+    "confused_with": "ro_rinko"
+   },
+   "hhw_kokoro": {
+    "acc": 0.983,
+    "confused_with": "pp_hina"
+   },
+   "hhw_misaki": {
+    "acc": 0.996,
+    "confused_with": "hhw_kanon"
+   },
+   "mo_mashiro": {
+    "acc": 0.986,
+    "confused_with": "ppp_kasumi"
+   },
+   "mo_nanami": {
+    "acc": 0.995,
+    "confused_with": "ag_himari"
+   },
+   "mo_rui": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "mo_touko": {
+    "acc": 0.985,
+    "confused_with": "ppp_kasumi"
+   },
+   "mo_tsukushi": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "mujica_mortis": {
+    "acc": 0.933,
+    "confused_with": "mujica_mutsumi"
+   },
+   "mujica_mutsumi": {
+    "acc": 0.965,
+    "confused_with": "mujica_mortis"
+   },
+   "mujica_nyamu": {
+    "acc": 0.983,
+    "confused_with": "mujica_mortis"
+   },
+   "mujica_sakiko": {
+    "acc": 0.89,
+    "confused_with": "mujica_sakiko_tsuki"
+   },
+   "mujica_sakiko_tsuki": {
+    "acc": 0.907,
+    "confused_with": "mujica_sakiko"
+   },
+   "mujica_uika": {
+    "acc": 0.981,
+    "confused_with": "mujica_mortis"
+   },
+   "mujica_umiri": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "mygo_anon": {
+    "acc": 0.988,
+    "confused_with": "pp_hina"
+   },
+   "mygo_raana": {
+    "acc": 0.996,
+    "confused_with": "mygo_tomori"
+   },
+   "mygo_soyo": {
+    "acc": 0.959,
+    "confused_with": "mygo_soyo_tsuki"
+   },
+   "mygo_soyo_tsuki": {
+    "acc": 0.917,
+    "confused_with": "mygo_soyo"
+   },
+   "mygo_taki": {
+    "acc": 0.984,
+    "confused_with": "ras_masking"
+   },
+   "mygo_tomori": {
+    "acc": 0.99,
+    "confused_with": "ras_pareo"
+   },
+   "pp_aya": {
+    "acc": 0.983,
+    "confused_with": "ppp_rimi"
+   },
+   "pp_chisato": {
+    "acc": 0.989,
+    "confused_with": "hhw_kaoru"
+   },
+   "pp_eve": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "pp_hina": {
+    "acc": 0.996,
+    "confused_with": "mo_mashiro"
+   },
+   "pp_maya": {
+    "acc": 0.997,
+    "confused_with": "hhw_hagumi"
+   },
+   "ppp_arisa": {
+    "acc": 0.986,
+    "confused_with": "ppp_kasumi"
+   },
+   "ppp_kasumi": {
+    "acc": 0.996,
+    "confused_with": "ag_himari"
+   },
+   "ppp_rimi": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ppp_saaya": {
+    "acc": 0.991,
+    "confused_with": "ppp_kasumi"
+   },
+   "ppp_tae": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ras_chuchu": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ras_layer": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ras_lock": {
+    "acc": 0.995,
+    "confused_with": "pp_eve"
+   },
+   "ras_masking": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ras_pareo": {
+    "acc": 0.959,
+    "confused_with": "ag_tsugumi"
+   },
+   "ro_ako": {
+    "acc": 0.959,
+    "confused_with": "ro_ako_maou"
+   },
+   "ro_ako_maou": {
+    "acc": 0.925,
+    "confused_with": "ro_ako"
+   },
+   "ro_lisa": {
+    "acc": 0.992,
+    "confused_with": "mo_touko"
+   },
+   "ro_rinko": {
+    "acc": 0.996,
+    "confused_with": "mujica_mutsumi"
+   },
+   "ro_sayo": {
+    "acc": 1.0,
+    "confused_with": null
+   },
+   "ro_yukina": {
+    "acc": 1.0,
+    "confused_with": null
+   }
+  }
+ }
+}

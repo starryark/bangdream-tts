@@ -1,0 +1,65 @@
+{
+ "cond": "E5_ep2",
+ "voices": {
+  "ppp_rimi": {
+   "1": "ppp_rimi~zh3_shared_14~s11000",
+   "2": "ppp_rimi~zh3_shared_13~s6000"
+  },
+  "ppp_kasumi": {
+   "1": "ppp_kasumi~zh3_shared_14~s6000",
+   "2": "ppp_kasumi~zh3_shared_07~s11000"
+  },
+  "ro_ako_maou": {
+   "1": "ro_ako_maou~zh3_shared_06~s11000",
+   "2": "ro_ako_maou~zh3_shared_02~s6000"
+  },
+  "mygo_tomori": {
+   "1": "mygo_tomori~zh3_shared_15~s11000",
+   "2": "mygo_tomori~zh3_shared_10~s11000"
+  },
+  "mygo_soyo_tsuki": {
+   "1": "mygo_soyo_tsuki~zh3_shared_05~s6000",
+   "2": "mygo_soyo_tsuki~zh3_shared_01~s6000"
+  },
+  "ras_lock": {
+   "1": "ras_lock~zh3_shared_14~s11000",
+   "2": "ras_lock~zh3_shared_04~s6000"
+  },
+  "ro_rinko": {
+   "1": "ro_rinko~zh3_shared_04~s6000",
+   "2": "ro_rinko~zh3_shared_01~s11000"
+  },
+  "pp_eve": {
+   "1": "pp_eve~zh3_shared_01~s11000",
+   "2": "pp_eve~zh3_shared_10~s6000"
+  },
+  "hhw_kanon": {
+   "1": "hhw_kanon~zh3_shared_12~s6000",
+   "2": "hhw_kanon~zh3_shared_07~s11000"
+  },
+  "ras_chuchu": {
+   "1": "ras_chuchu~zh3_shared_05~s11000",
+   "2": "ras_chuchu~zh3_shared_10~s6000"
+  },
+  "mujica_sakiko_tsuki": {
+   "1": "mujica_sakiko_tsuki~zh3_shared_00~s11000",
+   "2": "mujica_sakiko_tsuki~zh3_shared_14~s11000"
+  },
+  "ras_masking": {
+   "1": "ras_masking~zh3_shared_02~s11000",
+   "2": "ras_masking~zh3_shared_00~s6000"
+  },
+  "hhw_hagumi": {
+   "1": "hhw_hagumi~zh3_shared_01~s11000",
+   "2": "hhw_hagumi~zh3_shared_04~s11000"
+  },
+  "pp_aya": {
+   "1": "pp_aya~zh3_shared_07~s6000",
+   "2": "pp_aya~zh3_shared_10~s6000"
+  },
+  "hhw_kaoru": {
+   "1": "hhw_kaoru~zh3_shared_00~s6000",
+   "2": "hhw_kaoru~zh3_shared_13~s11000"
+  }
+ }
+}
