@@ -163,6 +163,8 @@ Otherwise E1b_ep2 stays the model.
 
 Pods are terminated after each use and checkpoints are deleted there. Nothing is published (BanG Dream guideline item 10).
 
+**Superseded 2026-11-06:** the user chose a public release of the rule's model (E1b_ep2) as `starrydark/BanG_Dream_Qwen3_TTS`; no audio, transcripts or converters. See `E5_RESULTS.md` §Published model.
+
 ## 8. Decisions (user, 2026-10-31)
 
 1. **Converters:** trained locally on the 5060 Ti ($0, about 29 h for 13).

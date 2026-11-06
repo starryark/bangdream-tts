@@ -7,6 +7,7 @@
 **Compute:** one Secure H100, about 5 h, about $20.
 - The pod was terminated after the picked checkpoint was copied home; its sha256 was verified.
 - Nothing was published. The checkpoint is local only.
+- **Superseded 2026-11-06:** this checkpoint (E1b_ep2) was released publicly as `starrydark/BanG_Dream_Qwen3_TTS`; see `e5/E5_RESULTS.md` §Published model.
 
 Tags: [L] measured on the pod / locally, [I] inference.
 
