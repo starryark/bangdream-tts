@@ -49,12 +49,12 @@ The released model is **E1b epoch 2**, chosen by a rule fixed before training (`
 |---|---:|---:|---:|---:|---:|
 | Real recordings, through the codec | 0.012 | — | — | — | — |
 | Floor: untrained Base, same speaker vectors | 0.100 | 0.077 | 0.157 | 36/49 | −12.2 |
-| E1a: Japanese + native replay | 0.009 | 0.177 | 0.008 | — | — |
+| E1a: Japanese + language ids + native replay | 0.009 | 0.177 | 0.008 | — | — |
 | **E1b epoch 2 (released)** | **0.014** | **0.069** | **0.155** | **34/49** | **−9.3** |
 | E5 epoch 2: + 218 RVC Mandarin rows (not adopted) | 0.014 | 0.078 | 0.088 | 40/49 | −9.5 |
 
 1. **One shared fine-tune fixes Japanese identity for all 49 voices** (leak 0.10 → 0.014, the real-recording level). A codec-calibrated probe was needed to measure this: the Qwen3-TTS codec shifts every speaker vector by a shared amount, and a probe fitted on raw recordings misreads renders (`e0/`).
-2. **Training on Japanese alone puts a Japanese accent into Mandarin and English** (E1a: Mandarin SER 0.177). A language id on every row, 13% native replay and 5% gated in-voice pseudo-Mandarin bring the accent back to the floor (E1b: 0.069), and the fix generalises to voices that got no pseudo rows.
+2. **Language ids plus native replay are not enough.** With only Japanese rows in the characters' voices (E1a), their Mandarin and English come out Japanese-accented (Mandarin SER 0.177). Adding 5% gated in-voice pseudo-Mandarin brings the accent back to the floor (E1b: 0.069), and that fix generalises to voices that got no pseudo rows.
 3. **Mandarin identity does not generalise.** Voices without in-voice Mandarin rows speak Mandarin in the base model's timbre: 15 of 49.
 4. **Sampling more from our own models does not fix that** (E2: identity diluted), and **zero-shot voice conversion brings the accent back** (E3: Seed-VC copies the Japanese reference's articulation).
 5. **Per-voice RVC converters do** (E4, E5): content from ContentVec, no index, F0 from the native source plus a per-voice shift. The converted clips passed a listening check as native and in character for all 15 voices. Retraining with them took Mandarin identity from 34 to 40 voices (pooled leak 0.155 → 0.088) with Japanese unchanged. It still missed the pre-registered adoption bar (≤ 0.08, ≥ 43/49), so the released model stays E1b. Kasumi, Ako/大魔姫, Tomori and Rimi remain generic in Mandarin.

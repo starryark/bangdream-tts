@@ -38,7 +38,7 @@ tags:
 An unofficial, fan-made **text-to-speech model with 49 BanG Dream! character voices** across eight bands: Poppin'Party, Afterglow, Pastel\*Palettes, Roselia, Hello, Happy World!, Morfonica, RAISE A SUILEN, MyGO!!!!! and Ave Mujica (persona variants such as 大魔姫あこ, 月ノ森 Soyo / Sakiko and Mortis have their own rows).
 
 - **Each voice is called by its speaker id.** No reference audio is needed.
-- **Three languages:** Japanese (the training language) plus Mandarin and English, with a language id per row so the Japanese accent does not carry over.
+- **Three languages:** Japanese (the characters' own language) plus Mandarin and English. Language ids, native replay and in-voice pseudo-Mandarin keep the Japanese accent out of Mandarin.
 - **Built on** Qwen3-TTS-12Hz-1.7B-Base, full fine-tune.
 
 **Code:** [github.com/starryark/bangdream-tts](https://github.com/starryark/bangdream-tts): data pipeline, fixed trainer, per-voice RVC route for native Mandarin, and every pre-registered plan and result.
@@ -144,7 +144,7 @@ sf.write("kasumi.wav", wavs[0], sr)
 
 ## Evaluation
 
-All numbers come from selection rules written down before each training run (`eval/E1_PLAN.md`, `eval/E5_PLAN.md`). Per checkpoint: 4,356 renders, i.e. 49 voices × (held-out game lines + 12 new Japanese sentences, 16 Mandarin, 8 English) × 2 seeds.
+Checkpoints were chosen by selection rules written down before each training run (`eval/E1_PLAN.md`, `eval/E5_PLAN.md`). Per checkpoint: 4,356 renders, i.e. 49 voices × (held-out game lines + 12 new Japanese sentences, 16 Mandarin, 8 English) × 2 seeds.
 
 **Measures:**
 - **Identity (leak):** the share of renders a codec-calibrated speaker probe (logistic regression on Qwen3-TTS speaker-encoder vectors, fitted on resynthesised real clips) assigns to a different voice. Lower is better.
@@ -156,14 +156,14 @@ All numbers come from selection rules written down before each training run (`ev
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Real recordings, through the codec | 0.012 | 0.777 | 0.023 | — | — | — | — | — | — |
 | Floor: untrained Base, same speaker vectors | 0.100 | 0.567 | 0.032 | 0.077 | −19.5 | 0.157 | 36/49 | −12.2 | 0.001 |
-| E1a epoch 1: Japanese + replay only (rejected: accented Mandarin) | 0.009 | 0.810 | 0.027 | 0.177 | −12.6 | 0.008 | — | — | 0.006 |
+| E1a epoch 1: Japanese + language ids + replay, no pseudo-Mandarin (rejected: accented Mandarin) | 0.009 | 0.810 | 0.027 | 0.177 | −12.6 | 0.008 | — | — | 0.006 |
 | **This model: E1b epoch 2** | **0.014** | **0.802** | **0.028** | **0.069** | **−18.6** | **0.155** | **34/49** | **−9.3** | **0.003** |
 | E2 epoch 2: + more self-generated rows (not adopted) | 0.021 | 0.786 | — | 0.063 | −19.7 | 0.186 | 34/49 | −10.1 | — |
 | E5 epoch 2: + 218 RVC-converted Mandarin rows (not adopted) | 0.014 | 0.815 | 0.025 | 0.078 | −18.1 | 0.088 | 40/49 | −9.5 | 0.003 |
 
 **How to read the table:**
-- **Japanese identity is at the real-recording level** (leak 0.014 against 0.012 for real clips through the same codec; the untrained floor is 0.100). The remaining errors are almost all inside persona pairs.
-- **Mandarin accent stays at the floor** (SER 0.069 vs 0.077). Training on Japanese only (E1a) brings the Japanese accent into Mandarin (SER 0.177); language ids, 13% native replay and 5% in-voice pseudo-Mandarin remove it.
+- **Japanese identity is at the real-recording level** (leak 0.014 against 0.012 for real clips through the same codec; the untrained floor is 0.100). The remaining errors are mostly inside persona pairs, plus `ppp_kasumi` (0.84).
+- **Mandarin accent stays at the floor** (SER 0.069 vs 0.077). With language ids and 13% native replay but only Japanese in the characters' voices (E1a), Mandarin comes out Japanese-accented (SER 0.177); adding 5% gated in-voice pseudo-Mandarin (this model) removes it.
 - **Mandarin identity is the open problem.** Voices that had no usable in-voice Mandarin rows fall back to the base model's timbre.
 - **Two follow-ups did not replace this model.**
   - E2 (doubling the self-generated rows) diluted identity.
