@@ -1,0 +1,4639 @@
+{
+ "candidates": {
+  "E7a_ep1": {
+   "checks": {
+    "G1.ja_mid_leak": true,
+    "G1.ja_short_leak": true,
+    "G1.zh_leak": true,
+    "G1.zh_ser": true,
+    "G1.zh_lid": true,
+    "G1.en_lid": true,
+    "G1.per_row": true,
+    "G2.zh_ser": true,
+    "G2.zh_lid": true,
+    "G2.zh_ser_row_max": true,
+    "G2.ja_cer": false,
+    "G2.en_wer": true,
+    "G2.runaway": true,
+    "G3.ja_mid_leak": true,
+    "G3.per_row": false,
+    "G3.zh_leak_base_routed": true
+   },
+   "failed": [
+    "G2.ja_cer",
+    "G3.per_row"
+   ],
+   "pass": false,
+   "g3_pass": false,
+   "accent_only": false
+  },
+  "E7a_ep2": {
+   "checks": {
+    "G1.ja_mid_leak": true,
+    "G1.ja_short_leak": true,
+    "G1.zh_leak": true,
+    "G1.zh_ser": false,
+    "G1.zh_lid": true,
+    "G1.en_lid": true,
+    "G1.per_row": true,
+    "G2.zh_ser": true,
+    "G2.zh_lid": true,
+    "G2.zh_ser_row_max": false,
+    "G2.ja_cer": false,
+    "G2.en_wer": true,
+    "G2.runaway": true,
+    "G3.ja_mid_leak": true,
+    "G3.per_row": false,
+    "G3.zh_leak_base_routed": true
+   },
+   "failed": [
+    "G1.zh_ser",
+    "G2.zh_ser_row_max",
+    "G2.ja_cer",
+    "G3.per_row"
+   ],
+   "pass": false,
+   "g3_pass": false,
+   "accent_only": false
+  }
+ },
+ "run_E7d": false,
+ "e7d_trigger": false,
+ "release": null,
+ "notes": [
+  "no candidate passes: v2 not adopted, v1 stays"
+ ],
+ "metrics": {
+  "C0": {
+   "v1": {
+    "n": 4518,
+    "ja_mid_leak": 0.010269576379974325,
+    "ja_short_leak": 0.3547297297297297,
+    "zh_leak": 0.16047297297297297,
+    "zh_ser": 0.07374873310810785,
+    "zh_lid": -18.1747168918919,
+    "en_lid": -9.11280354729728,
+    "en_wer": 0.002199155405405405,
+    "ja_cer": 0.02519567164179106,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.06959375,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.046434375,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05768749999999999,
+      "ja_short_leak": 0.15625
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.054890625,
+      "ja_short_leak": 0.3125
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06157187499999999,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.075628125,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.40625,
+      "zh_ser": 0.11286875,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07206249999999999,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.15480625000000003,
+      "ja_short_leak": 0.46875
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05540624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.088671875,
+      "ja_short_leak": 0.1875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.046237499999999994,
+      "ja_short_leak": 0.40625
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08410625000000001,
+      "ja_short_leak": 0.09375
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05831249999999999,
+      "ja_short_leak": 0.46875
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.057590624999999986,
+      "ja_short_leak": 0.1875
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.027777777777777776,
+      "zh_leak": 0.375,
+      "zh_ser": 0.08947812500000002,
+      "ja_short_leak": 0.1875
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0898375,
+      "ja_short_leak": 0.4375
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07486562499999999,
+      "ja_short_leak": 0.4375
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.135028125,
+      "ja_short_leak": 0.1875
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.09538125,
+      "ja_short_leak": 0.5625
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.047728124999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04873125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.13636363636363635,
+      "zh_leak": 0.84375,
+      "zh_ser": 0.05386562499999999,
+      "ja_short_leak": 0.8125
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.5,
+      "zh_ser": 0.08949375,
+      "ja_short_leak": 0.15625
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07789062500000002,
+      "ja_short_leak": 0.375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06665937499999999,
+      "ja_short_leak": 0.46875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.25,
+      "zh_ser": 0.081584375,
+      "ja_short_leak": 0.6875
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07234687499999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.75,
+      "zh_ser": 0.10158750000000001,
+      "ja_short_leak": 0.15625
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.048690625,
+      "ja_short_leak": 0.1875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.057124999999999995,
+      "ja_short_leak": 0.5
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05471875,
+      "ja_short_leak": 0.3125
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.71875,
+      "zh_ser": 0.03965625,
+      "ja_short_leak": 0.625
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07659062500000001,
+      "ja_short_leak": 0.53125
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.625,
+      "zh_ser": 0.07629687500000001,
+      "ja_short_leak": 0.09375
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07053437500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08474375,
+      "ja_short_leak": 0.09375
+     }
+    },
+    "pair_confusions": 0
+   },
+   "all": {
+    "n": 5952,
+    "ja_mid_leak": 0.07311089303238469,
+    "ja_short_leak": 0.36235595390524966,
+    "zh_leak": 0.22576530612244897,
+    "zh_ser": 0.07058718112244868,
+    "zh_lid": -18.688080293367356,
+    "en_lid": -9.20281862244897,
+    "en_wer": 0.002614285714285714,
+    "ja_cer": 0.032191415313225065,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.06959375,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.046434375,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05768749999999999,
+      "ja_short_leak": 0.15625
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.054890625,
+      "ja_short_leak": 0.3125
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06157187499999999,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.075628125,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.40625,
+      "zh_ser": 0.11286875,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07206249999999999,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.15480625000000003,
+      "ja_short_leak": 0.46875
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05540624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.088671875,
+      "ja_short_leak": 0.1875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.046237499999999994,
+      "ja_short_leak": 0.40625
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08410625000000001,
+      "ja_short_leak": 0.09375
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05831249999999999,
+      "ja_short_leak": 0.46875
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.057590624999999986,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.36666666666666664
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.28125,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.95,
+      "zh_leak": 1.0,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.90625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.225,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.6428571428571429
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.027777777777777776,
+      "zh_leak": 0.375,
+      "zh_ser": 0.08947812500000002,
+      "ja_short_leak": 0.1875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0898375,
+      "ja_short_leak": 0.4375
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07486562499999999,
+      "ja_short_leak": 0.4375
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.135028125,
+      "ja_short_leak": 0.1875
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.09538125,
+      "ja_short_leak": 0.5625
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.047728124999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04873125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.13636363636363635,
+      "zh_leak": 0.84375,
+      "zh_ser": 0.05386562499999999,
+      "ja_short_leak": 0.8125
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.5,
+      "zh_ser": 0.08949375,
+      "ja_short_leak": 0.15625
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07789062500000002,
+      "ja_short_leak": 0.375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06665937499999999,
+      "ja_short_leak": 0.46875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.25,
+      "zh_ser": 0.081584375,
+      "ja_short_leak": 0.6875
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07234687499999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.75,
+      "zh_ser": 0.10158750000000001,
+      "ja_short_leak": 0.15625
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.048690625,
+      "ja_short_leak": 0.1875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.057124999999999995,
+      "ja_short_leak": 0.5
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05471875,
+      "ja_short_leak": 0.3125
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.71875,
+      "zh_ser": 0.03965625,
+      "ja_short_leak": 0.625
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07659062500000001,
+      "ja_short_leak": 0.53125
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.625,
+      "zh_ser": 0.07629687500000001,
+      "ja_short_leak": 0.09375
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07053437500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08474375,
+      "ja_short_leak": 0.09375
+     }
+    },
+    "pair_confusions": 62
+   },
+   "on": {
+    "n": 1434,
+    "ja_mid_leak": 0.20625,
+    "ja_short_leak": 0.3333333333333333,
+    "zh_leak": 0.40625,
+    "zh_ser": 0.060839062500000006,
+    "zh_lid": -20.270950781250008,
+    "en_lid": -9.480365104166667,
+    "en_wer": 0.003894270833333333,
+    "ja_cer": 0.056603645833333355,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.275,
+      "zh_leak": 0.875,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.5357142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     }
+    },
+    "pair_confusions": 62
+   },
+   "on_all_seeds": {
+    "n": 1434,
+    "ja_mid_leak": 0.20625,
+    "ja_short_leak": 0.3333333333333333,
+    "zh_leak": 0.40625,
+    "zh_ser": 0.060839062500000006,
+    "zh_lid": -20.270950781250008,
+    "en_lid": -9.480365104166667,
+    "en_wer": 0.003894270833333333,
+    "ja_cer": 0.056603645833333355,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.275,
+      "zh_leak": 0.875,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.5357142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     }
+    },
+    "pair_confusions": 62
+   },
+   "base_routed": {
+    "n": 1434,
+    "ja_mid_leak": 0.20625,
+    "ja_short_leak": 0.3333333333333333,
+    "zh_leak": 0.40625,
+    "zh_ser": 0.060839062500000006,
+    "zh_lid": -20.270950781250008,
+    "en_lid": -9.480365104166667,
+    "en_wer": 0.003894270833333333,
+    "ja_cer": 0.056603645833333355,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.275,
+      "zh_leak": 0.875,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.5357142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     }
+    },
+    "pair_confusions": 62
+   },
+   "vc4": {
+    "n": 0,
+    "ja_mid_leak": null,
+    "ja_short_leak": null,
+    "zh_leak": null,
+    "zh_ser": null,
+    "zh_lid": null,
+    "en_lid": null,
+    "en_wer": null,
+    "ja_cer": null,
+    "runaway": null,
+    "per_row": {},
+    "pair_confusions": 0
+   },
+   "not_vc4": {
+    "n": 5952,
+    "ja_mid_leak": 0.056427870461236505,
+    "ja_short_leak": 0.3495518565941101,
+    "zh_leak": 0.22066326530612246,
+    "zh_ser": 0.07058718112244868,
+    "zh_lid": -18.688080293367356,
+    "en_lid": -9.20281862244897,
+    "en_wer": 0.002614285714285714,
+    "ja_cer": 0.032191415313225065,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.06959375,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.046434375,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05768749999999999,
+      "ja_short_leak": 0.15625
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.054890625,
+      "ja_short_leak": 0.3125
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06157187499999999,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.075628125,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.40625,
+      "zh_ser": 0.11286875,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07206249999999999,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.15480625000000003,
+      "ja_short_leak": 0.46875
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05540624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.088671875,
+      "ja_short_leak": 0.1875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.046237499999999994,
+      "ja_short_leak": 0.40625
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08410625000000001,
+      "ja_short_leak": 0.09375
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05831249999999999,
+      "ja_short_leak": 0.46875
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.057590624999999986,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.275,
+      "zh_leak": 0.875,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.5357142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.027777777777777776,
+      "zh_leak": 0.375,
+      "zh_ser": 0.08947812500000002,
+      "ja_short_leak": 0.1875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0898375,
+      "ja_short_leak": 0.4375
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07486562499999999,
+      "ja_short_leak": 0.4375
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.135028125,
+      "ja_short_leak": 0.1875
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.09538125,
+      "ja_short_leak": 0.5625
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.047728124999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04873125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.13636363636363635,
+      "zh_leak": 0.84375,
+      "zh_ser": 0.05386562499999999,
+      "ja_short_leak": 0.8125
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.5,
+      "zh_ser": 0.08949375,
+      "ja_short_leak": 0.15625
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07789062500000002,
+      "ja_short_leak": 0.375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06665937499999999,
+      "ja_short_leak": 0.46875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.25,
+      "zh_ser": 0.081584375,
+      "ja_short_leak": 0.6875
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07234687499999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.75,
+      "zh_ser": 0.10158750000000001,
+      "ja_short_leak": 0.15625
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.048690625,
+      "ja_short_leak": 0.1875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.057124999999999995,
+      "ja_short_leak": 0.5
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05471875,
+      "ja_short_leak": 0.3125
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.71875,
+      "zh_ser": 0.03965625,
+      "ja_short_leak": 0.625
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.07659062500000001,
+      "ja_short_leak": 0.53125
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.625,
+      "zh_ser": 0.07629687500000001,
+      "ja_short_leak": 0.09375
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07053437500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08474375,
+      "ja_short_leak": 0.09375
+     }
+    },
+    "pair_confusions": 62
+   },
+   "replaced": {
+    "n": 1434,
+    "ja_mid_leak": 0.20625,
+    "ja_short_leak": 0.3333333333333333,
+    "zh_leak": 0.40625,
+    "zh_ser": 0.060839062500000006,
+    "zh_lid": -20.270950781250008,
+    "en_lid": -9.480365104166667,
+    "en_wer": 0.003894270833333333,
+    "ja_cer": 0.056603645833333355,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0571125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06806875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.175,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0519875,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.275,
+      "zh_leak": 0.875,
+      "zh_ser": 0.055359374999999995,
+      "ja_short_leak": 0.40625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08619062499999999,
+      "ja_short_leak": 0.5357142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.075,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.050015624999999994,
+      "ja_short_leak": 0.3125
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06723125,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.3,
+      "zh_leak": 0.5,
+      "zh_ser": 0.05307812499999999,
+      "ja_short_leak": 0.75
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.5,
+      "zh_ser": 0.056821874999999994,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 1.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.07314062499999999,
+      "ja_short_leak": 0.71875
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.525,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.039640625000000006,
+      "ja_short_leak": 0.4375
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.071421875,
+      "ja_short_leak": 0.0625
+     }
+    },
+    "pair_confusions": 62
+   }
+  },
+  "E7a_ep1": {
+   "v1": {
+    "n": 4518,
+    "ja_mid_leak": 0.011553273427471117,
+    "ja_short_leak": 0.3268581081081081,
+    "zh_leak": 0.16300675675675674,
+    "zh_ser": 0.07043175675675648,
+    "zh_lid": -18.74142170608107,
+    "en_lid": -9.041016216216214,
+    "en_wer": 0.0037733108108108106,
+    "ja_cer": 0.02652522388059704,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.058503124999999996,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04159375,
+      "ja_short_leak": 0.1875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.070703125,
+      "ja_short_leak": 0.1875
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055853124999999997,
+      "ja_short_leak": 0.09375
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.081090625,
+      "ja_short_leak": 0.5
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.09493125000000002,
+      "ja_short_leak": 0.28125
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.375,
+      "zh_ser": 0.07816875,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06268125,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.130234375,
+      "ja_short_leak": 0.5
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04763749999999999,
+      "ja_short_leak": 0.375
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05735312499999999,
+      "ja_short_leak": 0.21875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.038996875,
+      "ja_short_leak": 0.3125
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.072140625,
+      "ja_short_leak": 0.0625
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.059843749999999994,
+      "ja_short_leak": 0.4375
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04774999999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.4375,
+      "zh_ser": 0.08460625000000001,
+      "ja_short_leak": 0.28125
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.090996875,
+      "ja_short_leak": 0.28125
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049484375,
+      "ja_short_leak": 0.40625
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.13579062500000005,
+      "ja_short_leak": 0.15625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.07309374999999999,
+      "ja_short_leak": 0.59375
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04595624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0633125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.05332499999999999,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.12710625,
+      "ja_short_leak": 0.21875
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.08033750000000002,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.05451562499999999,
+      "ja_short_leak": 0.21875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.062031249999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.06011874999999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13544375000000003,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06117812499999999,
+      "ja_short_leak": 0.125
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.0717,
+      "ja_short_leak": 0.59375
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.056506249999999994,
+      "ja_short_leak": 0.25
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.21875,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.05129062499999999,
+      "ja_short_leak": 0.6875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0639875,
+      "ja_short_leak": 0.59375
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08253125,
+      "ja_short_leak": 0.0625
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05443124999999999,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.050749999999999997,
+      "ja_short_leak": 0.03125
+     }
+    },
+    "pair_confusions": 0
+   },
+   "all": {
+    "n": 7840,
+    "ja_mid_leak": 0.019044062733383122,
+    "ja_short_leak": 0.25122428991185114,
+    "zh_leak": 0.14423076923076922,
+    "zh_ser": 0.06720769230769173,
+    "zh_lid": -19.342664134615386,
+    "en_lid": -8.682674134615386,
+    "en_wer": 0.0034978846153846154,
+    "ja_cer": 0.03805885509839,
+    "runaway": 0.00012755102040816328,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.058503124999999996,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04159375,
+      "ja_short_leak": 0.1875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.070703125,
+      "ja_short_leak": 0.1875
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055853124999999997,
+      "ja_short_leak": 0.09375
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.081090625,
+      "ja_short_leak": 0.5
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.09493125000000002,
+      "ja_short_leak": 0.28125
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.375,
+      "zh_ser": 0.07816875,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06268125,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.130234375,
+      "ja_short_leak": 0.5
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04763749999999999,
+      "ja_short_leak": 0.375
+     },
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06615625,
+      "ja_short_leak": 0.6875
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0537625,
+      "ja_short_leak": 0.25
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04564375,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.045728124999999994,
+      "ja_short_leak": 0.0
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.5,
+      "zh_leak": 0.90625,
+      "zh_ser": 0.07547187500000001,
+      "ja_short_leak": 0.6875
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.096925,
+      "ja_short_leak": 0.15625
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.068471875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.10784375,
+      "ja_short_leak": 0.09375
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06563124999999999,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052581249999999996,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.0464375,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07487812500000002,
+      "ja_short_leak": 0.125
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.052212499999999995,
+      "ja_short_leak": 0.3125
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.063303125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05311875,
+      "ja_short_leak": 0.125
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05735312499999999,
+      "ja_short_leak": 0.21875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.038996875,
+      "ja_short_leak": 0.3125
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.072140625,
+      "ja_short_leak": 0.0625
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.059843749999999994,
+      "ja_short_leak": 0.4375
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04774999999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.2857142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.4375,
+      "zh_ser": 0.08460625000000001,
+      "ja_short_leak": 0.28125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04280624999999999,
+      "ja_short_leak": 0.375
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.090996875,
+      "ja_short_leak": 0.28125
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049484375,
+      "ja_short_leak": 0.40625
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.13579062500000005,
+      "ja_short_leak": 0.15625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.07309374999999999,
+      "ja_short_leak": 0.59375
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04595624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0633125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.05332499999999999,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.12710625,
+      "ja_short_leak": 0.21875
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.08033750000000002,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.05451562499999999,
+      "ja_short_leak": 0.21875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.062031249999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.06011874999999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13544375000000003,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06117812499999999,
+      "ja_short_leak": 0.125
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.0717,
+      "ja_short_leak": 0.59375
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.056506249999999994,
+      "ja_short_leak": 0.25
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.21875,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.05129062499999999,
+      "ja_short_leak": 0.6875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0639875,
+      "ja_short_leak": 0.59375
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08253125,
+      "ja_short_leak": 0.0625
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05443124999999999,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.050749999999999997,
+      "ja_short_leak": 0.03125
+     }
+    },
+    "pair_confusions": 21
+   },
+   "on": {
+    "n": 3322,
+    "ja_mid_leak": 0.026785714285714284,
+    "ja_short_leak": 0.13752913752913754,
+    "zh_leak": 0.10825892857142858,
+    "zh_ser": 0.06294732142857132,
+    "zh_lid": -20.137163058035732,
+    "en_lid": -8.209150669642858,
+    "en_wer": 0.0031339285714285714,
+    "ja_cer": 0.05530781250000002,
+    "runaway": 0.00030102347983142685,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06615625,
+      "ja_short_leak": 0.6875
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0537625,
+      "ja_short_leak": 0.25
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04564375,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.045728124999999994,
+      "ja_short_leak": 0.0
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.5,
+      "zh_leak": 0.90625,
+      "zh_ser": 0.07547187500000001,
+      "ja_short_leak": 0.6875
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.096925,
+      "ja_short_leak": 0.15625
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.068471875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.10784375,
+      "ja_short_leak": 0.09375
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06563124999999999,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052581249999999996,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.0464375,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07487812500000002,
+      "ja_short_leak": 0.125
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.052212499999999995,
+      "ja_short_leak": 0.3125
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.063303125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05311875,
+      "ja_short_leak": 0.125
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.14285714285714285
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04280624999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 21
+   },
+   "on_all_seeds": {
+    "n": 4442,
+    "ja_mid_leak": 0.025,
+    "ja_short_leak": 0.13752913752913754,
+    "zh_leak": 0.10825892857142858,
+    "zh_ser": 0.06294732142857132,
+    "zh_lid": -20.137163058035732,
+    "en_lid": -8.209150669642858,
+    "en_wer": 0.0031339285714285714,
+    "ja_cer": 0.055363281249999965,
+    "runaway": 0.00022512381809995497,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06615625,
+      "ja_short_leak": 0.6875
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0537625,
+      "ja_short_leak": 0.25
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04564375,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.045728124999999994,
+      "ja_short_leak": 0.0
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.35,
+      "zh_leak": 0.90625,
+      "zh_ser": 0.07547187500000001,
+      "ja_short_leak": 0.6875
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.096925,
+      "ja_short_leak": 0.15625
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.068471875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.10784375,
+      "ja_short_leak": 0.09375
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06563124999999999,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052581249999999996,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.0464375,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07487812500000002,
+      "ja_short_leak": 0.125
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.052212499999999995,
+      "ja_short_leak": 0.3125
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.063303125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05311875,
+      "ja_short_leak": 0.125
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0375,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.14285714285714285
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04280624999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 29
+   },
+   "base_routed": {
+    "n": 2842,
+    "ja_mid_leak": 0.005208333333333333,
+    "ja_short_leak": 0.12054794520547946,
+    "zh_leak": 0.029947916666666668,
+    "zh_ser": 0.05982695312499992,
+    "zh_lid": -20.488069140624997,
+    "en_lid": -8.592153385416667,
+    "en_wer": 0.0021536458333333334,
+    "ja_cer": 0.04622291666666666,
+    "runaway": 0.0,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06615625,
+      "ja_short_leak": 0.6875
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0537625,
+      "ja_short_leak": 0.25
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04564375,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.045728124999999994,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.068471875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06563124999999999,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052581249999999996,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07487812500000002,
+      "ja_short_leak": 0.125
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.052212499999999995,
+      "ja_short_leak": 0.3125
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.063303125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05311875,
+      "ja_short_leak": 0.125
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.14285714285714285
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04280624999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 21
+   },
+   "vc4": {
+    "n": 480,
+    "ja_mid_leak": 0.15625,
+    "ja_short_leak": 0.234375,
+    "zh_leak": 0.578125,
+    "zh_ser": 0.08166953125000002,
+    "zh_lid": -18.031726562500005,
+    "en_lid": -5.911134375,
+    "en_wer": 0.009015625,
+    "ja_cer": 0.10981718749999998,
+    "runaway": 0.0020833333333333333,
+    "per_row": {
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.5,
+      "zh_leak": 0.90625,
+      "zh_ser": 0.07547187500000001,
+      "ja_short_leak": 0.6875
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.125,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.096925,
+      "ja_short_leak": 0.15625
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.10784375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.46875,
+      "zh_ser": 0.0464375,
+      "ja_short_leak": 0.0
+     }
+    },
+    "pair_confusions": 0
+   },
+   "not_vc4": {
+    "n": 7360,
+    "ja_mid_leak": 0.009134233518665607,
+    "ja_short_leak": 0.24817136886102403,
+    "zh_leak": 0.11065573770491803,
+    "zh_ser": 0.06625937499999957,
+    "zh_lid": -19.428627254098362,
+    "en_lid": -8.864414446721309,
+    "en_wer": 0.0031360655737704916,
+    "ja_cer": 0.03370161290322583,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.058503124999999996,
+      "ja_short_leak": 0.59375
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04159375,
+      "ja_short_leak": 0.1875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.070703125,
+      "ja_short_leak": 0.1875
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055853124999999997,
+      "ja_short_leak": 0.09375
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.081090625,
+      "ja_short_leak": 0.5
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.09493125000000002,
+      "ja_short_leak": 0.28125
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.375,
+      "zh_ser": 0.07816875,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06268125,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.130234375,
+      "ja_short_leak": 0.5
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04763749999999999,
+      "ja_short_leak": 0.375
+     },
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06615625,
+      "ja_short_leak": 0.6875
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0537625,
+      "ja_short_leak": 0.25
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04564375,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.045728124999999994,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.068471875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06563124999999999,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052581249999999996,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07487812500000002,
+      "ja_short_leak": 0.125
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.052212499999999995,
+      "ja_short_leak": 0.3125
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.063303125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05311875,
+      "ja_short_leak": 0.125
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.05735312499999999,
+      "ja_short_leak": 0.21875
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.038996875,
+      "ja_short_leak": 0.3125
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.072140625,
+      "ja_short_leak": 0.0625
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.059843749999999994,
+      "ja_short_leak": 0.4375
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04774999999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.14285714285714285
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.4375,
+      "zh_ser": 0.08460625000000001,
+      "ja_short_leak": 0.28125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04280624999999999,
+      "ja_short_leak": 0.375
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.090996875,
+      "ja_short_leak": 0.28125
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049484375,
+      "ja_short_leak": 0.40625
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.21875,
+      "zh_ser": 0.13579062500000005,
+      "ja_short_leak": 0.15625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.07309374999999999,
+      "ja_short_leak": 0.59375
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04595624999999999,
+      "ja_short_leak": 0.59375
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0633125,
+      "ja_short_leak": 0.375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.05332499999999999,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.34375,
+      "zh_ser": 0.12710625,
+      "ja_short_leak": 0.21875
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.08033750000000002,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.05451562499999999,
+      "ja_short_leak": 0.21875
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.045454545454545456,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.062031249999999996,
+      "ja_short_leak": 0.53125
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.06011874999999999,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13544375000000003,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.06117812499999999,
+      "ja_short_leak": 0.125
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.0717,
+      "ja_short_leak": 0.59375
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.056506249999999994,
+      "ja_short_leak": 0.25
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.21875,
+      "zh_leak": 0.8125,
+      "zh_ser": 0.05129062499999999,
+      "ja_short_leak": 0.6875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0639875,
+      "ja_short_leak": 0.59375
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.65625,
+      "zh_ser": 0.08253125,
+      "ja_short_leak": 0.0625
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05443124999999999,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.050749999999999997,
+      "ja_short_leak": 0.03125
+     }
+    },
+    "pair_confusions": 21
+   },
+   "replaced": {
+    "n": 1434,
+    "ja_mid_leak": 0.0020833333333333333,
+    "ja_short_leak": 0.07671957671957672,
+    "zh_leak": 0.026041666666666668,
+    "zh_ser": 0.06262942708333334,
+    "zh_lid": -20.463818749999998,
+    "en_lid": -8.536059375,
+    "en_wer": 0.0026041666666666665,
+    "ja_cer": 0.04362656250000003,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.050890625,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.087371875,
+      "ja_short_leak": 0.0
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06054374999999999,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.08938125000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07781249999999999,
+      "ja_short_leak": 0.14285714285714285
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041396875,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05333124999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05758437499999999,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.049309374999999996,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07479687500000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065103125,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.04403125,
+      "ja_short_leak": 0.0625
+     }
+    },
+    "pair_confusions": 21
+   }
+  },
+  "E7a_ep2": {
+   "v1": {
+    "n": 4518,
+    "ja_mid_leak": 0.010269576379974325,
+    "ja_short_leak": 0.3141891891891892,
+    "zh_leak": 0.1097972972972973,
+    "zh_ser": 0.0847239864864862,
+    "zh_lid": -17.64846951013511,
+    "en_lid": -8.630293749999987,
+    "en_wer": 0.0043726351351351354,
+    "ja_cer": 0.02510164179104481,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.10105,
+      "ja_short_leak": 0.625
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0562,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08927812500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049584374999999986,
+      "ja_short_leak": 0.25
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.06913124999999999,
+      "ja_short_leak": 0.375
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.137225,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.131621875,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07382500000000002,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.15662187500000002,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.09090909090909091,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.055987499999999996,
+      "ja_short_leak": 0.375
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.07421562500000001,
+      "ja_short_leak": 0.28125
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04649999999999999,
+      "ja_short_leak": 0.375
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.073334375,
+      "ja_short_leak": 0.125
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065396875,
+      "ja_short_leak": 0.53125
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04541874999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.1453375,
+      "ja_short_leak": 0.25
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10368437500000002,
+      "ja_short_leak": 0.1875
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.056865624999999996,
+      "ja_short_leak": 0.28125
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.16845937500000008,
+      "ja_short_leak": 0.0625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09729687499999999,
+      "ja_short_leak": 0.5
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052234374999999986,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055543749999999996,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.09008750000000001,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13756250000000003,
+      "ja_short_leak": 0.09375
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05365,
+      "ja_short_leak": 0.28125
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.071721875,
+      "ja_short_leak": 0.34375
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10281562500000001,
+      "ja_short_leak": 0.5625
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06451875,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.164575,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059593749999999994,
+      "ja_short_leak": 0.21875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.074390625,
+      "ja_short_leak": 0.53125
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.029411764705882353,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.078584375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.15625,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.04966874999999999,
+      "ja_short_leak": 0.46875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04758124999999999,
+      "ja_short_leak": 0.40625
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.10249375000000002,
+      "ja_short_leak": 0.03125
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.070034375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.062696875,
+      "ja_short_leak": 0.15625
+     }
+    },
+    "pair_confusions": 0
+   },
+   "all": {
+    "n": 7840,
+    "ja_mid_leak": 0.013816280806572068,
+    "ja_short_leak": 0.24338883447600393,
+    "zh_leak": 0.11057692307692307,
+    "zh_ser": 0.07849538461538386,
+    "zh_lid": -18.36723846153844,
+    "en_lid": -8.534471249999998,
+    "en_wer": 0.0035598076923076924,
+    "ja_cer": 0.03556314847942754,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.10105,
+      "ja_short_leak": 0.625
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0562,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08927812500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049584374999999986,
+      "ja_short_leak": 0.25
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.06913124999999999,
+      "ja_short_leak": 0.375
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.137225,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.131621875,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07382500000000002,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.15662187500000002,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.09090909090909091,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.055987499999999996,
+      "ja_short_leak": 0.375
+     },
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07303750000000002,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06613125,
+      "ja_short_leak": 0.40625
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05955312499999999,
+      "ja_short_leak": 0.34375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04939999999999999,
+      "ja_short_leak": 0.03125
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.15,
+      "zh_leak": 0.78125,
+      "zh_ser": 0.061590624999999996,
+      "ja_short_leak": 0.59375
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.1,
+      "zh_leak": 0.28125,
+      "zh_ser": 0.13472812500000003,
+      "ja_short_leak": 0.125
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059375,
+      "ja_short_leak": 0.0625
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.119121875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07185,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04628125,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.064728125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.12066249999999999,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.04846249999999999,
+      "ja_short_leak": 0.21875
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05779375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.0,
+      "zh_ser": 0.048124999999999994,
+      "ja_short_leak": 0.15625
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.07421562500000001,
+      "ja_short_leak": 0.28125
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04649999999999999,
+      "ja_short_leak": 0.375
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.073334375,
+      "ja_short_leak": 0.125
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065396875,
+      "ja_short_leak": 0.53125
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04541874999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.3333333333333333
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.125,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.2857142857142857
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.1453375,
+      "ja_short_leak": 0.25
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06129999999999999,
+      "ja_short_leak": 0.375
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10368437500000002,
+      "ja_short_leak": 0.1875
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.056865624999999996,
+      "ja_short_leak": 0.28125
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.16845937500000008,
+      "ja_short_leak": 0.0625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09729687499999999,
+      "ja_short_leak": 0.5
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052234374999999986,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055543749999999996,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.09008750000000001,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13756250000000003,
+      "ja_short_leak": 0.09375
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05365,
+      "ja_short_leak": 0.28125
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.071721875,
+      "ja_short_leak": 0.34375
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10281562500000001,
+      "ja_short_leak": 0.5625
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06451875,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.164575,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059593749999999994,
+      "ja_short_leak": 0.21875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.074390625,
+      "ja_short_leak": 0.53125
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.029411764705882353,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.078584375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.15625,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.04966874999999999,
+      "ja_short_leak": 0.46875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04758124999999999,
+      "ja_short_leak": 0.40625
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.10249375000000002,
+      "ja_short_leak": 0.03125
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.070034375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.062696875,
+      "ja_short_leak": 0.15625
+     }
+    },
+    "pair_confusions": 18
+   },
+   "on": {
+    "n": 3322,
+    "ja_mid_leak": 0.01607142857142857,
+    "ja_short_leak": 0.13752913752913754,
+    "zh_leak": 0.10267857142857142,
+    "zh_ser": 0.07026473214285694,
+    "zh_lid": -19.317040290178586,
+    "en_lid": -8.407848660714285,
+    "en_wer": 0.0024857142857142855,
+    "ja_cer": 0.05120870535714287,
+    "runaway": 0.0,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07303750000000002,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06613125,
+      "ja_short_leak": 0.40625
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05955312499999999,
+      "ja_short_leak": 0.34375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04939999999999999,
+      "ja_short_leak": 0.03125
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.15,
+      "zh_leak": 0.78125,
+      "zh_ser": 0.061590624999999996,
+      "ja_short_leak": 0.59375
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.1,
+      "zh_leak": 0.28125,
+      "zh_ser": 0.13472812500000003,
+      "ja_short_leak": 0.125
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059375,
+      "ja_short_leak": 0.0625
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.119121875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07185,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04628125,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.064728125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.12066249999999999,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.04846249999999999,
+      "ja_short_leak": 0.21875
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05779375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.0,
+      "zh_ser": 0.048124999999999994,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.21428571428571427
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06129999999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 18
+   },
+   "on_all_seeds": {
+    "n": 4442,
+    "ja_mid_leak": 0.023214285714285715,
+    "ja_short_leak": 0.13752913752913754,
+    "zh_leak": 0.10267857142857142,
+    "zh_ser": 0.07026473214285694,
+    "zh_lid": -19.317040290178586,
+    "en_lid": -8.407848660714285,
+    "en_wer": 0.0024857142857142855,
+    "ja_cer": 0.05348404017857139,
+    "runaway": 0.0,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07303750000000002,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.0375,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06613125,
+      "ja_short_leak": 0.40625
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05955312499999999,
+      "ja_short_leak": 0.34375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04939999999999999,
+      "ja_short_leak": 0.03125
+     },
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.225,
+      "zh_leak": 0.78125,
+      "zh_ser": 0.061590624999999996,
+      "ja_short_leak": 0.59375
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.15,
+      "zh_leak": 0.28125,
+      "zh_ser": 0.13472812500000003,
+      "ja_short_leak": 0.125
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059375,
+      "ja_short_leak": 0.0625
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.119121875,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07185,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04628125,
+      "ja_short_leak": 0.0
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.064728125,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.12066249999999999,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.04846249999999999,
+      "ja_short_leak": 0.21875
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05779375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.0375,
+      "zh_leak": 0.0,
+      "zh_ser": 0.048124999999999994,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0625,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.21428571428571427
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.0125,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06129999999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 23
+   },
+   "base_routed": {
+    "n": 2842,
+    "ja_mid_leak": 0.007291666666666667,
+    "ja_short_leak": 0.1273972602739726,
+    "zh_leak": 0.045572916666666664,
+    "zh_ser": 0.0661351562499998,
+    "zh_lid": -19.82354036458335,
+    "en_lid": -8.805589583333333,
+    "en_wer": 0.0015388020833333332,
+    "ja_cer": 0.046250260416666696,
+    "runaway": 0.0,
+    "per_row": {
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07303750000000002,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06613125,
+      "ja_short_leak": 0.40625
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05955312499999999,
+      "ja_short_leak": 0.34375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04939999999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059375,
+      "ja_short_leak": 0.0625
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07185,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04628125,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.12066249999999999,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.04846249999999999,
+      "ja_short_leak": 0.21875
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05779375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.0,
+      "zh_ser": 0.048124999999999994,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.21428571428571427
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06129999999999999,
+      "ja_short_leak": 0.375
+     }
+    },
+    "pair_confusions": 18
+   },
+   "vc4": {
+    "n": 480,
+    "ja_mid_leak": 0.06875,
+    "ja_short_leak": 0.1953125,
+    "zh_leak": 0.4453125,
+    "zh_ser": 0.09504218750000008,
+    "zh_lid": -16.278039843749994,
+    "en_lid": -6.021403125,
+    "en_wer": 0.008167187499999999,
+    "ja_cer": 0.08095937500000001,
+    "runaway": 0.0,
+    "per_row": {
+     "ikka_yomogi": {
+      "ja_mid_leak": 0.15,
+      "zh_leak": 0.78125,
+      "zh_ser": 0.061590624999999996,
+      "ja_short_leak": 0.59375
+     },
+     "mewtype_arale": {
+      "ja_mid_leak": 0.1,
+      "zh_leak": 0.28125,
+      "zh_ser": 0.13472812500000003,
+      "ja_short_leak": 0.125
+     },
+     "mewtype_nonoka": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.119121875,
+      "ja_short_leak": 0.03125
+     },
+     "millsage_hotaru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.064728125,
+      "ja_short_leak": 0.03125
+     }
+    },
+    "pair_confusions": 0
+   },
+   "not_vc4": {
+    "n": 7360,
+    "ja_mid_leak": 0.009134233518665607,
+    "ja_short_leak": 0.24294670846394983,
+    "zh_leak": 0.08452868852459017,
+    "zh_ser": 0.07741034836065508,
+    "zh_lid": -18.504235092213094,
+    "en_lid": -8.699262602459013,
+    "en_wer": 0.003257684426229508,
+    "ja_cer": 0.032806641366223945,
+    "runaway": 0.0,
+    "per_row": {
+     "ag_himari": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.10105,
+      "ja_short_leak": 0.625
+     },
+     "ag_moca": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.0562,
+      "ja_short_leak": 0.21875
+     },
+     "ag_ran": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.08927812500000001,
+      "ja_short_leak": 0.28125
+     },
+     "ag_tomoe": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.049584374999999986,
+      "ja_short_leak": 0.25
+     },
+     "ag_tsugumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.06913124999999999,
+      "ja_short_leak": 0.375
+     },
+     "hhw_hagumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.137225,
+      "ja_short_leak": 0.40625
+     },
+     "hhw_kanon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.131621875,
+      "ja_short_leak": 0.3125
+     },
+     "hhw_kaoru": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07382500000000002,
+      "ja_short_leak": 0.25
+     },
+     "hhw_kokoro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.15662187500000002,
+      "ja_short_leak": 0.34375
+     },
+     "hhw_misaki": {
+      "ja_mid_leak": 0.09090909090909091,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.055987499999999996,
+      "ja_short_leak": 0.375
+     },
+     "ikka_chieri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07303750000000002,
+      "ja_short_leak": 0.4375
+     },
+     "ikka_miku": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06613125,
+      "ja_short_leak": 0.40625
+     },
+     "ikka_raika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.05955312499999999,
+      "ja_short_leak": 0.34375
+     },
+     "ikka_shizuku": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04939999999999999,
+      "ja_short_leak": 0.03125
+     },
+     "mewtype_miyako": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059375,
+      "ja_short_leak": 0.0625
+     },
+     "mewtype_ritsu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.07185,
+      "ja_short_leak": 0.0
+     },
+     "mewtype_yuno": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04628125,
+      "ja_short_leak": 0.0
+     },
+     "millsage_houka": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.12066249999999999,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_mahoro": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.04846249999999999,
+      "ja_short_leak": 0.21875
+     },
+     "millsage_nagi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05779375,
+      "ja_short_leak": 0.09375
+     },
+     "millsage_natsume": {
+      "ja_mid_leak": 0.05,
+      "zh_leak": 0.0,
+      "zh_ser": 0.048124999999999994,
+      "ja_short_leak": 0.15625
+     },
+     "mo_mashiro": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.07421562500000001,
+      "ja_short_leak": 0.28125
+     },
+     "mo_nanami": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.04649999999999999,
+      "ja_short_leak": 0.375
+     },
+     "mo_rui": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.073334375,
+      "ja_short_leak": 0.125
+     },
+     "mo_touko": {
+      "ja_mid_leak": 0.02631578947368421,
+      "zh_leak": 0.0,
+      "zh_ser": 0.065396875,
+      "ja_short_leak": 0.53125
+     },
+     "mo_tsukushi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.04541874999999999,
+      "ja_short_leak": 0.1875
+     },
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.21428571428571427
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_soyo_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.1453375,
+      "ja_short_leak": 0.25
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     },
+     "ournotes_kanata": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06129999999999999,
+      "ja_short_leak": 0.375
+     },
+     "pp_aya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10368437500000002,
+      "ja_short_leak": 0.1875
+     },
+     "pp_chisato": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.056865624999999996,
+      "ja_short_leak": 0.28125
+     },
+     "pp_eve": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.16845937500000008,
+      "ja_short_leak": 0.0625
+     },
+     "pp_hina": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09729687499999999,
+      "ja_short_leak": 0.5
+     },
+     "pp_maya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.052234374999999986,
+      "ja_short_leak": 0.53125
+     },
+     "ppp_arisa": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.055543749999999996,
+      "ja_short_leak": 0.34375
+     },
+     "ppp_kasumi": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.09008750000000001,
+      "ja_short_leak": 0.71875
+     },
+     "ppp_rimi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.3125,
+      "zh_ser": 0.13756250000000003,
+      "ja_short_leak": 0.09375
+     },
+     "ppp_saaya": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05365,
+      "ja_short_leak": 0.28125
+     },
+     "ppp_tae": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.071721875,
+      "ja_short_leak": 0.34375
+     },
+     "ras_chuchu": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.10281562500000001,
+      "ja_short_leak": 0.5625
+     },
+     "ras_layer": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.15625,
+      "zh_ser": 0.06451875,
+      "ja_short_leak": 0.0625
+     },
+     "ras_lock": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.1875,
+      "zh_ser": 0.164575,
+      "ja_short_leak": 0.21875
+     },
+     "ras_masking": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.059593749999999994,
+      "ja_short_leak": 0.21875
+     },
+     "ras_pareo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.074390625,
+      "ja_short_leak": 0.53125
+     },
+     "ro_ako": {
+      "ja_mid_leak": 0.029411764705882353,
+      "zh_leak": 0.0625,
+      "zh_ser": 0.078584375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_ako_maou": {
+      "ja_mid_leak": 0.15625,
+      "zh_leak": 0.59375,
+      "zh_ser": 0.04966874999999999,
+      "ja_short_leak": 0.46875
+     },
+     "ro_lisa": {
+      "ja_mid_leak": 0.022727272727272728,
+      "zh_leak": 0.0,
+      "zh_ser": 0.04758124999999999,
+      "ja_short_leak": 0.40625
+     },
+     "ro_rinko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.53125,
+      "zh_ser": 0.10249375000000002,
+      "ja_short_leak": 0.03125
+     },
+     "ro_sayo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.070034375,
+      "ja_short_leak": 0.21875
+     },
+     "ro_yukina": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.062696875,
+      "ja_short_leak": 0.15625
+     }
+    },
+    "pair_confusions": 18
+   },
+   "replaced": {
+    "n": 1434,
+    "ja_mid_leak": 0.004166666666666667,
+    "ja_short_leak": 0.09259259259259259,
+    "zh_leak": 0.06510416666666667,
+    "zh_ser": 0.06877265625,
+    "zh_lid": -19.685901302083316,
+    "en_lid": -8.616509374999998,
+    "en_wer": 0.0026041666666666665,
+    "ja_cer": 0.04728333333333334,
+    "runaway": 0.0,
+    "per_row": {
+     "mujica_mortis": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.0748125,
+      "ja_short_leak": 0.26666666666666666
+     },
+     "mujica_mutsumi": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.09375,
+      "zh_ser": 0.07957187500000001,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_nyamu": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.06793125,
+      "ja_short_leak": 0.125
+     },
+     "mujica_sakiko": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.03125,
+      "zh_ser": 0.0820125,
+      "ja_short_leak": 0.0625
+     },
+     "mujica_sakiko_tsuki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09466562499999999,
+      "ja_short_leak": 0.21428571428571427
+     },
+     "mujica_uika": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.05500937499999999,
+      "ja_short_leak": 0.15625
+     },
+     "mujica_umiri": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.06439062499999999,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_anon": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.064465625,
+      "ja_short_leak": 0.09375
+     },
+     "mygo_raana": {
+      "ja_mid_leak": 0.025,
+      "zh_leak": 0.125,
+      "zh_ser": 0.06069374999999999,
+      "ja_short_leak": 0.0
+     },
+     "mygo_soyo": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.09101875000000001,
+      "ja_short_leak": 0.03125
+     },
+     "mygo_taki": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.0,
+      "zh_ser": 0.041096875,
+      "ja_short_leak": 0.0625
+     },
+     "mygo_tomori": {
+      "ja_mid_leak": 0.0,
+      "zh_leak": 0.25,
+      "zh_ser": 0.04960312499999999,
+      "ja_short_leak": 0.03125
+     }
+    },
+    "pair_confusions": 18
+   }
+  }
+ }
+}

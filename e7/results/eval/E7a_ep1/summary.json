@@ -1,0 +1,40 @@
+{
+ "E7a_ep1|en": {
+  "n": 1040,
+  "cer": 0.0035,
+  "p_true": 0.5737,
+  "lid_ratio": -8.6827,
+  "leak": 0.0635,
+  "runaway": 0
+ },
+ "E7a_ep1|ja_heldout": {
+  "n": 1566,
+  "cer": 0.043,
+  "p_true": 0.7684,
+  "leak": 0.023,
+  "runaway": 1
+ },
+ "E7a_ep1|ja_novel": {
+  "n": 2232,
+  "cer": 0.0055,
+  "p_true": 0.7708,
+  "leak": 0.022,
+  "runaway": 0
+ },
+ "E7a_ep1|ja_short": {
+  "n": 2042,
+  "cer": 0.1383,
+  "p_true": 0.4034,
+  "leak": 0.2512,
+  "runaway": 0
+ },
+ "E7a_ep1|zh": {
+  "n": 2080,
+  "cer": 0.0098,
+  "p_true": 0.4012,
+  "lid_ratio": -19.3427,
+  "ser_shared": 0.0672,
+  "leak": 0.1442,
+  "runaway": 0
+ }
+}

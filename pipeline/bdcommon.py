@@ -49,6 +49,11 @@ BD_READINGS = {
     "Pastel*Palettes": "パステルパレット", "Roselia": "ロゼリア", "Morfonica": "モルフォニカ",
     "RAISE A SUILEN": "レイズアスイレン", "MyGO": "マイゴ", "Ave Mujica": "アヴェムジカ",
     "CiRCLE": "サークル", "RiNG": "リング", "Chu²": "チュチュ",
+    # E6 (Our Notes cast and terms): only the names OpenJTalk misreads (checked 2026-11-07)
+    "夢限大みゅーたいぷ": "ムゲンダイミュータイプ", "蕾叶": "ライカ", "心玖": "ミク", "蓬咲": "ヨモギ",
+    "寧月": "シズク", "朋花": "ホウカ", "都子": "ミヤコ", "奏多": "カナタ", "伊沢": "イザワ",
+    "浜崎": "ハマサキ", "須賀": "スガ", "沢海": "サワミ", "律ちゃん": "リツチャン", "律さん": "リツサン",
+    "律くん": "リツクン", "CRYCHIC": "クライシック", "millsage": "ミルサージ",
 }
 # metrics._norm_text lowercases before reading(): add lowercase twins of Latin-script keys
 BD_READINGS.update({k.lower(): v for k, v in list(BD_READINGS.items()) if k != k.lower()})

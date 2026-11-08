@@ -124,7 +124,7 @@ The same holds for every other Latin key (Poppin'Party, RAISE A SUILEN, Chu², �
 **Where:** `b01_build.py:87-92`. All 46 duplicates are within a set; none cross sets. Dedup is otherwise correct: the manifest has 0 duplicate sha256 values, 0 missing files and 0 orphan wavs.
 
 Of the duplicate groups, 23 differ only in punctuation or spacing, and 5 differ in the words themselves, for example:
-- kept `うん、ひなたぼっこ`, other `ん……ひなたぼっこ`
+- kept the take whose text starts with `うん、`, the other starts with `ん……` (same line otherwise)
 - kept `ん？時間通り`, other `時間通り`
 
 **Fix:** when byte-identical clips disagree on text, keep the variant with the lower ASR CER, or flag the group.

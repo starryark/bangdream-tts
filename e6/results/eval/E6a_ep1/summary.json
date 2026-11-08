@@ -1,0 +1,47 @@
+{
+ "E6a_ep1|en": {
+  "n": 1040,
+  "cer": 0.0036,
+  "p_true": 0.6016,
+  "lid_ratio": -9.0355,
+  "leak": 0.0452,
+  "runaway": 0
+ },
+ "E6a_ep1|ja_heldout": {
+  "n": 1118,
+  "cer": 0.0354,
+  "p_true": 0.7844,
+  "leak": 0.0125,
+  "runaway": 0
+ },
+ "E6a_ep1|ja_novel": {
+  "n": 1560,
+  "cer": 0.0038,
+  "p_true": 0.778,
+  "leak": 0.0224,
+  "runaway": 0
+ },
+ "E6a_ep1|ja_short": {
+  "n": 2042,
+  "cer": 0.1307,
+  "p_true": 0.3976,
+  "leak": 0.2654,
+  "runaway": 0
+ },
+ "E6a_ep1|nv": {
+  "n": 520,
+  "cer": 1.6481,
+  "p_true": 0.0794,
+  "leak": 0.8135,
+  "runaway": 0
+ },
+ "E6a_ep1|zh": {
+  "n": 2080,
+  "cer": 0.0091,
+  "p_true": 0.387,
+  "lid_ratio": -19.8669,
+  "ser_shared": 0.0664,
+  "leak": 0.1841,
+  "runaway": 0
+ }
+}

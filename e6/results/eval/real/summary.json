@@ -1,0 +1,30 @@
+{
+ "real_raw|ja_heldout": {
+  "n": 559,
+  "cer": 0.0277,
+  "p_true": 0.7298,
+  "leak": 0.0161,
+  "runaway": 0
+ },
+ "real_raw|ja_short": {
+  "n": 429,
+  "cer": 0.0653,
+  "p_true": 0.497,
+  "leak": 0.1422,
+  "runaway": 0
+ },
+ "real_resynth|ja_heldout": {
+  "n": 559,
+  "cer": 0.031,
+  "p_true": 0.7368,
+  "leak": 0.0161,
+  "runaway": 0
+ },
+ "real_resynth|ja_short": {
+  "n": 429,
+  "cer": 0.0886,
+  "p_true": 0.4653,
+  "leak": 0.1702,
+  "runaway": 0
+ }
+}

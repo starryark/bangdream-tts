@@ -34,6 +34,15 @@ cpf research/*.md research/scripts/*.py research/scripts/spk_sep.json
 cpf review/*.py review/*.md
 cpf data/build_report.json data/asr_summary.json
 cpf release/publish_hf.py release/stage_github.sh release/MODEL_CARD.md release/card_tables.py release/voice_table_E1b_ep2.md
+# E6 and E7 (2026-11-08): code, plans, results, selection and per-condition numeric summaries. Never staged: bundles with
+# line texts (ja_rows, eval_rows, eval_short, nv_rows, refs), scored/manifest files, listening sets, logs, audio.
+cpf e6/*.py e6/*.sh e6/*.md e6/bundle/speakers.txt e6/bundle/rows_e6.json e6/bundle/probe_e6_calib.json \
+    e6/vc/collect_report.json e6/vc/listening.json e6/results/eval/selection.json e6/results/eval/selection.md \
+    e6/results/eval/*/summary.json e6/results/exp/*/mix.json e6/results/pseudo_on/report.json
+cpf e7/*.py e7/*.sh e7/*.md e7/results/eval/selection.json e7/results/eval/selection.md \
+    e7/results/eval/*/summary.json e7/results/exp/*/mix.json
+cpf release/publish_hf_v2.py release/card_tables_v2.py release/voices_v2_ournotes.json release/MODEL_CARD_v2.md \
+    release/space/app.py release/space/requirements.txt release/space/README.md
 cpf e1/results/pseudo/report.json
 for f in README.md LICENSE CITATION.cff .gitignore .gitattributes; do
   [ -f "release/repo/$f" ] && cp "release/repo/$f" "$G/$f"
@@ -51,4 +60,28 @@ jl=$(find . -path ./.git -prune -o -name "*.jsonl" -print | grep -v -E "probes_j
 if grep -rIlE "hf_[A-Za-z0-9]{30,}|rpa_[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{30,}" --exclude-dir=.git . ; then
   echo "refusing: token-like string found"; exit 1
 fi
+# No game line in any staged text file: every line text of 8+ characters in the v1 and E6 bundles is searched for.
+python -I -X utf8 - "$(cygpath -w "$BD")" <<'PYEOF' || { echo "refusing: a game line was found in a staged file"; exit 1; }
+import json, pathlib, sys
+bd = pathlib.Path(sys.argv[1]); lines = set()
+for b in (bd / 'e1' / 'bundle', bd / 'e6' / 'bundle'):
+    for name, key in (('ja_rows.jsonl', 'text'), ('eval_rows.jsonl', 'text'), ('eval_short.jsonl', 'text')):
+        f = b / name
+        if f.exists():
+            for l in f.read_text(encoding='utf-8').splitlines():
+                t = json.loads(l).get(key) if l.strip() else None
+                if t and len(t) >= 8 and not t.isascii():   # ASCII-only lines are band names such as 'millsage'
+                    lines.add(t)
+hits = []
+for p in pathlib.Path('.').rglob('*'):
+    if '.git' in p.parts or not p.is_file() or p.stat().st_size > 5_000_000:
+        continue
+    try:
+        txt = p.read_text(encoding='utf-8')
+    except UnicodeDecodeError:
+        continue
+    hits += [(str(p), t[:20]) for t in lines if t in txt]
+print(f'[stage_github] game-line audit: {len(lines)} lines checked, {len(hits)} hits', hits[:5])
+sys.exit(1 if hits or len(lines) < 1000 else 0)   # too few lines loaded = the audit itself failed
+PYEOF
 echo "[stage_github] $(find . -path ./.git -prune -o -type f -print | wc -l) files, $(du -sh --exclude=.git . | cut -f1) -> $G"

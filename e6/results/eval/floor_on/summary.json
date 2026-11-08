@@ -1,0 +1,11 @@
+{
+ "floor_on|zh": {
+  "n": 896,
+  "cer": 0.0105,
+  "p_true": 0.4526,
+  "lid_ratio": -19.2819,
+  "ser_shared": 0.0681,
+  "leak": 0.0938,
+  "runaway": 1
+ }
+}

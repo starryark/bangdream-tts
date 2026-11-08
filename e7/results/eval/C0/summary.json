@@ -1,0 +1,40 @@
+{
+ "C0|en": {
+  "n": 784,
+  "cer": 0.0026,
+  "p_true": 0.4992,
+  "lid_ratio": -9.2028,
+  "leak": 0.0995,
+  "runaway": 0
+ },
+ "C0|ja_heldout": {
+  "n": 862,
+  "cer": 0.0322,
+  "p_true": 0.7196,
+  "leak": 0.0696,
+  "runaway": 0
+ },
+ "C0|ja_novel": {
+  "n": 1176,
+  "cer": 0.0039,
+  "p_true": 0.6793,
+  "leak": 0.0757,
+  "runaway": 0
+ },
+ "C0|ja_short": {
+  "n": 1562,
+  "cer": 0.1434,
+  "p_true": 0.3003,
+  "leak": 0.3624,
+  "runaway": 0
+ },
+ "C0|zh": {
+  "n": 1568,
+  "cer": 0.0083,
+  "p_true": 0.35,
+  "lid_ratio": -18.6881,
+  "ser_shared": 0.0706,
+  "leak": 0.2258,
+  "runaway": 0
+ }
+}

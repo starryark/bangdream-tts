@@ -1,0 +1,341 @@
+{
+ "bar": 0.3896,
+ "rows": {
+  "ikka_chieri": {
+   "rendered": 360,
+   "pass_any_sample": 4,
+   "kept": 4,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.958,
+    "accent": 0.108,
+    "text": 0.267,
+    "length": 1.0
+   }
+  },
+  "ikka_miku": {
+   "rendered": 360,
+   "pass_any_sample": 17,
+   "kept": 17,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.308,
+    "accent": 0.297,
+    "text": 0.781,
+    "length": 0.997
+   }
+  },
+  "ikka_raika": {
+   "rendered": 360,
+   "pass_any_sample": 22,
+   "kept": 22,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.875,
+    "accent": 0.219,
+    "text": 0.631,
+    "length": 1.0
+   }
+  },
+  "ikka_shizuku": {
+   "rendered": 360,
+   "pass_any_sample": 12,
+   "kept": 12,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.942,
+    "accent": 0.089,
+    "text": 0.675,
+    "length": 0.986
+   }
+  },
+  "ikka_yomogi": {
+   "rendered": 360,
+   "pass_any_sample": 0,
+   "kept": 0,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.0,
+    "accent": 0.219,
+    "text": 0.606,
+    "length": 1.0
+   }
+  },
+  "mewtype_arale": {
+   "rendered": 360,
+   "pass_any_sample": 0,
+   "kept": 0,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.033,
+    "accent": 0.006,
+    "text": 0.597,
+    "length": 0.997
+   }
+  },
+  "mewtype_miyako": {
+   "rendered": 360,
+   "pass_any_sample": 29,
+   "kept": 29,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.494,
+    "accent": 0.467,
+    "text": 0.736,
+    "length": 1.0
+   }
+  },
+  "mewtype_nonoka": {
+   "rendered": 360,
+   "pass_any_sample": 0,
+   "kept": 0,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.144,
+    "accent": 0.097,
+    "text": 0.472,
+    "length": 0.992
+   }
+  },
+  "mewtype_ritsu": {
+   "rendered": 360,
+   "pass_any_sample": 28,
+   "kept": 27,
+   "dropped_after_trim": 1,
+   "gate_pass_rate": {
+    "identity": 0.986,
+    "accent": 0.289,
+    "text": 0.775,
+    "length": 0.989
+   }
+  },
+  "mewtype_yuno": {
+   "rendered": 360,
+   "pass_any_sample": 16,
+   "kept": 16,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.967,
+    "accent": 0.158,
+    "text": 0.817,
+    "length": 0.967
+   }
+  },
+  "millsage_hotaru": {
+   "rendered": 360,
+   "pass_any_sample": 5,
+   "kept": 5,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.15,
+    "accent": 0.139,
+    "text": 0.736,
+    "length": 0.972
+   }
+  },
+  "millsage_houka": {
+   "rendered": 360,
+   "pass_any_sample": 2,
+   "kept": 2,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.111,
+    "accent": 0.222,
+    "text": 0.689,
+    "length": 1.0
+   }
+  },
+  "millsage_mahoro": {
+   "rendered": 360,
+   "pass_any_sample": 16,
+   "kept": 16,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.664,
+    "accent": 0.306,
+    "text": 0.628,
+    "length": 0.997
+   }
+  },
+  "millsage_nagi": {
+   "rendered": 360,
+   "pass_any_sample": 17,
+   "kept": 17,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.992,
+    "accent": 0.161,
+    "text": 0.656,
+    "length": 0.994
+   }
+  },
+  "millsage_natsume": {
+   "rendered": 360,
+   "pass_any_sample": 28,
+   "kept": 28,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.944,
+    "accent": 0.317,
+    "text": 0.819,
+    "length": 0.964
+   }
+  },
+  "mujica_mortis": {
+   "rendered": 360,
+   "pass_any_sample": 18,
+   "kept": 18,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.581,
+    "accent": 0.322,
+    "text": 0.55,
+    "length": 0.975
+   }
+  },
+  "mujica_mutsumi": {
+   "rendered": 360,
+   "pass_any_sample": 13,
+   "kept": 13,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.911,
+    "accent": 0.097,
+    "text": 0.744,
+    "length": 0.989
+   }
+  },
+  "mujica_nyamu": {
+   "rendered": 360,
+   "pass_any_sample": 38,
+   "kept": 38,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.861,
+    "accent": 0.467,
+    "text": 0.811,
+    "length": 0.994
+   }
+  },
+  "mujica_sakiko": {
+   "rendered": 360,
+   "pass_any_sample": 17,
+   "kept": 17,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.631,
+    "accent": 0.278,
+    "text": 0.764,
+    "length": 1.0
+   }
+  },
+  "mujica_sakiko_tsuki": {
+   "rendered": 360,
+   "pass_any_sample": 14,
+   "kept": 14,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.408,
+    "accent": 0.214,
+    "text": 0.747,
+    "length": 0.944
+   }
+  },
+  "mujica_uika": {
+   "rendered": 360,
+   "pass_any_sample": 30,
+   "kept": 28,
+   "dropped_after_trim": 2,
+   "gate_pass_rate": {
+    "identity": 0.989,
+    "accent": 0.394,
+    "text": 0.694,
+    "length": 0.992
+   }
+  },
+  "mujica_umiri": {
+   "rendered": 360,
+   "pass_any_sample": 45,
+   "kept": 40,
+   "dropped_after_trim": 3,
+   "gate_pass_rate": {
+    "identity": 0.958,
+    "accent": 0.581,
+    "text": 0.897,
+    "length": 0.961
+   }
+  },
+  "mygo_anon": {
+   "rendered": 360,
+   "pass_any_sample": 12,
+   "kept": 12,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.836,
+    "accent": 0.117,
+    "text": 0.694,
+    "length": 1.0
+   }
+  },
+  "mygo_raana": {
+   "rendered": 96,
+   "pass_any_sample": 3,
+   "kept": 3,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.594,
+    "accent": 0.125,
+    "text": 1.0,
+    "length": 0.958
+   }
+  },
+  "mygo_soyo": {
+   "rendered": 360,
+   "pass_any_sample": 10,
+   "kept": 10,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.581,
+    "accent": 0.147,
+    "text": 0.717,
+    "length": 0.989
+   }
+  },
+  "mygo_taki": {
+   "rendered": 360,
+   "pass_any_sample": 33,
+   "kept": 31,
+   "dropped_after_trim": 2,
+   "gate_pass_rate": {
+    "identity": 0.978,
+    "accent": 0.378,
+    "text": 0.833,
+    "length": 0.95
+   }
+  },
+  "mygo_tomori": {
+   "rendered": 360,
+   "pass_any_sample": 15,
+   "kept": 15,
+   "dropped_after_trim": 0,
+   "gate_pass_rate": {
+    "identity": 0.789,
+    "accent": 0.164,
+    "text": 0.764,
+    "length": 0.994
+   }
+  },
+  "ournotes_kanata": {
+   "rendered": 360,
+   "pass_any_sample": 27,
+   "kept": 26,
+   "dropped_after_trim": 1,
+   "gate_pass_rate": {
+    "identity": 0.861,
+    "accent": 0.364,
+    "text": 0.689,
+    "length": 1.0
+   }
+  }
+ }
+}

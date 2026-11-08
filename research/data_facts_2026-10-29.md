@@ -56,7 +56,7 @@ After merging personas into characters, the smallest characters are: 八幡海�
 - Filenames up to 247 UTF-8 bytes; no sign of Windows truncation, but this is unproven until ASR comparison [U].
 - Full-width digits (`５人`, `３０分後`, `２対１`) in ~600 rows need reading normalisation (ご にん / さんじゅっぷん / に たい いち).
 - `(A)` prefixes (4 rows), `『』`, `――`, `〜`, `♪`, and `…` / `……` are frequent; decide a normalisation policy once for all speakers.
-- Duplicate-text-different-take pairs exist (要樂奈: `あそこの三毛と、こっちの三毛` with and without `。`).
+- Duplicate-text-different-take pairs exist (e.g. one 要樂奈 line recorded twice, its text differing only by a final `。`).
 
 ## 6. Sets to check by ear or with a quality model before training
 

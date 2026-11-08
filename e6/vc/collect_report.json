@@ -1,0 +1,50 @@
+{
+ "mewtype_arale": {
+  "n": 26,
+  "passing": 24,
+  "trained": 20,
+  "weak": false,
+  "gates": {
+   "identity": 1.0,
+   "codec_identity": 1.0,
+   "text": 0.923,
+   "length": 1.0
+  }
+ },
+ "mewtype_nonoka": {
+  "n": 26,
+  "passing": 8,
+  "trained": 7,
+  "weak": true,
+  "gates": {
+   "identity": 0.538,
+   "codec_identity": 0.346,
+   "text": 0.885,
+   "length": 1.0
+  }
+ },
+ "millsage_hotaru": {
+  "n": 24,
+  "passing": 9,
+  "trained": 8,
+  "weak": true,
+  "gates": {
+   "identity": 0.875,
+   "codec_identity": 0.375,
+   "text": 0.875,
+   "length": 1.0
+  }
+ },
+ "ikka_yomogi": {
+  "n": 28,
+  "passing": 1,
+  "trained": 1,
+  "weak": true,
+  "gates": {
+   "identity": 0.143,
+   "codec_identity": 0.036,
+   "text": 0.929,
+   "length": 1.0
+  }
+ }
+}

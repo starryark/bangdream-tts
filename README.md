@@ -15,7 +15,8 @@ It is an unofficial fan project, with no affiliation to Bushiroad, Craft Egg, th
 | | |
 |---|---|
 | **Model** | [starrydark/BanG_Dream_Qwen3_TTS](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS) |
-| **Results** | [E1 (released model)](e1/E1_RESULTS.md) · [E2](e2/E2_RESULTS.md) · [E4](e4/E4_RESULTS.md) · [E5](e5/E5_RESULTS.md) · [E0 data and probe](e0/e0_results.md) |
+| **Demo** | [Hugging Face Space](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS) (ZeroGPU; app in `release/space/`) |
+| **Results** | [E1 (released model)](e1/E1_RESULTS.md) · [E2](e2/E2_RESULTS.md) · [E4](e4/E4_RESULTS.md) · [E5](e5/E5_RESULTS.md) · [E6](e6/E6_RESULTS.md) · [E7](e7/E7_RESULTS.md) · [E0 data and probe](e0/e0_results.md) |
 | **Sibling projects** | [makise-kurisu-tts](https://github.com/starryark/makise-kurisu-tts) (where the trainer, language-id recipe and accent metrics started) · [tricolour-tts](https://github.com/starryark/tricolour-tts) |
 
 **Bands and voices:** Poppin'Party, Afterglow, Pastel\*Palettes, Roselia, Hello, Happy World!, Morfonica, RAISE A SUILEN, MyGO!!!!!, Ave Mujica: 45 characters, 49 speaker rows (大魔姫あこ, 月ノ森 Soyo, 月ノ森 Sakiko and Mortis are separate rows). The full table with per-voice quality is on the [model card](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS#voices).
@@ -59,6 +60,7 @@ The released model is **E1b epoch 2**, chosen by a rule fixed before training (`
 4. **Sampling more from our own models does not fix that** (E2: identity diluted), and **zero-shot voice conversion brings the accent back** (E3: Seed-VC copies the Japanese reference's articulation).
 5. **Per-voice RVC converters do** (E4, E5): content from ContentVec, no index, F0 from the native source plus a per-voice shift. The converted clips passed a listening check as native and in character for all 15 voices. Retraining with them took Mandarin identity from 34 to 40 voices (pooled leak 0.155 → 0.088) with Japanese unchanged. It still missed the pre-registered adoption bar (≤ 0.08, ≥ 43/49), so the released model stays E1b. Kasumi, Ako/大魔姫, Tomori and Rimi remain generic in Mandarin.
 6. **Some accent metrics fail at a character's own pitch.** E4's pitch-shift-only control (native Mandarin only shifted to Kasumi's and Eve's 450–500 Hz) scored SER 0.14–0.21 against 0.04–0.05 unshifted, so for high-pitched voices the ear decides (`e4/E4_RESULTS.md`).
+7. **A v2 on BanG Dream! Our Notes data was not released** (E6, E7). The MyGO!!!!! / Ave Mujica voices were retrained on the new story audio and 16 new characters added (65 voices). Coverage of the Our Notes voices reached near the real-recording level (Japanese leak ≈ 0.02). The 16 new voices cost the weakest v1 voices their Mandarin identity unless they had own-voice Mandarin rows, so VC rows belong in the base recipe (E7). No candidate passed its pre-registered guards. The blockers were one new voice's Japanese identity (yomogi), Japanese CER on the new text (real recordings of it score 0.042 through the codec, so the absolute 0.035 bound leaves almost no room) and per-voice Mandarin accent at epoch 2 (`e6/E6_RESULTS.md`, `e7/E7_RESULTS.md`).
 
 ## Layout
 
@@ -75,11 +77,16 @@ e4/        E4 plan/results: per-voice RVC (Applio) feasibility for two voices; t
            pitch shift, score
 e5/        E5 plan/results: 13 more converters, sources, gates, listening sets, VC rows, pod
            bootstrap/queue, selection; vc/ numeric reports
+e6/        E6 plan/results: Our Notes data build, 16 new rows, probeE6, four more converters (two
+           trained on a rented GPU), VC/[nv] arms, pod scripts, selection (not adopted)
+e7/        E7 plan/results: E6b's data as the base recipe, extra-seed G3 renders, selection
+           (not adopted)
 kurisu_pod/  the Kurisu project's pod code this pipeline imports (train_sft.py trainer, p03 audio
            policy, p05 native replay, accent_metrics, probes), vendored at the version used
 research/  approach research, data facts, rights notes and the recommendation behind the plan
 review/    independent code reviews and their check scripts
-release/   publish_hf.py (model upload), stage_github.sh (builds this repo), MODEL_CARD.md
+release/   publish_hf.py (model upload), stage_github.sh (builds this repo), MODEL_CARD.md,
+           space/ (the demo Space's app), publish_hf_v2.py (unused: no v2 was released)
 ```
 
 **Not in this repository:** audio of any kind, model weights, speaker vectors, game transcripts, reference-clip lists and per-clip evaluation files. The scripts default to the author's local folders (`bdcommon.py`; `BD_DIR`, `BD_DATA`, `BD_POD`, `BD_KPOD` override them), and the pod scripts expect `/workspace/bd`.
