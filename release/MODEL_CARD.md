@@ -33,9 +33,11 @@ tags:
 - anime
 ---
 
-# BanG Dream! character voices: Qwen3-TTS text-to-speech in Japanese, Mandarin and English
+# BanG Dream! (邦邦 / バンドリ) character voices: Qwen3-TTS text-to-speech in Japanese, Mandarin and English
 
-An unofficial, fan-made **text-to-speech model with 49 BanG Dream! character voices** across eight bands: Poppin'Party, Afterglow, Pastel\*Palettes, Roselia, Hello, Happy World!, Morfonica, RAISE A SUILEN, MyGO!!!!! and Ave Mujica (persona variants such as 大魔姫あこ, 月ノ森 Soyo / Sakiko and Mortis have their own rows).
+**BanG Dream! (邦邦) character-voice TTS: 49 voices + 25 opt-in Our Notes voices (MyGO!!!!!, Ave Mujica, Girls Band Party, Our Notes). They speak Japanese, Mandarin and English with no reference audio. A Qwen3-TTS fine-tune. Unofficial fan project, not affiliated with Bushiroad, Craft Egg, the BanG Dream! project, the official 夢ノ結唱 voicebanks or the voice cast.**
+
+This revision (`main`) holds the 49 Girls Band Party, MyGO!!!!! and Ave Mujica voices. Persona variants such as 大魔姫あこ, 月ノ森 Soyo / Sakiko and Mortis have their own rows.
 
 - **Each voice is called by its speaker id.** No reference audio is needed.
 - **Three languages:** Japanese (the characters' own language) plus Mandarin and English. Language ids, native replay and in-voice pseudo-Mandarin keep the Japanese accent out of Mandarin.
@@ -45,7 +47,7 @@ An unofficial, fan-made **text-to-speech model with 49 BanG Dream! character voi
 
 **Code:** [github.com/starryark/bangdream-tts](https://github.com/starryark/bangdream-tts): data pipeline, fixed trainer, per-voice RVC route for native Mandarin, and every pre-registered plan and result.
 
-**Also known as:** BanG Dream! Girls Band Party · バンドリ！ ガールズバンドパーティ！ · ガルパ · 邦邦 · 少女乐团派对.
+**Also known as:** 邦邦 · 邦多利 · BanG Dream! 少女乐团派对! (Girls Band Party) · 《迷途之子!!!!!》 (MyGO!!!!!) · 《颂乐人偶》 (Ave Mujica) · BanG Dream! 交织的乐章 (Our Notes) · バンドリ！ ガールズバンドパーティ！ · ガルパ.
 
 日本語：『BanG Dream!』49 キャラクターボイスの非公式ファンメイド TTS（Qwen3-TTS 微調整）。話者 ID で呼び出し、参照音声は不要。日本語・中国語・英語に対応。公式・キャスト・運営とは無関係です。
 
@@ -84,65 +86,126 @@ sf.write("kasumi.wav", wavs[0], sr)
 - **Try a few seeds** for Mandarin and English on the voices marked "generic" below.
 - Generated audio is synthetic: **label it as AI-generated** wherever you share it.
 
+## 中文说明
+
+非官方 BanG Dream!（邦邦）角色语音合成模型，基于 Qwen3-TTS 微调。按说话人 ID 直接合成，**无需参考音频**；会说日语、普通话和英语。粉丝自制，与 Bushiroad、Craft Egg、BanG Dream! 官方、官方 AI 声库“梦的结唱”及声优均无关。
+
+本模型（`main`）包含少女乐团派对 7 个乐队、MyGO!!!!!（《迷途之子!!!!!》）和 Ave Mujica（《颂乐人偶》）共 49 个声线；《BanG Dream! Our Notes》的 25 个声线在可选分支 `ournotes`。在线体验：[演示 Space](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS)（74 个声线，可直接输入中文名搜索）。
+
+```python
+import os; os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")   # 中国大陆网络
+import torch, soundfile as sf
+from qwen_tts import Qwen3TTSModel   # pip install qwen-tts
+tts = Qwen3TTSModel.from_pretrained("starrydark/BanG_Dream_Qwen3_TTS", device_map="cuda", dtype=torch.bfloat16)
+wavs, sr = tts.generate_custom_voice(text="今天的排练真开心，明天也一起加油吧！", speaker="mygo_anon", language="Chinese")
+sf.write("out.wav", wavs[0], sr)
+```
+
+**普通话音色（说中文时像不像本人）：**
+
+| 程度 | 数量 | 声线 |
+|---|---:|---|
+| 保持角色音色 | 34 | 下表中标为 own voice 的声线 |
+| 部分偏通用 | 8 | 丸山彩（`pp_aya`）、若宫伊芙（`pp_eve`）、濑田薰（`hhw_kaoru`）、北泽育美（`hhw_hagumi`）、松原花音（`hhw_kanon`）、佐藤益木（`ras_masking`）、珠手知由（`ras_chuchu`）、丰川祥子（月之森）（`mujica_sakiko_tsuki`） |
+| 偏通用音色 | 7 | 户山香澄（`ppp_kasumi`）、牛込里美（`ppp_rimi`）、宇田川亚子（大魔姬）（`ro_ako_maou`）、白金燐子（`ro_rinko`）、朝日六花（`ras_lock`）、高松灯（`mygo_tomori`）、长崎爽世（月之森）（`mygo_soyo_tsuki`） |
+
+“偏通用”的意思是：口音仍是标准普通话，但音色更接近基础模型的默认声音，而不是角色本人。
+
+**使用规则：**
+- 生成的音频均为 AI 合成，发布时须明确标注“AI生成”（《人工智能生成合成内容标识办法》，2025-09-01 起施行）。在 bilibili 投稿时，请在上传页勾选 AI 标识。
+- 禁止商用。禁止冒充声优或官方，禁止用于损害角色及声优形象的内容。
+- BanG Dream! 官方二创指南（<https://bang-dream.com/bdp-guideline/>）第 10 条禁止使用作品音声制作、公开二次创作。本模型是在此前提下的非官方粉丝作品。权利方或声优提出要求时，模型与演示将立即下架。
+
 ## Voices
 
 `speaker` ids are `<band>_<name>`. "Mandarin identity" is the share of 32 Mandarin test renders that an independent speaker probe attributes to the right voice among all 49 ("Japanese identity" is the same over the Japanese test renders. **generic** means the voice speaks Mandarin with a native accent but in a timbre closer to the base model's default voice than to the character; *partly generic* means that happens on some seeds).
 
-| `speaker` | Character | Band | Japanese data | Japanese identity | Mandarin identity | Mandarin voice |
-|---|---|---|---:|---:|---:|---|
-| `ppp_kasumi` | 戸山香澄 | Poppin'Party | 35 min | 0.84 | 0.25 | **generic** |
-| `ppp_tae` | 花園たえ | Poppin'Party | 31 min | 1.00 | 0.94 | own voice |
-| `ppp_rimi` | 牛込りみ | Poppin'Party | 24 min | 1.00 | 0.25 | **generic** |
-| `ppp_saaya` | 山吹沙綾 | Poppin'Party | 47 min | 1.00 | 1.00 | own voice |
-| `ppp_arisa` | 市ヶ谷有咲 | Poppin'Party | 61 min | 0.98 | 0.94 | own voice |
-| `ag_ran` | 美竹蘭 | Afterglow | 26 min | 1.00 | 0.91 | own voice |
-| `ag_moca` | 青葉モカ | Afterglow | 59 min | 0.98 | 1.00 | own voice |
-| `ag_himari` | 上原ひまり | Afterglow | 45 min | 1.00 | 0.88 | own voice |
-| `ag_tomoe` | 宇田川巴 | Afterglow | 31 min | 1.00 | 0.97 | own voice |
-| `ag_tsugumi` | 羽沢つぐみ | Afterglow | 30 min | 1.00 | 0.88 | own voice |
-| `pp_aya` | 丸山彩 | Pastel*Palettes | 52 min | 0.98 | 0.84 | partly generic |
-| `pp_hina` | 氷川日菜 | Pastel*Palettes | 34 min | 1.00 | 0.97 | own voice |
-| `pp_chisato` | 白鷺千聖 | Pastel*Palettes | 26 min | 1.00 | 1.00 | own voice |
-| `pp_maya` | 大和麻弥 | Pastel*Palettes | 45 min | 1.00 | 0.94 | own voice |
-| `pp_eve` | 若宮イヴ | Pastel*Palettes | 46 min | 1.00 | 0.62 | partly generic |
-| `ro_yukina` | 湊友希那 | Roselia | 19 min | 1.00 | 1.00 | own voice |
-| `ro_sayo` | 氷川紗夜 | Roselia | 31 min | 1.00 | 1.00 | own voice |
-| `ro_lisa` | 今井リサ | Roselia | 39 min | 1.00 | 1.00 | own voice |
-| `ro_ako` | 宇田川あこ | Roselia | 8 min | 1.00 | 0.88 | own voice |
-| `ro_ako_maou` | 宇田川あこ | Roselia | 5 min | 0.88 | 0.31 | **generic** |
-| `ro_rinko` | 白金燐子 | Roselia | 42 min | 1.00 | 0.53 | **generic** |
-| `hhw_kokoro` | 弦巻こころ | Hello, Happy World! | 29 min | 1.00 | 0.94 | own voice |
-| `hhw_kaoru` | 瀬田薫 | Hello, Happy World! | 30 min | 1.00 | 0.84 | partly generic |
-| `hhw_hagumi` | 北沢はぐみ | Hello, Happy World! | 23 min | 1.00 | 0.81 | partly generic |
-| `hhw_kanon` | 松原花音 | Hello, Happy World! | 36 min | 1.00 | 0.66 | partly generic |
-| `hhw_misaki` | 奥沢美咲 | Hello, Happy World! | 37 min | 1.00 | 0.97 | own voice |
-| `mo_mashiro` | 倉田ましろ | Morfonica | 23 min | 1.00 | 0.97 | own voice |
-| `mo_touko` | 桐ヶ谷透子 | Morfonica | 22 min | 1.00 | 0.91 | own voice |
-| `mo_nanami` | 広町七深 | Morfonica | 34 min | 1.00 | 0.94 | own voice |
-| `mo_tsukushi` | 二葉つくし | Morfonica | 25 min | 1.00 | 1.00 | own voice |
-| `mo_rui` | 八潮瑠唯 | Morfonica | 26 min | 1.00 | 1.00 | own voice |
-| `ras_layer` | 和奏レイ | RAISE A SUILEN | 33 min | 1.00 | 1.00 | own voice |
-| `ras_lock` | 朝日六花 | RAISE A SUILEN | 34 min | 1.00 | 0.50 | **generic** |
-| `ras_masking` | 佐藤ますき | RAISE A SUILEN | 23 min | 1.00 | 0.81 | partly generic |
-| `ras_pareo` | 鳰原令王那 | RAISE A SUILEN | 22 min | 1.00 | 0.97 | own voice |
-| `ras_chuchu` | 珠手ちゆ | RAISE A SUILEN | 42 min | 0.93 | 0.75 | partly generic |
-| `mygo_tomori` | 高松燈 | MyGO!!!!! | 30 min | 1.00 | 0.44 | **generic** |
-| `mygo_anon` | 千早愛音 | MyGO!!!!! | 11 min | 1.00 | 0.94 | own voice |
-| `mygo_raana` | 要楽奈 | MyGO!!!!! | 13 min | 1.00 | 0.91 | own voice |
-| `mygo_soyo` | 長崎そよ | MyGO!!!!! | 10 min | 0.88 | 1.00 | own voice |
-| `mygo_soyo_tsuki` | 長崎そよ | MyGO!!!!! | 16 min | 1.00 | 0.44 | **generic** |
-| `mygo_taki` | 椎名立希 | MyGO!!!!! | 27 min | 1.00 | 0.97 | own voice |
-| `mujica_uika` | 三角初華 | Ave Mujica | 6 min | 1.00 | 1.00 | own voice |
-| `mujica_mutsumi` | 若葉睦 | Ave Mujica | 3 min | 1.00 | 0.91 | own voice |
-| `mujica_mortis` | 若葉睦 | Ave Mujica | 5 min | 1.00 | 0.94 | own voice |
-| `mujica_umiri` | 八幡海鈴 | Ave Mujica | 3 min | 0.97 | 1.00 | own voice |
-| `mujica_nyamu` | 祐天寺にゃむ | Ave Mujica | 6 min | 1.00 | 1.00 | own voice |
-| `mujica_sakiko` | 豊川祥子 | Ave Mujica | 6 min | 0.83 | 0.94 | own voice |
-| `mujica_sakiko_tsuki` | 豊川祥子 | Ave Mujica | 13 min | 1.00 | 0.78 | partly generic |
+| `speaker` | Character | 中文名 | Band | Japanese data | Japanese identity | Mandarin identity | Mandarin voice |
+|---|---|---|---|---:|---:|---:|---|
+| `ppp_kasumi` | 戸山香澄 | 户山香澄 | Poppin'Party | 35 min | 0.84 | 0.25 | **generic** |
+| `ppp_tae` | 花園たえ | 花园多惠 | Poppin'Party | 31 min | 1.00 | 0.94 | own voice |
+| `ppp_rimi` | 牛込りみ | 牛込里美 | Poppin'Party | 24 min | 1.00 | 0.25 | **generic** |
+| `ppp_saaya` | 山吹沙綾 | 山吹沙绫 | Poppin'Party | 47 min | 1.00 | 1.00 | own voice |
+| `ppp_arisa` | 市ヶ谷有咲 | 市谷有咲 | Poppin'Party | 61 min | 0.98 | 0.94 | own voice |
+| `ag_ran` | 美竹蘭 | 美竹兰 | Afterglow | 26 min | 1.00 | 0.91 | own voice |
+| `ag_moca` | 青葉モカ | 青叶摩卡 | Afterglow | 59 min | 0.98 | 1.00 | own voice |
+| `ag_himari` | 上原ひまり | 上原绯玛丽 | Afterglow | 45 min | 1.00 | 0.88 | own voice |
+| `ag_tomoe` | 宇田川巴 | 宇田川巴 | Afterglow | 31 min | 1.00 | 0.97 | own voice |
+| `ag_tsugumi` | 羽沢つぐみ | 羽泽鸫 | Afterglow | 30 min | 1.00 | 0.88 | own voice |
+| `pp_aya` | 丸山彩 | 丸山彩 | Pastel*Palettes | 52 min | 0.98 | 0.84 | partly generic |
+| `pp_hina` | 氷川日菜 | 冰川日菜 | Pastel*Palettes | 34 min | 1.00 | 0.97 | own voice |
+| `pp_chisato` | 白鷺千聖 | 白鹭千圣 | Pastel*Palettes | 26 min | 1.00 | 1.00 | own voice |
+| `pp_maya` | 大和麻弥 | 大和麻弥 | Pastel*Palettes | 45 min | 1.00 | 0.94 | own voice |
+| `pp_eve` | 若宮イヴ | 若宫伊芙 | Pastel*Palettes | 46 min | 1.00 | 0.62 | partly generic |
+| `ro_yukina` | 湊友希那 | 凑友希那 | Roselia | 19 min | 1.00 | 1.00 | own voice |
+| `ro_sayo` | 氷川紗夜 | 冰川纱夜 | Roselia | 31 min | 1.00 | 1.00 | own voice |
+| `ro_lisa` | 今井リサ | 今井莉莎 | Roselia | 39 min | 1.00 | 1.00 | own voice |
+| `ro_ako` | 宇田川あこ | 宇田川亚子 | Roselia | 8 min | 1.00 | 0.88 | own voice |
+| `ro_ako_maou` | 宇田川あこ | 宇田川亚子（大魔姬） | Roselia | 5 min | 0.88 | 0.31 | **generic** |
+| `ro_rinko` | 白金燐子 | 白金燐子 | Roselia | 42 min | 1.00 | 0.53 | **generic** |
+| `hhw_kokoro` | 弦巻こころ | 弦卷心 | Hello, Happy World! | 29 min | 1.00 | 0.94 | own voice |
+| `hhw_kaoru` | 瀬田薫 | 濑田薰 | Hello, Happy World! | 30 min | 1.00 | 0.84 | partly generic |
+| `hhw_hagumi` | 北沢はぐみ | 北泽育美 | Hello, Happy World! | 23 min | 1.00 | 0.81 | partly generic |
+| `hhw_kanon` | 松原花音 | 松原花音 | Hello, Happy World! | 36 min | 1.00 | 0.66 | partly generic |
+| `hhw_misaki` | 奥沢美咲 | 奥泽美咲 | Hello, Happy World! | 37 min | 1.00 | 0.97 | own voice |
+| `mo_mashiro` | 倉田ましろ | 仓田真白 | Morfonica | 23 min | 1.00 | 0.97 | own voice |
+| `mo_touko` | 桐ヶ谷透子 | 桐谷透子 | Morfonica | 22 min | 1.00 | 0.91 | own voice |
+| `mo_nanami` | 広町七深 | 广町七深 | Morfonica | 34 min | 1.00 | 0.94 | own voice |
+| `mo_tsukushi` | 二葉つくし | 二叶筑紫 | Morfonica | 25 min | 1.00 | 1.00 | own voice |
+| `mo_rui` | 八潮瑠唯 | 八潮瑠唯 | Morfonica | 26 min | 1.00 | 1.00 | own voice |
+| `ras_layer` | 和奏レイ | 和奏瑞依 | RAISE A SUILEN | 33 min | 1.00 | 1.00 | own voice |
+| `ras_lock` | 朝日六花 | 朝日六花 | RAISE A SUILEN | 34 min | 1.00 | 0.50 | **generic** |
+| `ras_masking` | 佐藤ますき | 佐藤益木 | RAISE A SUILEN | 23 min | 1.00 | 0.81 | partly generic |
+| `ras_pareo` | 鳰原令王那 | 鳰原令王那 | RAISE A SUILEN | 22 min | 1.00 | 0.97 | own voice |
+| `ras_chuchu` | 珠手ちゆ | 珠手知由 | RAISE A SUILEN | 42 min | 0.93 | 0.75 | partly generic |
+| `mygo_tomori` | 高松燈 | 高松灯 | MyGO!!!!! | 30 min | 1.00 | 0.44 | **generic** |
+| `mygo_anon` | 千早愛音 | 千早爱音 | MyGO!!!!! | 11 min | 1.00 | 0.94 | own voice |
+| `mygo_raana` | 要楽奈 | 要乐奈 | MyGO!!!!! | 13 min | 1.00 | 0.91 | own voice |
+| `mygo_soyo` | 長崎そよ | 长崎爽世〔素世〕 | MyGO!!!!! | 10 min | 0.88 | 1.00 | own voice |
+| `mygo_soyo_tsuki` | 長崎そよ | 长崎爽世〔素世〕（月之森） | MyGO!!!!! | 16 min | 1.00 | 0.44 | **generic** |
+| `mygo_taki` | 椎名立希 | 椎名立希 | MyGO!!!!! | 27 min | 1.00 | 0.97 | own voice |
+| `mujica_uika` | 三角初華 | 三角初华 | Ave Mujica | 6 min | 1.00 | 1.00 | own voice |
+| `mujica_mutsumi` | 若葉睦 | 若叶睦 | Ave Mujica | 3 min | 1.00 | 0.91 | own voice |
+| `mujica_mortis` | 若葉睦 | Mortis〔墨缇丝〕 | Ave Mujica | 5 min | 1.00 | 0.94 | own voice |
+| `mujica_umiri` | 八幡海鈴 | 八幡海铃 | Ave Mujica | 3 min | 0.97 | 1.00 | own voice |
+| `mujica_nyamu` | 祐天寺にゃむ | 祐天寺若麦〔喵梦〕 | Ave Mujica | 6 min | 1.00 | 1.00 | own voice |
+| `mujica_sakiko` | 豊川祥子 | 丰川祥子〔小祥〕 | Ave Mujica | 6 min | 0.83 | 0.94 | own voice |
+| `mujica_sakiko_tsuki` | 豊川祥子 | 丰川祥子〔小祥〕（月之森） | Ave Mujica | 13 min | 1.00 | 0.78 | partly generic |
 
 **Summary:** Japanese is in-voice for all 49 (pooled identity 0.986, real recordings 0.988). Mandarin is in-voice for 34 voices; the 15 marked *generic* or *partly generic* fall back toward a generic timbre in Mandarin and English.
 
 **Persona rows.** `ro_ako_maou` (Ako's 大魔姫 persona), `mygo_soyo_tsuki` and `mujica_sakiko_tsuki` (the 月ノ森 versions) and `mujica_mortis` (Mortis) are separate rows. Their real recordings are confused with the base character 89–97% of the time by the same probe, so expect them to be close to their base row.
+
+## FAQ
+
+**Does it need reference audio?**
+No. Every voice is a built-in speaker row, called by its id (`speaker="mygo_anon"`).
+
+**Can the characters speak Chinese?**
+Yes. Pass `language="Chinese"`. Every voice speaks Mandarin with a native accent. Most voices also keep their own timbre in Mandarin; those that drift toward a generic timbre are marked in the table and listed in the Chinese section.
+
+**Which revision should I load?**
+- `main` for the 49 Girls Band Party / MyGO!!!!! / Ave Mujica voices.
+- `revision="ournotes"` for the 16 Our Notes characters and the `*_ournotes` voices.
+- The [demo](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS) picks the right one automatically.
+
+**How is it different from GPT-SoVITS, RVC or Bert-VITS2 character models?**
+- It is one checkpoint with every voice built in, so it needs no reference clip (GPT-SoVITS) and no source recording (RVC).
+- Bert-VITS2 character models also call built-in speakers; against those, the difference is Mandarin and evaluation.
+- It was trained so that its Mandarin is not Japanese-accented.
+- Its checkpoints were chosen by rules fixed before training, and the later ones by blind listening.
+
+**What hardware does it need?**
+It is a fine-tune of Qwen3-TTS-12Hz-1.7B-Base; the bf16 weights are 3.8 GB, and inference runs on a CUDA GPU (`pip install qwen-tts`). Without a GPU, use the demo.
+
+**Can I download it from mainland China?**
+Set `HF_ENDPOINT=https://hf-mirror.com` before `from_pretrained("starrydark/BanG_Dream_Qwen3_TTS", ...)`.
+
+**Can I post what I make?**
+Only as a labelled, non-commercial fan work. The BanG Dream! fan-work guideline prohibits derivative works that use the franchise's audio (item 10), and China requires an explicit AI label on generated audio. Never impersonate the cast or present output as official. See [Rights and responsible use](#rights-and-responsible-use).
+
+**Is this official, or related to 夢ノ結唱 (梦的结唱)?**
+No. This is an unofficial fan project. 夢ノ結唱 is Bushiroad Music's official AI singing product and is unrelated.
 
 ## Evaluation
 
@@ -212,7 +275,8 @@ This is an unofficial fan project, with no affiliation to Bushiroad, Craft Egg, 
 - The characters, the source audio and all related marks belong to their respective owners.
 - **No copyright, performer, publicity or voice rights are granted** by this repository.
 - No game audio, dataset, transcripts or audio samples are distributed here; only model weights and evaluation numbers.
-- The official BanG Dream! fan-work guideline (<https://bang-dream.com/bdp-guideline/>) restricts derivative works that use the franchise's audio. Read it before using outputs anywhere public.
+- **The official BanG Dream! fan-work guideline (<https://bang-dream.com/bdp-guideline/>) prohibits derivative works that use the franchise's audio.** Item 10 reads 「本コンテンツのうち、音声を利用した二次的著作物の制作、展示、頒布、公開。」. This model is an unofficial fan work made despite that. Read the guideline before using outputs anywhere public.
+- **AI labels:** in mainland China, AI-generated audio must carry an explicit AI label (《人工智能生成合成内容标识办法》, in force since 2025-09-01), and bilibili asks uploaders to set its AI标识 when uploading.
 
 Do not use it to:
 - impersonate the voice actors or anyone else;

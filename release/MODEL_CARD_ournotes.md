@@ -31,7 +31,7 @@ tags:
 - game-voice
 ---
 
-# BanG Dream! character voices, `ournotes` branch: 25 BanG Dream! Our Notes voices (Qwen3-TTS)
+# BanG Dream! (邦邦) character voices, `ournotes` branch: 25 BanG Dream! Our Notes (交织的乐章) voices on Qwen3-TTS
 
 This branch of the unofficial, fan-made BanG Dream! TTS model is a separate checkpoint (experiment E9). It adds **25 voices trained on BanG Dream! Our Notes story audio:**
 - **16 new characters:** 一家Dumb Rock!, 夢限大みゅーたいぷ, millsage and 沢海奏多;
@@ -46,6 +46,10 @@ This branch of the unofficial, fan-made BanG Dream! TTS model is a separate chec
 日本語：BanG Dream! Our Notes のストーリー音声で学習した 25 ボイス（新キャラクター 16 名と、MyGO!!!!!／Ave Mujica 9 名の Our Notes 版 `*_ournotes`）を含む非公式ブランチです。その他の 49 ボイスは `main` をお使いください。公式・キャスト・運営とは無関係です。
 
 中文：本分支（非官方）包含以 BanG Dream! Our Notes 剧情语音训练的 25 个声线：16 位新角色，以及 MyGO!!!!!／Ave Mujica 9 位角色的 Our Notes 版本（`*_ournotes`）。其余 49 个声线请使用 `main`。与官方、运营及声优无关。
+
+**BanG Dream! (邦邦) character-voice TTS: 49 voices + 25 opt-in Our Notes voices (MyGO!!!!!, Ave Mujica, Girls Band Party, Our Notes). They speak Japanese, Mandarin and English with no reference audio. A Qwen3-TTS fine-tune. Unofficial fan project, not affiliated with Bushiroad, Craft Egg, the BanG Dream! project, the official 夢ノ結唱 voicebanks or the voice cast.**
+
+**Also known as:** 邦邦 · 邦多利 · BanG Dream! 少女乐团派对! (Girls Band Party) · 《迷途之子!!!!!》 (MyGO!!!!!) · 《颂乐人偶》 (Ave Mujica) · BanG Dream! 交织的乐章 (Our Notes) · バンドリ！ ガールズバンドパーティ！ · ガルパ.
 
 | | |
 |---|---|
@@ -79,6 +83,36 @@ sf.write("raika.wav", wavs[0], sr)
 - **Keep the default sampling** (temperature 0.9, top-k 50).
 - Generated audio is synthetic: **label it as AI-generated** wherever you share it.
 
+## 中文说明
+
+非官方 BanG Dream!（邦邦）角色语音合成模型，基于 Qwen3-TTS 微调。按说话人 ID 直接合成，**无需参考音频**；会说日语、普通话和英语。粉丝自制，与 Bushiroad、Craft Egg、BanG Dream! 官方、官方 AI 声库“梦的结唱”及声优均无关。
+
+本分支（`ournotes`）是 25 个《BanG Dream! Our Notes》（交织的乐章）声线：一家Dumb Rock!、梦限大MewType、millsage 的 15 位新角色、泽海奏多，以及 MyGO!!!!!／Ave Mujica 9 位角色的 Our Notes 版本（`*_ournotes`）。其余 49 个声线请使用 `main`。在线体验：[演示 Space](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS)（74 个声线，可直接输入中文名搜索）。
+
+```python
+import os; os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")   # 中国大陆网络
+import torch, soundfile as sf
+from qwen_tts import Qwen3TTSModel   # pip install qwen-tts
+tts = Qwen3TTSModel.from_pretrained("starrydark/BanG_Dream_Qwen3_TTS", revision="ournotes", device_map="cuda", dtype=torch.bfloat16)
+wavs, sr = tts.generate_custom_voice(text="今天的排练真开心，明天也一起加油吧！", speaker="ikka_raika", language="Chinese")
+sf.write("out.wav", wavs[0], sr)
+```
+
+**普通话音色（说中文时像不像本人）：**
+
+| 程度 | 数量 | 声线 |
+|---|---:|---|
+| 保持角色音色 | 19 | 下表中标为 own voice 的声线 |
+| 部分偏通用 | 4 | 高松灯（Our Notes）（`mygo_tomori_ournotes`）、Mortis（Our Notes）（`mujica_mortis_ournotes`）、仲町阿拉蕾（`mewtype_arale`）、宫永野乃花（`mewtype_nonoka`） |
+| 偏通用音色 | 2 | 矢仓蓬咲（`ikka_yomogi`）、汐见萤（`millsage_hotaru`） |
+
+“偏通用”的意思是：口音仍是标准普通话，但音色更接近基础模型的默认声音，而不是角色本人。
+
+**使用规则：**
+- 生成的音频均为 AI 合成，发布时须明确标注“AI生成”（《人工智能生成合成内容标识办法》，2025-09-01 起施行）。在 bilibili 投稿时，请在上传页勾选 AI 标识。
+- 禁止商用。禁止冒充声优或官方，禁止用于损害角色及声优形象的内容。
+- BanG Dream! 官方二创指南（<https://bang-dream.com/bdp-guideline/>）第 10 条禁止使用作品音声制作、公开二次创作。本模型是在此前提下的非官方粉丝作品。权利方或声优提出要求时，模型与演示将立即下架。
+
 ## Voices
 
 **Columns:**
@@ -88,37 +122,68 @@ sf.write("raika.wav", wavs[0], sr)
   - **generic:** the voice speaks Mandarin with a native accent, but in a timbre closer to the base model's default than to the character;
   - *partly generic:* that happens on some seeds.
 
-| `speaker` | Character | Band | Japanese data | Listening (2 answers) | Japanese identity | Mandarin identity | Mandarin voice |
-|---|---|---|---:|---|---:|---:|---|
-| `mygo_tomori_ournotes` | 高松燈 | MyGO!!!!! | 17 min | yes, yes | 1.00 | 0.84 | partly generic |
-| `mygo_anon_ournotes` | 千早愛音 | MyGO!!!!! | 23 min | yes, yes | 1.00 | 1.00 | own voice |
-| `mygo_soyo_ournotes` | 長崎そよ | MyGO!!!!! | 20 min | yes, yes | 1.00 | 1.00 | own voice |
-| `mygo_taki_ournotes` | 椎名立希 | MyGO!!!!! | 18 min | yes, partly | 1.00 | 1.00 | own voice |
-| `mujica_uika_ournotes` | 三角初華 | Ave Mujica | 19 min | yes, partly | 0.99 | 1.00 | own voice |
-| `mujica_mutsumi_ournotes` | 若葉睦 | Ave Mujica | 13 min | yes, yes | 1.00 | 0.88 | own voice |
-| `mujica_mortis_ournotes` | 若葉睦 | Ave Mujica | 12 min | yes, yes | 1.00 | 0.84 | partly generic |
-| `mujica_umiri_ournotes` | 八幡海鈴 | Ave Mujica | 20 min | yes, yes | 1.00 | 1.00 | own voice |
-| `mujica_sakiko_ournotes` | 豊川祥子 | Ave Mujica | 30 min | yes, yes | 1.00 | 1.00 | own voice |
-| `ikka_chieri` | 梅里ちえり | 一家Dumb Rock! | 25 min | yes, partly | 1.00 | 1.00 | own voice |
-| `ikka_miku` | 馬橋心玖 | 一家Dumb Rock! | 24 min | yes, partly | 0.95 | 0.97 | own voice |
-| `ikka_raika` | 須賀蕾叶 | 一家Dumb Rock! | 21 min | yes, yes | 0.99 | 1.00 | own voice |
-| `ikka_shizuku` | 四宮寧月 | 一家Dumb Rock! | 25 min | yes, yes | 1.00 | 1.00 | own voice |
-| `ikka_yomogi` | 矢倉蓬咲 | 一家Dumb Rock! | 28 min | partly, yes | 0.82 | 0.19 | **generic** |
-| `mewtype_arale` | 仲町あられ | 夢限大みゅーたいぷ | 19 min | yes, yes | 0.94 | 0.66 | partly generic |
-| `mewtype_miyako` | 藤都子 | 夢限大みゅーたいぷ | 19 min | partly, partly | 1.00 | 0.97 | own voice |
-| `mewtype_nonoka` | 宮永ののか | 夢限大みゅーたいぷ | 17 min | yes, no | 0.99 | 0.78 | partly generic |
-| `mewtype_ritsu` | 峰月律 | 夢限大みゅーたいぷ | 15 min | yes, yes | 1.00 | 1.00 | own voice |
-| `mewtype_yuno` | 千石ユノ | 夢限大みゅーたいぷ | 15 min | yes, yes | 1.00 | 0.97 | own voice |
-| `millsage_hotaru` | 汐見蛍 | millsage | 20 min | yes, yes | 1.00 | 0.53 | **generic** |
-| `millsage_houka` | 和泉朋花 | millsage | 25 min | yes, yes | 1.00 | 0.94 | own voice |
-| `millsage_mahoro` | 浜崎まほろ | millsage | 23 min | yes, no | 1.00 | 0.88 | own voice |
-| `millsage_nagi` | 琴平凪 | millsage | 18 min | yes, yes | 1.00 | 1.00 | own voice |
-| `millsage_natsume` | 伊沢なつめ | millsage | 21 min | yes, yes | 0.99 | 1.00 | own voice |
-| `ournotes_kanata` | 沢海奏多 | — | 18 min | yes, partly | 0.95 | 0.97 | own voice |
+| `speaker` | Character | 中文名 | Band | Japanese data | Listening (2 answers) | Japanese identity | Mandarin identity | Mandarin voice |
+|---|---|---|---|---:|---|---:|---:|---|
+| `mygo_tomori_ournotes` | 高松燈 | 高松灯（Our Notes） | MyGO!!!!! | 17 min | yes, yes | 1.00 | 0.84 | partly generic |
+| `mygo_anon_ournotes` | 千早愛音 | 千早爱音（Our Notes） | MyGO!!!!! | 23 min | yes, yes | 1.00 | 1.00 | own voice |
+| `mygo_soyo_ournotes` | 長崎そよ | 长崎爽世〔素世〕（Our Notes） | MyGO!!!!! | 20 min | yes, yes | 1.00 | 1.00 | own voice |
+| `mygo_taki_ournotes` | 椎名立希 | 椎名立希（Our Notes） | MyGO!!!!! | 18 min | yes, partly | 1.00 | 1.00 | own voice |
+| `mujica_uika_ournotes` | 三角初華 | 三角初华（Our Notes） | Ave Mujica | 19 min | yes, partly | 0.99 | 1.00 | own voice |
+| `mujica_mutsumi_ournotes` | 若葉睦 | 若叶睦（Our Notes） | Ave Mujica | 13 min | yes, yes | 1.00 | 0.88 | own voice |
+| `mujica_mortis_ournotes` | 若葉睦 | Mortis〔墨缇丝〕（Our Notes） | Ave Mujica | 12 min | yes, yes | 1.00 | 0.84 | partly generic |
+| `mujica_umiri_ournotes` | 八幡海鈴 | 八幡海铃（Our Notes） | Ave Mujica | 20 min | yes, yes | 1.00 | 1.00 | own voice |
+| `mujica_sakiko_ournotes` | 豊川祥子 | 丰川祥子〔小祥〕（Our Notes） | Ave Mujica | 30 min | yes, yes | 1.00 | 1.00 | own voice |
+| `ikka_chieri` | 梅里ちえり | 梅里千樱梨 | 一家Dumb Rock! | 25 min | yes, partly | 1.00 | 1.00 | own voice |
+| `ikka_miku` | 馬橋心玖 | 马桥心玖 | 一家Dumb Rock! | 24 min | yes, partly | 0.95 | 0.97 | own voice |
+| `ikka_raika` | 須賀蕾叶 | 须贺蕾叶 | 一家Dumb Rock! | 21 min | yes, yes | 0.99 | 1.00 | own voice |
+| `ikka_shizuku` | 四宮寧月 | 四宫宁月 | 一家Dumb Rock! | 25 min | yes, yes | 1.00 | 1.00 | own voice |
+| `ikka_yomogi` | 矢倉蓬咲 | 矢仓蓬咲 | 一家Dumb Rock! | 28 min | partly, yes | 0.82 | 0.19 | **generic** |
+| `mewtype_arale` | 仲町あられ | 仲町阿拉蕾 | 夢限大みゅーたいぷ | 19 min | yes, yes | 0.94 | 0.66 | partly generic |
+| `mewtype_miyako` | 藤都子 | 藤都子 | 夢限大みゅーたいぷ | 19 min | partly, partly | 1.00 | 0.97 | own voice |
+| `mewtype_nonoka` | 宮永ののか | 宫永野乃花 | 夢限大みゅーたいぷ | 17 min | yes, no | 0.99 | 0.78 | partly generic |
+| `mewtype_ritsu` | 峰月律 | 峰月律 | 夢限大みゅーたいぷ | 15 min | yes, yes | 1.00 | 1.00 | own voice |
+| `mewtype_yuno` | 千石ユノ | 千石由乃 | 夢限大みゅーたいぷ | 15 min | yes, yes | 1.00 | 0.97 | own voice |
+| `millsage_hotaru` | 汐見蛍 | 汐见萤 | millsage | 20 min | yes, yes | 1.00 | 0.53 | **generic** |
+| `millsage_houka` | 和泉朋花 | 和泉朋花 | millsage | 25 min | yes, yes | 1.00 | 0.94 | own voice |
+| `millsage_mahoro` | 浜崎まほろ | 滨崎茉幌 | millsage | 23 min | yes, no | 1.00 | 0.88 | own voice |
+| `millsage_nagi` | 琴平凪 | 琴平凪 | millsage | 18 min | yes, yes | 1.00 | 1.00 | own voice |
+| `millsage_natsume` | 伊沢なつめ | 伊泽枣 | millsage | 21 min | yes, yes | 0.99 | 1.00 | own voice |
+| `ournotes_kanata` | 沢海奏多 | 泽海奏多 | — | 18 min | yes, partly | 0.95 | 0.97 | own voice |
 
 **Two eras of one character.** `mygo_anon_ournotes` and `mygo_anon` are the same character recorded years apart. Their real recordings are 94–100% separable by a speaker classifier, partly because of the recording channel and partly the performance. The model therefore keeps them as separate voices:
 - on this branch, `*_ournotes` is the Our Notes voice;
 - on `main`, the plain id is the original (Girls Band Party / anime) voice.
+
+## FAQ
+
+**Does it need reference audio?**
+No. Every voice is a built-in speaker row, called by its id (`speaker="ikka_raika"`).
+
+**Can the characters speak Chinese?**
+Yes. Pass `language="Chinese"`. Every voice speaks Mandarin with a native accent. Most voices also keep their own timbre in Mandarin; those that drift toward a generic timbre are marked in the table and listed in the Chinese section.
+
+**Which revision should I load?**
+- `main` for the 49 Girls Band Party / MyGO!!!!! / Ave Mujica voices.
+- `revision="ournotes"` for the 16 Our Notes characters and the `*_ournotes` voices.
+- The [demo](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS) picks the right one automatically.
+
+**How is it different from GPT-SoVITS, RVC or Bert-VITS2 character models?**
+- It is one checkpoint with every voice built in, so it needs no reference clip (GPT-SoVITS) and no source recording (RVC).
+- Bert-VITS2 character models also call built-in speakers; against those, the difference is Mandarin and evaluation.
+- It was trained so that its Mandarin is not Japanese-accented.
+- Its checkpoints were chosen by rules fixed before training, and the later ones by blind listening.
+
+**What hardware does it need?**
+It is a fine-tune of Qwen3-TTS-12Hz-1.7B-Base; the bf16 weights are 3.8 GB, and inference runs on a CUDA GPU (`pip install qwen-tts`). Without a GPU, use the demo.
+
+**Can I download it from mainland China?**
+Set `HF_ENDPOINT=https://hf-mirror.com` before `from_pretrained("starrydark/BanG_Dream_Qwen3_TTS", revision="ournotes", ...)`.
+
+**Can I post what I make?**
+Only as a labelled, non-commercial fan work. The BanG Dream! fan-work guideline prohibits derivative works that use the franchise's audio (item 10), and China requires an explicit AI label on generated audio. Never impersonate the cast or present output as official. See [Rights and responsible use](#rights-and-responsible-use).
+
+**Is this official, or related to 夢ノ結唱 (梦的结唱)?**
+No. This is an unofficial fan project. 夢ノ結唱 is Bushiroad Music's official AI singing product and is unrelated.
 
 ## How this branch was evaluated
 
@@ -175,7 +240,8 @@ This is an unofficial fan project, with no affiliation to Bushiroad, Craft Egg, 
 - The characters, the source audio and all related marks belong to their respective owners.
 - **No copyright, performer, publicity or voice rights are granted** by this repository.
 - No game audio, dataset, transcripts or audio samples are distributed here; only model weights and evaluation numbers.
-- The official BanG Dream! fan-work guideline (<https://bang-dream.com/bdp-guideline/>) restricts derivative works that use the franchise's audio. Read it before using outputs anywhere public.
+- **The official BanG Dream! fan-work guideline (<https://bang-dream.com/bdp-guideline/>) prohibits derivative works that use the franchise's audio.** Item 10 reads 「本コンテンツのうち、音声を利用した二次的著作物の制作、展示、頒布、公開。」. This model is an unofficial fan work made despite that. Read the guideline before using outputs anywhere public.
+- **AI labels:** in mainland China, AI-generated audio must carry an explicit AI label (《人工智能生成合成内容标识办法》, in force since 2025-09-01), and bilibili asks uploaders to set its AI标识 when uploading.
 
 Do not use it to:
 - impersonate the voice actors or anyone else;

@@ -7,20 +7,24 @@ authors:
 repository-code: "https://github.com/starryark/bangdream-tts"
 url: "https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS"
 license: Apache-2.0
-version: "E5"
-date-released: "2026-11-06"
+version: "E9"
+date-released: "2026-11-09"
 abstract: >-
-  Code for an unofficial, fan-made 49-voice BanG Dream! text-to-speech model in Japanese,
+  Code for an unofficial, fan-made BanG Dream! (邦邦) character-voice text-to-speech model
+  (49 voices, plus 25 opt-in BanG Dream! Our Notes voices) in Japanese,
   Mandarin Chinese and English: data build, a codec-calibrated speaker-identity probe, one
   shared Qwen3-TTS fine-tune with language ids, native replay and in-voice pseudo-Mandarin,
   per-voice RVC conversion for native Mandarin in the voices that stayed generic, and
-  pre-registered evaluation.
+  pre-registered evaluation decided by blind listening.
 keywords:
   - text-to-speech
   - Qwen3-TTS
   - fine-tuning
   - character voice
   - BanG Dream
+  - MyGO!!!!!
+  - Ave Mujica
+  - Mandarin TTS
   - multi-speaker TTS
   - cross-lingual TTS
   - RVC

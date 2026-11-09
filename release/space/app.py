@@ -34,9 +34,13 @@ NOTICE = (
     "**Unofficial fan demo.** Not affiliated with or endorsed by Bushiroad, Craft Egg, the BanG Dream! project "
     "or the voice cast. All audio produced here is **AI-generated**: label it as AI-generated wherever you share it, "
     "do not use it to impersonate anyone or to pass it off as official, and read the "
-    "[BanG Dream! fan-work guideline](https://bang-dream.com/bdp-guideline/) before using outputs anywhere public. "
+    "[BanG Dream! fan-work guideline](https://bang-dream.com/bdp-guideline/) before using outputs anywhere public "
+    "(its item 10 prohibits derivative works that use the franchise's audio). "
     "Rights holders and cast members can ask for removal (Hugging Face: starrydark), and the demo and model "
-    "will be taken down on request."
+    "will be taken down on request.\n\n"
+    "**非官方粉丝自制演示**，与官方、运营及声优无关。生成的音频均为 **AI 合成**：发布时请标注“AI生成”"
+    "（《人工智能生成合成内容标识办法》；bilibili 投稿请勾选 AI 标识），禁止商用，禁止冒充声优或冒充官方。"
+    "权利方或声优要求时将下架。"
 )
 ABOUT = """
 A full fine-tune of Qwen3-TTS-12Hz-1.7B-Base with one built-in speaker row per character voice
@@ -89,7 +93,8 @@ for name, revisions in MODEL_VERSIONS:
         if revision not in LOADED:
             LOADED[revision] = load_version(revision)
     ROUTES[name] = route([(r, sorted({s.lower() for s in LOADED[r][0].get_supported_speakers()})) for r in revisions])
-    label = lambda s, v: f"{v[s]['character']} ({v[s].get('band', '')}) · {s}" if s in v else s  # noqa: E731
+    label = lambda s, v: (f"{v[s]['zh'] + ' / ' if v[s].get('zh') and v[s]['zh'] != v[s]['character'] else ''}"  # noqa: E731
+                          f"{v[s]['character']} ({v[s].get('band', '')}) · {s}") if s in v else s
     CHOICES[name] = [(label(s, LOADED[r][1]), s) for s, r in sorted(ROUTES[name].items())]
     LOGGER.warning("version %s: %s", name, {r: sum(v == r for v in ROUTES[name].values()) for r in revisions})
 DEFAULT_VERSION = MODEL_VERSIONS[0][0]
@@ -176,7 +181,10 @@ def build_demo() -> gr.Blocks:
     with gr.Blocks(title="BanG Dream! AI Voices (unofficial) — Qwen3-TTS", theme=gr.themes.Soft(), css=CSS) as demo:
         gr.Markdown("# BanG Dream! AI Voices (unofficial fan demo)\n"
                     "Type Japanese, Chinese or English and hear it in a BanG Dream! character's voice. "
-                    "No reference audio is used; every voice is built into the model.")
+                    "No reference audio is used; every voice is built into the model.\n\n"
+                    "邦邦角色 AI 语音（非官方）：输入中文、日语或英语，选择角色即可合成，无需参考音频。"
+                    "声线列表可直接输入中文名搜索（如 千早爱音、丰川祥子）。\n\n"
+                    "バンドリ！キャラクターの AI 音声（非公式）。日本語・中国語・英語に対応。")
         gr.Markdown(NOTICE)
         text = gr.Textbox(label="Text", lines=4, max_lines=8, max_length=MAX_TEXT_CHARACTERS,
                           info=f"Up to {MAX_TEXT_CHARACTERS} characters.",
@@ -194,6 +202,7 @@ def build_demo() -> gr.Blocks:
         gr.Examples(
             examples=[["今日の練習、すごく楽しかったね！また明日もがんばろう。", DEFAULT_VERSION, DEFAULT_SPEAKER, "Detect"],
                       ["今天的排练真开心，明天也一起加油吧！", DEFAULT_VERSION, DEFAULT_SPEAKER, "Detect"],
+                      ["练习结束了。抹茶芭菲，再来一份。", DEFAULT_VERSION, "mygo_raana", "Detect"],
                       ["Thanks for coming to our live show tonight!", DEFAULT_VERSION, DEFAULT_SPEAKER, "Detect"]],
             inputs=[text, version, speaker, language], label="Examples")
         with gr.Accordion("About this model", open=False):

@@ -1,0 +1,29 @@
+# BanG Dream! character-voice TTS (unofficial fan model)
+
+> BanG Dream! (邦邦 / バンドリ) character-voice TTS: 49 voices + 25 opt-in Our Notes voices (MyGO!!!!!, Ave Mujica, Girls Band Party, Our Notes). They speak Japanese, Mandarin and English with no reference audio. A Qwen3-TTS fine-tune. Unofficial fan project, not affiliated with Bushiroad, Craft Egg, the BanG Dream! project, the official 夢ノ結唱 voicebanks or the voice cast.
+
+**Install and run:**
+- `pip install qwen-tts`.
+- `Qwen3TTSModel.from_pretrained("starrydark/BanG_Dream_Qwen3_TTS")`, then `generate_custom_voice(text=..., speaker="mygo_anon", language="Chinese")`.
+- For the 25 Our Notes voices (`ikka_*`, `mewtype_*`, `millsage_*`, `ournotes_kanata`, `*_ournotes`), add `revision="ournotes"`.
+- Always pass `language` ("Japanese", "Chinese" or "English").
+- From mainland China, set `HF_ENDPOINT=https://hf-mirror.com`.
+
+**Rules for outputs:** AI-generated audio must be labelled as AI-generated, which is required in China since 2025-09-01. No commercial use and no impersonation of the voice cast. The BanG Dream! fan-work guideline prohibits derivative works that use the franchise's audio (item 10). The model is taken down on request.
+
+## Use
+- [Model card (main, 49 voices)](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS): speaker ids, Chinese names, per-voice quality, limitations, rights
+- [Model card (ournotes branch, 25 voices)](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS/blob/ournotes/README.md)
+- [Online demo](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS): Gradio Space with all 74 voices
+- [README](https://github.com/starryark/bangdream-tts/blob/main/README.md): usage, FAQ, results summary
+- [中文说明](https://github.com/starryark/bangdream-tts/blob/main/README.zh-CN.md)
+
+## Docs
+- [E1 results (released model)](https://github.com/starryark/bangdream-tts/blob/main/e1/E1_RESULTS.md)
+- [E9 results (ournotes branch, blind listening)](https://github.com/starryark/bangdream-tts/blob/main/e9/E9_RESULTS.md)
+- [Chinese fandom, AI-voice scene and rules](https://github.com/starryark/bangdream-tts/blob/main/research/chinese_fandom_discovery_2026-11-09.md)
+
+## Optional
+- [Speaker list](https://github.com/starryark/bangdream-tts/blob/main/e1/bundle/speakers.txt)
+- [Space app source](https://github.com/starryark/bangdream-tts/blob/main/release/space/app.py)
+- [Sibling project: makise-kurisu-tts](https://github.com/starryark/makise-kurisu-tts)

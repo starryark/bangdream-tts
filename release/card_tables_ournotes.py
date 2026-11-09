@@ -88,6 +88,10 @@ def voices() -> dict:
         out[r] = {**v, "use": "main"}
     for r in branch_voices():
         out[r] = {**lab[r], "source": "Our Notes story", "ja_minutes": round(mins[r], 2), "use": "ournotes"}
+    import zh_names   # official simplified Chinese names (release/zh_names.json), shown in the demo's voice list
+    for r, e in out.items():
+        if isinstance(e, dict) and zh_names.zh(r, nick=False):
+            e["zh"] = zh_names.zh(r, nick=False)
     return out
 
 

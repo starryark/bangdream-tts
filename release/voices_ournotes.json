@@ -6,7 +6,8 @@
   "source": "game",
   "ja_clips": 258,
   "ja_minutes": 35.48,
-  "use": "main"
+  "use": "main",
+  "zh": "户山香澄"
  },
  "ppp_tae": {
   "character": "花園たえ",
@@ -14,7 +15,8 @@
   "source": "game",
   "ja_clips": 215,
   "ja_minutes": 30.85,
-  "use": "main"
+  "use": "main",
+  "zh": "花园多惠"
  },
  "ppp_rimi": {
   "character": "牛込りみ",
@@ -22,7 +24,8 @@
   "source": "game",
   "ja_clips": 163,
   "ja_minutes": 24.44,
-  "use": "main"
+  "use": "main",
+  "zh": "牛込里美"
  },
  "ppp_saaya": {
   "character": "山吹沙綾",
@@ -30,7 +33,8 @@
   "source": "game",
   "ja_clips": 334,
   "ja_minutes": 47.37,
-  "use": "main"
+  "use": "main",
+  "zh": "山吹沙绫"
  },
  "ppp_arisa": {
   "character": "市ヶ谷有咲",
@@ -38,7 +42,8 @@
   "source": "game",
   "ja_clips": 434,
   "ja_minutes": 60.76,
-  "use": "main"
+  "use": "main",
+  "zh": "市谷有咲"
  },
  "ag_ran": {
   "character": "美竹蘭",
@@ -46,7 +51,8 @@
   "source": "game",
   "ja_clips": 173,
   "ja_minutes": 26.14,
-  "use": "main"
+  "use": "main",
+  "zh": "美竹兰"
  },
  "ag_moca": {
   "character": "青葉モカ",
@@ -54,7 +60,8 @@
   "source": "game",
   "ja_clips": 395,
   "ja_minutes": 59.42,
-  "use": "main"
+  "use": "main",
+  "zh": "青叶摩卡"
  },
  "ag_himari": {
   "character": "上原ひまり",
@@ -62,7 +69,8 @@
   "source": "game",
   "ja_clips": 292,
   "ja_minutes": 44.93,
-  "use": "main"
+  "use": "main",
+  "zh": "上原绯玛丽"
  },
  "ag_tomoe": {
   "character": "宇田川巴",
@@ -70,7 +78,8 @@
   "source": "game",
   "ja_clips": 230,
   "ja_minutes": 30.56,
-  "use": "main"
+  "use": "main",
+  "zh": "宇田川巴"
  },
  "ag_tsugumi": {
   "character": "羽沢つぐみ",
@@ -78,7 +87,8 @@
   "source": "game",
   "ja_clips": 197,
   "ja_minutes": 30.33,
-  "use": "main"
+  "use": "main",
+  "zh": "羽泽鸫"
  },
  "pp_aya": {
   "character": "丸山彩",
@@ -86,7 +96,8 @@
   "source": "game",
   "ja_clips": 372,
   "ja_minutes": 51.86,
-  "use": "main"
+  "use": "main",
+  "zh": "丸山彩"
  },
  "pp_hina": {
   "character": "氷川日菜",
@@ -94,7 +105,8 @@
   "source": "game",
   "ja_clips": 248,
   "ja_minutes": 33.54,
-  "use": "main"
+  "use": "main",
+  "zh": "冰川日菜"
  },
  "pp_chisato": {
   "character": "白鷺千聖",
@@ -102,7 +114,8 @@
   "source": "game",
   "ja_clips": 197,
   "ja_minutes": 25.71,
-  "use": "main"
+  "use": "main",
+  "zh": "白鹭千圣"
  },
  "pp_maya": {
   "character": "大和麻弥",
@@ -110,7 +123,8 @@
   "source": "game",
   "ja_clips": 296,
   "ja_minutes": 45.01,
-  "use": "main"
+  "use": "main",
+  "zh": "大和麻弥"
  },
  "pp_eve": {
   "character": "若宮イヴ",
@@ -118,7 +132,8 @@
   "source": "game",
   "ja_clips": 299,
   "ja_minutes": 45.89,
-  "use": "main"
+  "use": "main",
+  "zh": "若宫伊芙"
  },
  "ro_yukina": {
   "character": "湊友希那",
@@ -126,7 +141,8 @@
   "source": "game",
   "ja_clips": 153,
   "ja_minutes": 18.94,
-  "use": "main"
+  "use": "main",
+  "zh": "凑友希那"
  },
  "ro_sayo": {
   "character": "氷川紗夜",
@@ -134,7 +150,8 @@
   "source": "game",
   "ja_clips": 204,
   "ja_minutes": 31.46,
-  "use": "main"
+  "use": "main",
+  "zh": "冰川纱夜"
  },
  "ro_lisa": {
   "character": "今井リサ",
@@ -142,7 +159,8 @@
   "source": "game",
   "ja_clips": 254,
   "ja_minutes": 39.47,
-  "use": "main"
+  "use": "main",
+  "zh": "今井莉莎"
  },
  "ro_ako": {
   "character": "宇田川あこ",
@@ -150,7 +168,8 @@
   "source": "game",
   "ja_clips": 102,
   "ja_minutes": 8.35,
-  "use": "main"
+  "use": "main",
+  "zh": "宇田川亚子"
  },
  "ro_ako_maou": {
   "character": "宇田川あこ",
@@ -158,7 +177,8 @@
   "source": "game",
   "ja_clips": 44,
   "ja_minutes": 5.42,
-  "use": "main"
+  "use": "main",
+  "zh": "宇田川亚子（大魔姬）"
  },
  "ro_rinko": {
   "character": "白金燐子",
@@ -166,7 +186,8 @@
   "source": "game",
   "ja_clips": 270,
   "ja_minutes": 41.52,
-  "use": "main"
+  "use": "main",
+  "zh": "白金燐子"
  },
  "hhw_kokoro": {
   "character": "弦巻こころ",
@@ -174,7 +195,8 @@
   "source": "game",
   "ja_clips": 191,
   "ja_minutes": 29.14,
-  "use": "main"
+  "use": "main",
+  "zh": "弦卷心"
  },
  "hhw_kaoru": {
   "character": "瀬田薫",
@@ -182,7 +204,8 @@
   "source": "game",
   "ja_clips": 197,
   "ja_minutes": 30.25,
-  "use": "main"
+  "use": "main",
+  "zh": "濑田薰"
  },
  "hhw_hagumi": {
   "character": "北沢はぐみ",
@@ -190,7 +213,8 @@
   "source": "game",
   "ja_clips": 150,
   "ja_minutes": 22.52,
-  "use": "main"
+  "use": "main",
+  "zh": "北泽育美"
  },
  "hhw_kanon": {
   "character": "松原花音",
@@ -198,7 +222,8 @@
   "source": "game",
   "ja_clips": 241,
   "ja_minutes": 36.38,
-  "use": "main"
+  "use": "main",
+  "zh": "松原花音"
  },
  "hhw_misaki": {
   "character": "奥沢美咲",
@@ -206,7 +231,8 @@
   "source": "game",
   "ja_clips": 244,
   "ja_minutes": 36.67,
-  "use": "main"
+  "use": "main",
+  "zh": "奥泽美咲"
  },
  "mo_mashiro": {
   "character": "倉田ましろ",
@@ -214,7 +240,8 @@
   "source": "game",
   "ja_clips": 149,
   "ja_minutes": 22.72,
-  "use": "main"
+  "use": "main",
+  "zh": "仓田真白"
  },
  "mo_touko": {
   "character": "桐ヶ谷透子",
@@ -222,7 +249,8 @@
   "source": "game",
   "ja_clips": 143,
   "ja_minutes": 21.79,
-  "use": "main"
+  "use": "main",
+  "zh": "桐谷透子"
  },
  "mo_nanami": {
   "character": "広町七深",
@@ -230,7 +258,8 @@
   "source": "game",
   "ja_clips": 223,
   "ja_minutes": 34.27,
-  "use": "main"
+  "use": "main",
+  "zh": "广町七深"
  },
  "mo_tsukushi": {
   "character": "二葉つくし",
@@ -238,7 +267,8 @@
   "source": "game",
   "ja_clips": 162,
   "ja_minutes": 24.67,
-  "use": "main"
+  "use": "main",
+  "zh": "二叶筑紫"
  },
  "mo_rui": {
   "character": "八潮瑠唯",
@@ -246,7 +276,8 @@
   "source": "game",
   "ja_clips": 184,
   "ja_minutes": 26.36,
-  "use": "main"
+  "use": "main",
+  "zh": "八潮瑠唯"
  },
  "ras_layer": {
   "character": "和奏レイ",
@@ -254,7 +285,8 @@
   "source": "game",
   "ja_clips": 220,
   "ja_minutes": 33.09,
-  "use": "main"
+  "use": "main",
+  "zh": "和奏瑞依"
  },
  "ras_lock": {
   "character": "朝日六花",
@@ -262,7 +294,8 @@
   "source": "game",
   "ja_clips": 226,
   "ja_minutes": 34.0,
-  "use": "main"
+  "use": "main",
+  "zh": "朝日六花"
  },
  "ras_masking": {
   "character": "佐藤ますき",
@@ -270,7 +303,8 @@
   "source": "game",
   "ja_clips": 151,
   "ja_minutes": 22.52,
-  "use": "main"
+  "use": "main",
+  "zh": "佐藤益木"
  },
  "ras_pareo": {
   "character": "鳰原令王那",
@@ -278,7 +312,8 @@
   "source": "game",
   "ja_clips": 154,
   "ja_minutes": 22.25,
-  "use": "main"
+  "use": "main",
+  "zh": "鳰原令王那"
  },
  "ras_chuchu": {
   "character": "珠手ちゆ",
@@ -286,7 +321,8 @@
   "source": "game",
   "ja_clips": 282,
   "ja_minutes": 42.21,
-  "use": "main"
+  "use": "main",
+  "zh": "珠手知由"
  },
  "mygo_tomori": {
   "character": "高松燈",
@@ -294,7 +330,8 @@
   "source": "game",
   "ja_clips": 216,
   "ja_minutes": 29.88,
-  "use": "main"
+  "use": "main",
+  "zh": "高松灯"
  },
  "mygo_anon": {
   "character": "千早愛音",
@@ -302,7 +339,8 @@
   "source": "game",
   "ja_clips": 88,
   "ja_minutes": 11.0,
-  "use": "main"
+  "use": "main",
+  "zh": "千早爱音"
  },
  "mygo_raana": {
   "character": "要楽奈",
@@ -310,7 +348,8 @@
   "source": "game",
   "ja_clips": 272,
   "ja_minutes": 12.53,
-  "use": "main"
+  "use": "main",
+  "zh": "要乐奈"
  },
  "mygo_soyo": {
   "character": "長崎そよ",
@@ -318,7 +357,8 @@
   "source": "game",
   "ja_clips": 77,
   "ja_minutes": 9.82,
-  "use": "main"
+  "use": "main",
+  "zh": "长崎爽世"
  },
  "mygo_soyo_tsuki": {
   "character": "長崎そよ",
@@ -326,7 +366,8 @@
   "source": "game",
   "ja_clips": 126,
   "ja_minutes": 16.38,
-  "use": "main"
+  "use": "main",
+  "zh": "长崎爽世（月之森）"
  },
  "mygo_taki": {
   "character": "椎名立希",
@@ -334,7 +375,8 @@
   "source": "game",
   "ja_clips": 196,
   "ja_minutes": 26.96,
-  "use": "main"
+  "use": "main",
+  "zh": "椎名立希"
  },
  "mujica_uika": {
   "character": "三角初華",
@@ -342,7 +384,8 @@
   "source": "anime",
   "ja_clips": 113,
   "ja_minutes": 5.54,
-  "use": "main"
+  "use": "main",
+  "zh": "三角初华"
  },
  "mujica_mutsumi": {
   "character": "若葉睦",
@@ -350,7 +393,8 @@
   "source": "anime",
   "ja_clips": 61,
   "ja_minutes": 2.8,
-  "use": "main"
+  "use": "main",
+  "zh": "若叶睦"
  },
  "mujica_mortis": {
   "character": "若葉睦",
@@ -358,7 +402,8 @@
   "source": "anime",
   "ja_clips": 95,
   "ja_minutes": 5.07,
-  "use": "main"
+  "use": "main",
+  "zh": "Mortis"
  },
  "mujica_umiri": {
   "character": "八幡海鈴",
@@ -366,7 +411,8 @@
   "source": "anime",
   "ja_clips": 71,
   "ja_minutes": 3.11,
-  "use": "main"
+  "use": "main",
+  "zh": "八幡海铃"
  },
  "mujica_nyamu": {
   "character": "祐天寺にゃむ",
@@ -374,7 +420,8 @@
   "source": "anime",
   "ja_clips": 124,
   "ja_minutes": 6.02,
-  "use": "main"
+  "use": "main",
+  "zh": "祐天寺若麦"
  },
  "mujica_sakiko": {
   "character": "豊川祥子",
@@ -382,7 +429,8 @@
   "source": "mixed",
   "ja_clips": 115,
   "ja_minutes": 6.29,
-  "use": "main"
+  "use": "main",
+  "zh": "丰川祥子"
  },
  "mujica_sakiko_tsuki": {
   "character": "豊川祥子",
@@ -390,49 +438,56 @@
   "source": "anime",
   "ja_clips": 203,
   "ja_minutes": 12.8,
-  "use": "main"
+  "use": "main",
+  "zh": "丰川祥子（月之森）"
  },
  "mygo_tomori_ournotes": {
   "character": "高松燈",
   "band": "MyGO!!!!!",
   "source": "Our Notes story",
   "ja_minutes": 17.31,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "高松灯（Our Notes）"
  },
  "mygo_anon_ournotes": {
   "character": "千早愛音",
   "band": "MyGO!!!!!",
   "source": "Our Notes story",
   "ja_minutes": 23.02,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "千早爱音（Our Notes）"
  },
  "mygo_soyo_ournotes": {
   "character": "長崎そよ",
   "band": "MyGO!!!!!",
   "source": "Our Notes story",
   "ja_minutes": 20.36,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "长崎爽世（Our Notes）"
  },
  "mygo_taki_ournotes": {
   "character": "椎名立希",
   "band": "MyGO!!!!!",
   "source": "Our Notes story",
   "ja_minutes": 17.63,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "椎名立希（Our Notes）"
  },
  "mujica_uika_ournotes": {
   "character": "三角初華",
   "band": "Ave Mujica",
   "source": "Our Notes story",
   "ja_minutes": 19.13,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "三角初华（Our Notes）"
  },
  "mujica_mutsumi_ournotes": {
   "character": "若葉睦",
   "band": "Ave Mujica",
   "source": "Our Notes story",
   "ja_minutes": 13.47,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "若叶睦（Our Notes）"
  },
  "mujica_mortis_ournotes": {
   "character": "若葉睦",
@@ -440,132 +495,151 @@
   "persona": "モーティス",
   "source": "Our Notes story",
   "ja_minutes": 11.9,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "Mortis（Our Notes）"
  },
  "mujica_umiri_ournotes": {
   "character": "八幡海鈴",
   "band": "Ave Mujica",
   "source": "Our Notes story",
   "ja_minutes": 19.79,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "八幡海铃（Our Notes）"
  },
  "mujica_sakiko_ournotes": {
   "character": "豊川祥子",
   "band": "Ave Mujica",
   "source": "Our Notes story",
   "ja_minutes": 30.22,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "丰川祥子（Our Notes）"
  },
  "ikka_chieri": {
   "character": "梅里ちえり",
   "band": "一家Dumb Rock!",
   "source": "Our Notes story",
   "ja_minutes": 25.3,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "梅里千樱梨"
  },
  "ikka_miku": {
   "character": "馬橋心玖",
   "band": "一家Dumb Rock!",
   "source": "Our Notes story",
   "ja_minutes": 23.57,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "马桥心玖"
  },
  "ikka_raika": {
   "character": "須賀蕾叶",
   "band": "一家Dumb Rock!",
   "source": "Our Notes story",
   "ja_minutes": 21.42,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "须贺蕾叶"
  },
  "ikka_shizuku": {
   "character": "四宮寧月",
   "band": "一家Dumb Rock!",
   "source": "Our Notes story",
   "ja_minutes": 25.32,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "四宫宁月"
  },
  "ikka_yomogi": {
   "character": "矢倉蓬咲",
   "band": "一家Dumb Rock!",
   "source": "Our Notes story",
   "ja_minutes": 28.38,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "矢仓蓬咲"
  },
  "mewtype_arale": {
   "character": "仲町あられ",
   "band": "夢限大みゅーたいぷ",
   "source": "Our Notes story",
   "ja_minutes": 18.98,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "仲町阿拉蕾"
  },
  "mewtype_miyako": {
   "character": "藤都子",
   "band": "夢限大みゅーたいぷ",
   "source": "Our Notes story",
   "ja_minutes": 19.17,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "藤都子"
  },
  "mewtype_nonoka": {
   "character": "宮永ののか",
   "band": "夢限大みゅーたいぷ",
   "source": "Our Notes story",
   "ja_minutes": 16.73,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "宫永野乃花"
  },
  "mewtype_ritsu": {
   "character": "峰月律",
   "band": "夢限大みゅーたいぷ",
   "source": "Our Notes story",
   "ja_minutes": 15.42,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "峰月律"
  },
  "mewtype_yuno": {
   "character": "千石ユノ",
   "band": "夢限大みゅーたいぷ",
   "source": "Our Notes story",
   "ja_minutes": 15.01,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "千石由乃"
  },
  "millsage_hotaru": {
   "character": "汐見蛍",
   "band": "millsage",
   "source": "Our Notes story",
   "ja_minutes": 19.81,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "汐见萤"
  },
  "millsage_houka": {
   "character": "和泉朋花",
   "band": "millsage",
   "source": "Our Notes story",
   "ja_minutes": 25.2,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "和泉朋花"
  },
  "millsage_mahoro": {
   "character": "浜崎まほろ",
   "band": "millsage",
   "source": "Our Notes story",
   "ja_minutes": 22.89,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "滨崎茉幌"
  },
  "millsage_nagi": {
   "character": "琴平凪",
   "band": "millsage",
   "source": "Our Notes story",
   "ja_minutes": 17.78,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "琴平凪"
  },
  "millsage_natsume": {
   "character": "伊沢なつめ",
   "band": "millsage",
   "source": "Our Notes story",
   "ja_minutes": 20.98,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "伊泽枣"
  },
  "ournotes_kanata": {
   "character": "沢海奏多",
   "band": "—",
   "source": "Our Notes story",
   "ja_minutes": 17.52,
-  "use": "ournotes"
+  "use": "ournotes",
+  "zh": "泽海奏多"
  }
 }

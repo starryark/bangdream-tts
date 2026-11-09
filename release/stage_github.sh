@@ -44,7 +44,8 @@ cpf e7/*.py e7/*.sh e7/*.md e7/results/eval/selection.json e7/results/eval/selec
 cpf release/publish_hf_v2.py release/card_tables_v2.py release/voices_v2_ournotes.json release/MODEL_CARD_v2.md \
     release/space/app.py release/space/requirements.txt release/space/README.md \
     release/publish_hf_ournotes.py release/card_tables_ournotes.py release/MODEL_CARD_ournotes.md \
-    release/voices_ournotes.json release/voices_v1_main.json
+    release/voices_ournotes.json release/voices_v1_main.json release/voices_v1_main_zh.json \
+    release/zh_names.json release/zh_names.py release/patch_cards_zh.py
 # E8 and E9 (2026-11-08/09): code, plans, results, screens, listening keys/answers/analyses. Never staged: listening
 # items and pages (line texts), renders, bundles with line texts (ja_rows, eval_rows, eval_short, nv_rows, zh_texts,
 # refs), e9/rows, pseudo rows, scored/manifest files, logs.
@@ -55,7 +56,7 @@ cpf e9/*.py e9/*.sh e9/*.md e9/listen_key.json e9/bundle/speakers.txt e9/bundle/
     e9/bundle/e9_bundle_report.json e9/bundle/probe_e6_calib.json e9/results/eval/*/summary.json \
     e9/results/eval/*/screens.json e9/results/exp/*/mix.json e9/results/listening.json e9/results/listening/*.json
 cpf e1/results/pseudo/report.json
-for f in README.md LICENSE CITATION.cff .gitignore .gitattributes; do
+for f in README.md README.zh-CN.md llms.txt LICENSE CITATION.cff .gitignore .gitattributes; do
   [ -f "release/repo/$f" ] && cp "release/repo/$f" "$G/$f"
 done
 mkdir -p "$G/kurisu_pod"

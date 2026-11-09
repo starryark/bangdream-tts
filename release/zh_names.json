@@ -1,0 +1,431 @@
+{
+ "ppp_kasumi": {
+  "zh": "户山香澄",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/户山香澄"
+ },
+ "ppp_tae": {
+  "zh": "花园多惠",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/花园多惠"
+ },
+ "ppp_rimi": {
+  "zh": "牛込里美",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/牛込里美"
+ },
+ "ppp_saaya": {
+  "zh": "山吹沙绫",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/山吹沙绫"
+ },
+ "ppp_arisa": {
+  "zh": "市谷有咲",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/市谷有咲"
+ },
+ "ag_ran": {
+  "zh": "美竹兰",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ag_moca": {
+  "zh": "青叶摩卡",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ag_himari": {
+  "zh": "上原绯玛丽",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ag_tomoe": {
+  "zh": "宇田川巴",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ag_tsugumi": {
+  "zh": "羽泽鸫",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "hhw_kokoro": {
+  "zh": "弦卷心",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "hhw_kaoru": {
+  "zh": "濑田薰",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "hhw_hagumi": {
+  "zh": "北泽育美",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "hhw_kanon": {
+  "zh": "松原花音",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "hhw_misaki": {
+  "zh": "奥泽美咲",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/all.2.json",
+  "note": "CN master data id 601 = 奥泽美咲; BWIKI card titles use 奥泽美咲-…; the CN GBP band-roster slot (char 15) is labelled 米歇尔 (Michelle)"
+ },
+ "pp_aya": {
+  "zh": "丸山彩",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "pp_hina": {
+  "zh": "冰川日菜",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "pp_chisato": {
+  "zh": "白鹭千圣",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "pp_maya": {
+  "zh": "大和麻弥",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "pp_eve": {
+  "zh": "若宫伊芙",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_yukina": {
+  "zh": "凑友希那",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_sayo": {
+  "zh": "冰川纱夜",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_lisa": {
+  "zh": "今井莉莎",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_ako": {
+  "zh": "宇田川亚子",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_rinko": {
+  "zh": "白金燐子",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/白金燐子"
+ },
+ "mo_mashiro": {
+  "zh": "仓田真白",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mo_touko": {
+  "zh": "桐谷透子",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mo_nanami": {
+  "zh": "广町七深",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mo_tsukushi": {
+  "zh": "二叶筑紫",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mo_rui": {
+  "zh": "八潮瑠唯",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mygo_tomori": {
+  "zh": "高松灯",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mygo_anon": {
+  "zh": "千早爱音",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mygo_raana": {
+  "zh": "要乐奈",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "mygo_soyo": {
+  "zh": "长崎爽世",
+  "nick": [
+   "素世",
+   "长崎素世"
+  ],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "nick_source": "https://zh.moegirl.org.cn/%E9%95%BF%E5%B4%8E%E7%B4%A0%E4%B8%96 (Moegirl redirect title)"
+ },
+ "mygo_taki": {
+  "zh": "椎名立希",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json"
+ },
+ "ro_ako_maou": {
+  "zh": "宇田川亚子（大魔姬）",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://wiki.biligame.com/bangdream/宇田川亚子-觉醒吧大魔姬",
+  "note": "CN GBP card title 觉醒吧大魔姬 (JP 大魔姫); persona label, not a separate character name"
+ },
+ "ras_layer": {
+  "zh": "和奏瑞依",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "stage_name": "LAYER",
+  "note": "CN GBP displays the stage name (LAYER) as the character label; full name from CN master data"
+ },
+ "ras_lock": {
+  "zh": "朝日六花",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "stage_name": "LOCK",
+  "note": "CN GBP displays the stage name (LOCK) as the character label; full name from CN master data"
+ },
+ "ras_masking": {
+  "zh": "佐藤益木",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "stage_name": "MASKING",
+  "note": "CN GBP displays the stage name (MASKING) as the character label; full name from CN master data"
+ },
+ "ras_pareo": {
+  "zh": "鳰原令王那",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "stage_name": "PAREO",
+  "note": "CN GBP displays the stage name (PAREO) as the character label; full name from CN master data"
+ },
+ "ras_chuchu": {
+  "zh": "珠手知由",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://bestdori.com/api/characters/main.3.json",
+  "stage_name": "CHU²",
+  "note": "CN GBP displays the stage name (CHU²) as the character label; full name from CN master data"
+ },
+ "mujica_uika": {
+  "zh": "三角初华",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-6/",
+  "stage_name": "Doloris"
+ },
+ "mujica_mutsumi": {
+  "zh": "若叶睦",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-7/",
+  "stage_name": "Mortis"
+ },
+ "mujica_umiri": {
+  "zh": "八幡海铃",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-8/",
+  "stage_name": "Timoris"
+ },
+ "mujica_nyamu": {
+  "zh": "祐天寺若麦",
+  "nick": [
+   "喵梦",
+   "祐天寺喵梦"
+  ],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-9/",
+  "stage_name": "Amoris",
+  "nick_source": "https://zh.moegirl.org.cn/%E7%A5%90%E5%A4%A9%E5%AF%BA%E5%96%B5%E6%A2%A6 (Moegirl redirect title)"
+ },
+ "mujica_sakiko": {
+  "zh": "丰川祥子",
+  "nick": [
+   "小祥"
+  ],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-10/",
+  "stage_name": "Oblivionis",
+  "nick_source": "https://www.gamersky.com/news/202501/1868990.shtml"
+ },
+ "mujica_mortis": {
+  "zh": "Mortis",
+  "nick": [
+   "墨缇丝"
+  ],
+  "confidence": "medium",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-7/",
+  "note": "Our Notes zh-CN shows 'Mortis / 若叶睦'; stage name/persona is left untransliterated. No official CN transliteration (墨缇丝 etc.) found",
+  "nick_source": "https://www.sina.cn/news/detail/5127424810161025.html (fan/media usage, not official)"
+ },
+ "ikka_raika": {
+  "zh": "须贺蕾叶",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-21/"
+ },
+ "ikka_miku": {
+  "zh": "马桥心玖",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-22/"
+ },
+ "ikka_yomogi": {
+  "zh": "矢仓蓬咲",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-23/"
+ },
+ "ikka_chieri": {
+  "zh": "梅里千樱梨",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-24/"
+ },
+ "ikka_shizuku": {
+  "zh": "四宫宁月",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-25/"
+ },
+ "mewtype_arale": {
+  "zh": "仲町阿拉蕾",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-11/"
+ },
+ "mewtype_nonoka": {
+  "zh": "宫永野乃花",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-12/"
+ },
+ "mewtype_ritsu": {
+  "zh": "峰月律",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-13/"
+ },
+ "mewtype_miyako": {
+  "zh": "藤都子",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-14/"
+ },
+ "mewtype_yuno": {
+  "zh": "千石由乃",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-15/"
+ },
+ "millsage_hotaru": {
+  "zh": "汐见萤",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-16/"
+ },
+ "millsage_natsume": {
+  "zh": "伊泽枣",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-17/"
+ },
+ "millsage_nagi": {
+  "zh": "琴平凪",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-18/"
+ },
+ "millsage_mahoro": {
+  "zh": "滨崎茉幌",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-19/"
+ },
+ "millsage_houka": {
+  "zh": "和泉朋花",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-20/"
+ },
+ "ournotes_kanata": {
+  "zh": "泽海奏多",
+  "nick": [],
+  "confidence": "high",
+  "source": "https://ournotes.stonebg.cn/global/zh-CN/characters/character-1001/",
+  "note": "millsage band-story character (non-playable, char id 1001, part Key.), CV 飯田ヒカル; official JP account: the person who led 汐见萤 to join millsage (https://x.com/bang_dream_on/status/2103108822449688660). Fan wiki (pixiv dic): millsage's original Key.&Vo., died of illness after the band's first live (unverified vs official). In-game short display name: 奏多."
+ },
+ "_bands": {
+  "Poppin'Party": "Poppin'Party",
+  "Afterglow": "Afterglow",
+  "Pastel*Palettes": "Pastel＊Palettes",
+  "Roselia": "Roselia",
+  "Hello, Happy World!": "Hello, Happy World！",
+  "Morfonica": "Morfonica",
+  "RAISE A SUILEN": "RAISE A SUILEN",
+  "MyGO!!!!!": "MyGO!!!!!",
+  "Ave Mujica": "Ave Mujica",
+  "一家Dumb Rock!": "一家Dumb Rock!",
+  "夢限大みゅーたいぷ": "梦限大MewType",
+  "millsage": "millsage",
+  "_game_gbp": "《BanG Dream! 少女乐团派对!》",
+  "_game_ournotes": "《BanG Dream! Our Notes》 (Sept-2026 国际服 launch branding); 《BanG Dream! 交织的乐章》 appears in earlier pre-registration-era coverage",
+  "_anime_mygo": "《迷途之子!!!!!》",
+  "_anime_mujica": "《颂乐人偶》"
+ }
+}
