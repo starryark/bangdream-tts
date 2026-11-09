@@ -126,7 +126,7 @@ These are context for writing copy, not material to quote.
 
 | Item | Impact | Status |
 |---|---|---|
-| One canonical description, names first, reused verbatim (GitHub About, HF card, Space, posts) | high | done 2026-11-09 |
+| One canonical description, names first, reused verbatim (GitHub About, both HF cards, llms.txt; the Space uses a 60-character short form; future posts should reuse it) | high | done 2026-11-09 |
 | Aliases in visible prose (邦邦, 邦多利, 少女乐团派对, 迷途之子, 颂乐人偶, 交织的乐章, バンドリ, ガルパ); Chinese names in the voice tables and the demo's voice list | high | done |
 | GitHub topics (20), website set to the Space | high | done |
 | A clear statement that this is not affiliated with Bushiroad / 夢ノ結唱 | high | done |
