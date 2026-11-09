@@ -1,0 +1,40 @@
+{
+ "E8B_avg|en": {
+  "n": 1040,
+  "cer": 0.0021,
+  "p_true": 0.587,
+  "lid_ratio": -8.7597,
+  "leak": 0.0587,
+  "runaway": 0
+ },
+ "E8B_avg|ja_heldout": {
+  "n": 1566,
+  "cer": 0.0407,
+  "p_true": 0.7847,
+  "leak": 0.016,
+  "runaway": 0
+ },
+ "E8B_avg|ja_novel": {
+  "n": 2232,
+  "cer": 0.0041,
+  "p_true": 0.7829,
+  "leak": 0.0134,
+  "runaway": 0
+ },
+ "E8B_avg|ja_short": {
+  "n": 2042,
+  "cer": 0.1295,
+  "p_true": 0.4068,
+  "leak": 0.2493,
+  "runaway": 0
+ },
+ "E8B_avg|zh": {
+  "n": 2080,
+  "cer": 0.0077,
+  "p_true": 0.4051,
+  "lid_ratio": -18.8845,
+  "ser_shared": 0.0691,
+  "leak": 0.1361,
+  "runaway": 0
+ }
+}

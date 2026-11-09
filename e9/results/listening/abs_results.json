@@ -1,0 +1,361 @@
+{
+ "page": "e9_abs",
+ "answers": {
+  "99260595": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228782602,
+   "score": "yes",
+   "rt_ms": 8569
+  },
+  "1f2ba071": {
+   "flags": [],
+   "plays": 3,
+   "t0": 1794228359713,
+   "score": "yes",
+   "rt_ms": 15134
+  },
+  "aa6f3615": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228375968,
+   "score": "yes",
+   "rt_ms": 9923
+  },
+  "a720300e": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228388287,
+   "score": "yes",
+   "rt_ms": 8933
+  },
+  "f41640db": {
+   "flags": [],
+   "plays": 4,
+   "t0": 1794228397889,
+   "score": "yes",
+   "rt_ms": 10036
+  },
+  "61bce5d9": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228410135,
+   "score": "yes",
+   "rt_ms": 5658
+  },
+  "3b22e726": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228416454,
+   "score": "yes",
+   "rt_ms": 11488
+  },
+  "486af5ca": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228428565,
+   "score": "yes",
+   "rt_ms": 11916
+  },
+  "b7ae371a": {
+   "flags": [],
+   "plays": 4,
+   "t0": 1794228449453,
+   "score": "yes",
+   "rt_ms": 16754
+  },
+  "79fe6251": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228466665,
+   "score": "partly",
+   "rt_ms": 13467
+  },
+  "d0ca17e7": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228485093,
+   "score": "yes",
+   "rt_ms": 9366
+  },
+  "a4025d4c": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228498947,
+   "score": "yes",
+   "rt_ms": 9879
+  },
+  "62c9876f": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228509828,
+   "score": "partly",
+   "rt_ms": 5667
+  },
+  "3facb985": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228516107,
+   "score": "yes",
+   "rt_ms": 7156
+  },
+  "2ea81679": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228525700,
+   "score": "yes",
+   "rt_ms": 9706
+  },
+  "13c10c5a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228539562,
+   "score": "yes",
+   "rt_ms": 10408
+  },
+  "670ee33b": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228551115,
+   "score": "yes",
+   "rt_ms": 6327
+  },
+  "d0b34926": {
+   "flags": [],
+   "plays": 3,
+   "t0": 1794228558086,
+   "score": "yes",
+   "rt_ms": 20546
+  },
+  "0a0b7b84": {
+   "flags": [
+    "artefact"
+   ],
+   "plays": 2,
+   "t0": 1794228579579,
+   "score": "partly",
+   "rt_ms": 9018
+  },
+  "49a246c8": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228594040,
+   "score": "yes",
+   "rt_ms": 7660
+  },
+  "3cb8a80d": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228603610,
+   "score": "partly",
+   "rt_ms": 9833
+  },
+  "78de4edd": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228616091,
+   "score": "partly",
+   "rt_ms": 7503
+  },
+  "14d7eb75": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228624017,
+   "score": "yes",
+   "rt_ms": 8699
+  },
+  "6ce66ac9": {
+   "flags": [],
+   "plays": 7,
+   "t0": 1794228634589,
+   "score": "yes",
+   "rt_ms": 36244
+  },
+  "11c06938": {
+   "flags": [
+    "artefact"
+   ],
+   "plays": 2,
+   "t0": 1794228671938,
+   "score": "no",
+   "rt_ms": 18579
+  },
+  "467dff10": {
+   "flags": [],
+   "plays": 6,
+   "t0": 1794228693477,
+   "score": "partly",
+   "rt_ms": 88762
+  },
+  "b10a6f42": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228791633,
+   "score": "partly",
+   "rt_ms": 10716
+  },
+  "1c200e52": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228802674,
+   "score": "yes",
+   "rt_ms": 5728
+  },
+  "c8ecf73a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228809550,
+   "score": "yes",
+   "rt_ms": 7142
+  },
+  "762f7e19": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228818838,
+   "score": "no",
+   "rt_ms": 47435
+  },
+  "18a765cc": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228867647,
+   "score": "yes",
+   "rt_ms": 5024
+  },
+  "5bf59159": {
+   "flags": [],
+   "plays": 3,
+   "t0": 1794228873759,
+   "score": "yes",
+   "rt_ms": 10684
+  },
+  "1d9e59bc": {
+   "flags": [],
+   "plays": 4,
+   "t0": 1794228886682,
+   "score": "yes",
+   "rt_ms": 53857
+  },
+  "900d8e11": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228941243,
+   "score": "yes",
+   "rt_ms": 9850
+  },
+  "38d0bc9a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228952319,
+   "score": "yes",
+   "rt_ms": 6833
+  },
+  "478af794": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228959796,
+   "score": "yes",
+   "rt_ms": 8461
+  },
+  "673de191": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228969353,
+   "score": "yes",
+   "rt_ms": 17891
+  },
+  "c4f08cb1": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794228987709,
+   "score": "yes",
+   "rt_ms": 40498
+  },
+  "073f2c83": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229032397,
+   "score": "yes",
+   "rt_ms": 5461
+  },
+  "0f7374bf": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229038334,
+   "score": "yes",
+   "rt_ms": 5330
+  },
+  "950a4971": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229044398,
+   "score": "yes",
+   "rt_ms": 6674
+  },
+  "ed47e7af": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229051580,
+   "score": "partly",
+   "rt_ms": 6507
+  },
+  "f45fc6ad": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229059868,
+   "score": "yes",
+   "rt_ms": 7140
+  },
+  "efd56da8": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229067505,
+   "score": "yes",
+   "rt_ms": 11011
+  },
+  "210a7b4f": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229080596,
+   "score": "yes",
+   "rt_ms": 11210
+  },
+  "e683cdf0": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229093996,
+   "score": "yes",
+   "rt_ms": 5317
+  },
+  "52ae63d5": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229103321,
+   "score": "yes",
+   "rt_ms": 8162
+  },
+  "155c3bf0": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229113445,
+   "score": "yes",
+   "rt_ms": 11451
+  },
+  "8874c43a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229125418,
+   "score": "yes",
+   "rt_ms": 5901
+  },
+  "a2b6671a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794229134883,
+   "score": "yes",
+   "rt_ms": 5061
+  }
+ },
+ "started": "2026-11-09T12:45:59.713Z",
+ "finished": "2026-11-09T12:59:00.536Z"
+}

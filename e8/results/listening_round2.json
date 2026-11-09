@@ -1,0 +1,134 @@
+{
+ "candidate": "B",
+ "groups": {
+  "ja_replaced": {
+   "n": 24,
+   "mean": -0.458,
+   "p_greater": 0.8037567753077215,
+   "p_two_sided": 0.392486449384557
+  },
+  "ja_unchanged": {
+   "n": 24,
+   "mean": 0.042,
+   "p_greater": 0.3565599357315067,
+   "p_two_sided": 0.7131198714630134
+  },
+  "zh": {
+   "n": 16,
+   "mean": -0.312,
+   "p_greater": 0.7606800823571132,
+   "p_two_sided": 0.4786398352857738
+  },
+  "en": {
+   "n": 8,
+   "mean": -0.125,
+   "p_greater": 0.640625,
+   "p_two_sided": 1.0
+  }
+ },
+ "wrong_voice_flags": {},
+ "new_voice_answers": {
+  "ikka_chieri": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "ikka_miku": [
+   "yes",
+   "yes",
+   "partly"
+  ],
+  "ikka_raika": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "ikka_shizuku": [
+   "yes",
+   "yes",
+   "partly"
+  ],
+  "ikka_yomogi": [
+   "yes",
+   "partly",
+   "partly"
+  ],
+  "mewtype_arale": [
+   "yes",
+   "yes",
+   "partly"
+  ],
+  "mewtype_miyako": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "mewtype_nonoka": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "mewtype_ritsu": [
+   "yes",
+   "yes",
+   "partly"
+  ],
+  "mewtype_yuno": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "millsage_hotaru": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "millsage_houka": [
+   "yes",
+   "partly",
+   "yes"
+  ],
+  "millsage_mahoro": [
+   "yes",
+   "partly",
+   "yes"
+  ],
+  "millsage_nagi": [
+   "yes",
+   "yes",
+   "yes"
+  ],
+  "millsage_natsume": [
+   "yes",
+   "yes",
+   "partly"
+  ],
+  "ournotes_kanata": [
+   "yes",
+   "yes",
+   "no"
+  ]
+ },
+ "weak_new_voices": [],
+ "consistency": {
+  "repeats": 8,
+  "repeats_agree": 4,
+  "nulls": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "nulls_within_1": false
+ },
+ "rules": {
+  "ja_replaced_better": false,
+  "ja_unchanged_not_worse": true,
+  "zh_not_worse": true,
+  "no_shared_voice_wrong_twice": true,
+  "new_voices_weak_le_3": true,
+  "consistent": false
+ },
+ "adopt_by_listening": false,
+ "note": "The screens (E8_PLAN §5) must also pass. If only 'consistent' fails, round 2 is repeated once (§6)."
+}

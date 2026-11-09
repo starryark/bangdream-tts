@@ -1,0 +1,27 @@
+{
+ "mean_pref_B": 0.25,
+ "n": 20,
+ "wrong_voice_flags": {
+  "A": 0,
+  "B": 0
+ },
+ "winner": "B",
+ "consistency": {
+  "repeats": 2,
+  "repeats_agree": 2,
+  "nulls": [
+   0
+  ],
+  "nulls_within_1": true
+ },
+ "per_voice_pref_B": {
+  "ikka_chieri": 0,
+  "ikka_raika": -4,
+  "ikka_yomogi": 3,
+  "mewtype_arale": 7,
+  "mewtype_nonoka": -4,
+  "mewtype_yuno": -1,
+  "millsage_nagi": 0,
+  "ournotes_kanata": 4
+ }
+}

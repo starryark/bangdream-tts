@@ -1,0 +1,173 @@
+{
+ "groups": {
+  "v1era_ja": {
+   "n": 33,
+   "mean": -0.576,
+   "p_two_sided": 0.0462
+  },
+  "persona": {
+   "n": 4,
+   "mean": 1.0,
+   "p_two_sided": 0.5
+  },
+  "zh": {
+   "n": 8,
+   "mean": -1.0,
+   "p_two_sided": 0.2734
+  },
+  "unch_ja": {
+   "n": 6,
+   "mean": 1.0,
+   "p_two_sided": 0.125
+  }
+ },
+ "v1era_ja": {
+  "n": 33,
+  "mean": -0.576,
+  "p_two_sided": 0.0462
+ },
+ "others": {
+  "n": 18,
+  "mean": 0.111,
+  "p_two_sided": 0.7568
+ },
+ "per_v1era_voice_sum": {
+  "mujica_uika": -7,
+  "mygo_anon": -4,
+  "mujica_mutsumi": -3,
+  "mujica_sakiko": -3,
+  "mygo_raana": -3,
+  "mujica_mortis": -2,
+  "mygo_soyo": -1,
+  "mujica_nyamu": -1,
+  "mygo_taki": 1,
+  "mygo_tomori": 2,
+  "mujica_umiri": 2
+ },
+ "wrong_voice_flags": {},
+ "absolute": {
+  "new_abs|ikka_chieri": [
+   "yes",
+   "partly"
+  ],
+  "new_abs|ikka_miku": [
+   "yes",
+   "partly"
+  ],
+  "new_abs|ikka_raika": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|ikka_shizuku": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|ikka_yomogi": [
+   "partly",
+   "yes"
+  ],
+  "new_abs|mewtype_arale": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|mewtype_miyako": [
+   "partly",
+   "partly"
+  ],
+  "new_abs|mewtype_nonoka": [
+   "yes",
+   "no"
+  ],
+  "new_abs|mewtype_ritsu": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|mewtype_yuno": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|millsage_hotaru": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|millsage_houka": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|millsage_mahoro": [
+   "yes",
+   "no"
+  ],
+  "new_abs|millsage_nagi": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|millsage_natsume": [
+   "yes",
+   "yes"
+  ],
+  "new_abs|ournotes_kanata": [
+   "yes",
+   "partly"
+  ],
+  "ournotes_abs|mujica_mortis_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mujica_mutsumi_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mujica_sakiko_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mujica_uika_ournotes": [
+   "yes",
+   "partly"
+  ],
+  "ournotes_abs|mujica_umiri_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mygo_anon_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mygo_soyo_ournotes": [
+   "yes",
+   "yes"
+  ],
+  "ournotes_abs|mygo_taki_ournotes": [
+   "yes",
+   "partly"
+  ],
+  "ournotes_abs|mygo_tomori_ournotes": [
+   "yes",
+   "yes"
+  ]
+ },
+ "weak_new": [],
+ "weak_ournotes": [],
+ "consistency": {
+  "repeats": 6,
+  "repeats_agree": 4,
+  "nulls": [
+   0,
+   0,
+   0
+  ],
+  "nulls_within_1": true
+ },
+ "rules": {
+  "v1era_not_worse": false,
+  "no_v1era_voice_sum_le_-5": false,
+  "others_not_worse": true,
+  "no_voice_wrong_twice": true,
+  "new_weak_le_3": true,
+  "ournotes_weak_le_2": true,
+  "consistent": true
+ },
+ "adopt_by_listening": false,
+ "note": "Screens (E9_PLAN §5) must also pass. If only 'consistent' fails, the pair pages are repeated once (§6)."
+}

@@ -1,0 +1,40 @@
+{
+ "E9_avg|en": {
+  "n": 1152,
+  "cer": 0.0043,
+  "p_true": 0.5613,
+  "lid_ratio": -9.0123,
+  "leak": 0.1979,
+  "runaway": 0
+ },
+ "E9_avg|ja_heldout": {
+  "n": 1756,
+  "cer": 0.041,
+  "p_true": 0.7297,
+  "leak": 0.2346,
+  "runaway": 1
+ },
+ "E9_avg|ja_novel": {
+  "n": 2376,
+  "cer": 0.0035,
+  "p_true": 0.7414,
+  "leak": 0.2222,
+  "runaway": 0
+ },
+ "E9_avg|ja_short": {
+  "n": 2298,
+  "cer": 0.1327,
+  "p_true": 0.3854,
+  "leak": 0.3999,
+  "runaway": 1
+ },
+ "E9_avg|zh": {
+  "n": 2304,
+  "cer": 0.0079,
+  "p_true": 0.3965,
+  "lid_ratio": -19.1116,
+  "ser_shared": 0.0661,
+  "leak": 0.2778,
+  "runaway": 0
+ }
+}

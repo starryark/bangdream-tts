@@ -1,0 +1,230 @@
+{
+ "9a8baf61": {
+  "kind": "main",
+  "item": "it000",
+  "voice": "ikka_yomogi",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "f58e0c37": {
+  "kind": "main",
+  "item": "it001",
+  "voice": "ikka_yomogi",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "1fb0bc76": {
+  "kind": "main",
+  "item": "it002",
+  "voice": "mewtype_arale",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "c74fb7cb": {
+  "kind": "main",
+  "item": "it003",
+  "voice": "mewtype_arale",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "1d974aab": {
+  "kind": "main",
+  "item": "it004",
+  "voice": "mewtype_nonoka",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "17aefc70": {
+  "kind": "main",
+  "item": "it005",
+  "voice": "mewtype_nonoka",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "63bdadd4": {
+  "kind": "main",
+  "item": "it006",
+  "voice": "ikka_chieri",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "d640a8b0": {
+  "kind": "main",
+  "item": "it007",
+  "voice": "ikka_chieri",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "1b741f30": {
+  "kind": "main",
+  "item": "it008",
+  "voice": "ikka_raika",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "3d21a882": {
+  "kind": "main",
+  "item": "it009",
+  "voice": "ikka_raika",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "53f47d69": {
+  "kind": "main",
+  "item": "it010",
+  "voice": "mewtype_yuno",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "093d1329": {
+  "kind": "main",
+  "item": "it011",
+  "voice": "mewtype_yuno",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "3939af68": {
+  "kind": "main",
+  "item": "it012",
+  "voice": "millsage_nagi",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "01fdb716": {
+  "kind": "main",
+  "item": "it013",
+  "voice": "millsage_nagi",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "56049c70": {
+  "kind": "main",
+  "item": "it014",
+  "voice": "ournotes_kanata",
+  "lang": "ja",
+  "ikind": "ja_heldout",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "ce666820": {
+  "kind": "main",
+  "item": "it015",
+  "voice": "ournotes_kanata",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "84d3ecc7": {
+  "kind": "main",
+  "item": "it016",
+  "voice": "ikka_yomogi",
+  "lang": "zh",
+  "ikind": "zh",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "1444ed62": {
+  "kind": "main",
+  "item": "it017",
+  "voice": "mewtype_arale",
+  "lang": "zh",
+  "ikind": "zh",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "1be7cbe9": {
+  "kind": "main",
+  "item": "it018",
+  "voice": "mewtype_nonoka",
+  "lang": "zh",
+  "ikind": "zh",
+  "round": 1,
+  "left": "B",
+  "right": "A"
+ },
+ "5468becc": {
+  "kind": "main",
+  "item": "it019",
+  "voice": "ikka_chieri",
+  "lang": "zh",
+  "ikind": "zh",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "07e13f94": {
+  "kind": "repeat",
+  "of": "1be7cbe9",
+  "item": "it018",
+  "voice": "mewtype_nonoka",
+  "lang": "zh",
+  "ikind": "zh",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "128904b8": {
+  "kind": "repeat",
+  "of": "01fdb716",
+  "item": "it013",
+  "voice": "millsage_nagi",
+  "lang": "ja",
+  "ikind": "ja_short",
+  "round": 1,
+  "left": "A",
+  "right": "B"
+ },
+ "1d589960": {
+  "kind": "null",
+  "item": "it010",
+  "voice": "mewtype_yuno",
+  "system": "A"
+ }
+}

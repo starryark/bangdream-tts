@@ -1,0 +1,343 @@
+{
+ "page": "e8_round2_new",
+ "answers": {
+  "19629175": {
+   "flags": [],
+   "plays": 4,
+   "t0": 1794196998296,
+   "score": "no",
+   "rt_ms": 17826
+  },
+  "2bc1dbe9": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197016577,
+   "score": "partly",
+   "rt_ms": 6160
+  },
+  "c4d9f177": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197023438,
+   "score": "yes",
+   "rt_ms": 7507
+  },
+  "c3b8e066": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197032020,
+   "score": "partly",
+   "rt_ms": 12108
+  },
+  "ba462253": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197045538,
+   "score": "partly",
+   "rt_ms": 10117
+  },
+  "af9ef7c6": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197056089,
+   "score": "yes",
+   "rt_ms": 5483
+  },
+  "e9d7445a": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197061956,
+   "score": "yes",
+   "rt_ms": 7125
+  },
+  "c9e7caae": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197069453,
+   "score": "yes",
+   "rt_ms": 8981
+  },
+  "c7bb0f74": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197079656,
+   "score": "yes",
+   "rt_ms": 5181
+  },
+  "93440e8d": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197085562,
+   "score": "yes",
+   "rt_ms": 5849
+  },
+  "0325623c": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197091874,
+   "score": "yes",
+   "rt_ms": 14931
+  },
+  "1027bc27": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197107362,
+   "score": "yes",
+   "rt_ms": 7721
+  },
+  "845c10c7": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197116446,
+   "score": "partly",
+   "rt_ms": 11580
+  },
+  "72c64e60": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197128846,
+   "score": "yes",
+   "rt_ms": 6618
+  },
+  "b0edb8b6": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197136089,
+   "score": "yes",
+   "rt_ms": 8189
+  },
+  "ee92e380": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197145224,
+   "score": "yes",
+   "rt_ms": 5482
+  },
+  "4a5484b2": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197151804,
+   "score": "partly",
+   "rt_ms": 13223
+  },
+  "2d9c78e3": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197165581,
+   "score": "yes",
+   "rt_ms": 4785
+  },
+  "384efb97": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197171975,
+   "score": "yes",
+   "rt_ms": 9387
+  },
+  "3166e816": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197181893,
+   "score": "yes",
+   "rt_ms": 5570
+  },
+  "91cb1b31": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197189239,
+   "score": "yes",
+   "rt_ms": 11352
+  },
+  "d5104fa4": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197201844,
+   "score": "yes",
+   "rt_ms": 8667
+  },
+  "338684f8": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197212005,
+   "score": "yes",
+   "rt_ms": 6242
+  },
+  "ae92e11f": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197219046,
+   "score": "partly",
+   "rt_ms": 7914
+  },
+  "715c2439": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197227656,
+   "score": "yes",
+   "rt_ms": 7380
+  },
+  "c96cfdcf": {
+   "flags": [],
+   "plays": 3,
+   "t0": 1794197238083,
+   "score": "partly",
+   "rt_ms": 37804
+  },
+  "7585c1d7": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197276328,
+   "score": "yes",
+   "rt_ms": 5389
+  },
+  "669104b0": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197282681,
+   "score": "yes",
+   "rt_ms": 11544
+  },
+  "6e38907d": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197296815,
+   "score": "yes",
+   "rt_ms": 10244
+  },
+  "2aefc54f": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197309808,
+   "score": "partly",
+   "rt_ms": 10143
+  },
+  "6915274d": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197320382,
+   "score": "yes",
+   "rt_ms": 5979
+  },
+  "8abf0544": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197327656,
+   "score": "yes",
+   "rt_ms": 9948
+  },
+  "1e07bc77": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197339402,
+   "score": "yes",
+   "rt_ms": 5610
+  },
+  "8a476d6d": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197345921,
+   "score": "yes",
+   "rt_ms": 12990
+  },
+  "8d94932b": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197360208,
+   "score": "yes",
+   "rt_ms": 4971
+  },
+  "c14c710b": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197366440,
+   "score": "yes",
+   "rt_ms": 7358
+  },
+  "dbe57c40": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197374544,
+   "score": "yes",
+   "rt_ms": 7819
+  },
+  "a5d0606c": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197383490,
+   "score": "yes",
+   "rt_ms": 10815
+  },
+  "8e13ef30": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197394848,
+   "score": "yes",
+   "rt_ms": 9986
+  },
+  "264af2dd": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197405377,
+   "score": "yes",
+   "rt_ms": 7930
+  },
+  "831def50": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197413995,
+   "score": "yes",
+   "rt_ms": 6263
+  },
+  "04a67fd4": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197420901,
+   "score": "yes",
+   "rt_ms": 10537
+  },
+  "610cbe11": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197434453,
+   "score": "yes",
+   "rt_ms": 5775
+  },
+  "b94ddfdd": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197440814,
+   "score": "yes",
+   "rt_ms": 9974
+  },
+  "8c4e149b": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197451431,
+   "score": "partly",
+   "rt_ms": 9448
+  },
+  "7fc514a8": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197461258,
+   "score": "yes",
+   "rt_ms": 8343
+  },
+  "5c1b9f69": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197470203,
+   "score": "yes",
+   "rt_ms": 14377
+  },
+  "449a3ff1": {
+   "flags": [],
+   "plays": 2,
+   "t0": 1794197485362,
+   "score": "yes",
+   "rt_ms": 9063
+  }
+ },
+ "started": "2026-11-09T04:03:18.296Z",
+ "finished": "2026-11-09T04:11:35.065Z"
+}

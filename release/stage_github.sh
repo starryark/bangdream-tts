@@ -43,6 +43,15 @@ cpf e7/*.py e7/*.sh e7/*.md e7/results/eval/selection.json e7/results/eval/selec
     e7/results/eval/*/summary.json e7/results/exp/*/mix.json
 cpf release/publish_hf_v2.py release/card_tables_v2.py release/voices_v2_ournotes.json release/MODEL_CARD_v2.md \
     release/space/app.py release/space/requirements.txt release/space/README.md
+# E8 and E9 (2026-11-08/09): code, plans, results, screens, listening keys/answers/analyses. Never staged: listening
+# items and pages (line texts), renders, bundles with line texts (ja_rows, eval_rows, eval_short, nv_rows, zh_texts,
+# refs), e9/rows, pseudo rows, scored/manifest files, logs.
+cpf e8/*.py e8/*.sh e8/*.md e8/listen/*_key.json e8/results/eval/*/summary.json e8/results/eval/*/screens.json \
+    e8/results/exp/*/mix.json e8/results/listening/*.json e8/results/listening_round*.json \
+    e8/results/pseudo_on/report.json e8/results/pseudo_v1_e1recipe/report.json
+cpf e9/*.py e9/*.sh e9/*.md e9/listen_key.json e9/bundle/speakers.txt e9/bundle/rows_e6.json \
+    e9/bundle/e9_bundle_report.json e9/bundle/probe_e6_calib.json e9/results/eval/*/summary.json \
+    e9/results/eval/*/screens.json e9/results/exp/*/mix.json e9/results/listening.json e9/results/listening/*.json
 cpf e1/results/pseudo/report.json
 for f in README.md LICENSE CITATION.cff .gitignore .gitattributes; do
   [ -f "release/repo/$f" ] && cp "release/repo/$f" "$G/$f"
@@ -64,7 +73,7 @@ fi
 python -I -X utf8 - "$(cygpath -w "$BD")" <<'PYEOF' || { echo "refusing: a game line was found in a staged file"; exit 1; }
 import json, pathlib, sys
 bd = pathlib.Path(sys.argv[1]); lines = set()
-for b in (bd / 'e1' / 'bundle', bd / 'e6' / 'bundle'):
+for b in (bd / 'e1' / 'bundle', bd / 'e6' / 'bundle', bd / 'e9' / 'bundle'):
     for name, key in (('ja_rows.jsonl', 'text'), ('eval_rows.jsonl', 'text'), ('eval_short.jsonl', 'text')):
         f = b / name
         if f.exists():
@@ -72,6 +81,14 @@ for b in (bd / 'e1' / 'bundle', bd / 'e6' / 'bundle'):
                 t = json.loads(l).get(key) if l.strip() else None
                 if t and len(t) >= 8 and not t.isascii():   # ASCII-only lines are band names such as 'millsage'
                     lines.add(t)
+    zt = b / 'zh_texts.json'   # the game's own Mandarin translations of Our Notes lines: {row: [[clip id, text], ...]}
+    if zt.exists():
+        lines |= {t for pairs in json.loads(zt.read_text(encoding='utf-8')).values() for _, t in pairs
+                  if t and len(t) >= 8 and not t.isascii()}
+for f in (bd / 'e6' / 'results' / 'pseudo_on' / 'pseudo_rows.jsonl', bd / 'e8' / 'results' / 'pseudo_on' / 'pseudo_rows.jsonl'):
+    if f.exists():   # pseudo-zh rows carry those translations as text
+        lines |= {t for l in f.read_text(encoding='utf-8').splitlines() if l.strip()
+                  for t in [json.loads(l).get('text')] if t and len(t) >= 8 and not t.isascii()}
 hits = []
 for p in pathlib.Path('.').rglob('*'):
     if '.git' in p.parts or not p.is_file() or p.stat().st_size > 5_000_000:

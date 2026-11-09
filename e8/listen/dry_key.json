@@ -1,0 +1,59 @@
+{
+ "8706de69": {
+  "kind": "main",
+  "item": "d0",
+  "voice": "hhw_kokoro",
+  "lang": "ja",
+  "ikind": "ja",
+  "round": "dry",
+  "left": "X",
+  "right": "Y"
+ },
+ "d9899e1a": {
+  "kind": "main",
+  "item": "d1",
+  "voice": "mujica_mortis",
+  "lang": "ja",
+  "ikind": "ja",
+  "round": "dry",
+  "left": "X",
+  "right": "Y"
+ },
+ "de041b6f": {
+  "kind": "main",
+  "item": "d2",
+  "voice": "mujica_sakiko",
+  "lang": "ja",
+  "ikind": "ja",
+  "round": "dry",
+  "left": "Y",
+  "right": "X"
+ },
+ "f402f384": {
+  "kind": "main",
+  "item": "d3",
+  "voice": "mygo_tomori",
+  "lang": "ja",
+  "ikind": "ja",
+  "round": "dry",
+  "left": "X",
+  "right": "Y"
+ },
+ "8ea410e2": {
+  "kind": "repeat",
+  "of": "de041b6f",
+  "item": "d2",
+  "voice": "mujica_sakiko",
+  "lang": "ja",
+  "ikind": "ja",
+  "round": "dry",
+  "left": "X",
+  "right": "Y"
+ },
+ "8570ec8a": {
+  "kind": "null",
+  "item": "d1",
+  "voice": "mujica_mortis",
+  "system": "X"
+ }
+}

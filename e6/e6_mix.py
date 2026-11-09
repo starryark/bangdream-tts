@@ -57,7 +57,8 @@ def main() -> None:
     aux = set(json.loads((ROOT / "replay" / "aux_speakers.json").read_text(encoding="utf-8")))
     test_ids = {r["real_id"] for r in read(ROOT / "bundle" / "eval_rows.jsonl")} | \
                {r["real_id"] for r in read(ROOT / "bundle" / "eval_short.jsonl") if r.get("real_id")}
-    assert len(shipped) == 65 and not (set(shipped) & aux), "speaker sets overlap or wrong size"
+    n_expect = int(os.environ.get("BD_N_SPEAKERS", "65"))   # E9: 63 (Soyo and Sakiko persona rows merged)
+    assert len(shipped) == n_expect and not (set(shipped) & aux), "speaker sets overlap or wrong size"
 
     rng = random.Random(args.seed)
     dropped = Counter()

@@ -208,7 +208,15 @@ def main() -> None:
         del model
         torch.cuda.empty_cache()
     (out / "manifest.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
+    # E9: an Our-Notes-era id X_ournotes is scored against probe class X (probeE6 has no _ournotes classes);
+    # the id is restored afterwards, so scored.jsonl keeps the voice id and the probe class appears as pred.
+    orig_rows = [r["row"] for r in rows]
+    for r in rows:
+        if r["row"].endswith("_ournotes"):
+            r["row"] = r["row"][: -len("_ournotes")]
     bdscore.score(rows, ROOT / "bundle" / "probe_e6.npz", accent=args.cond != "real")
+    for r, o in zip(rows, orig_rows):
+        r["row"] = o
     for r in rows:
         if r["kind"] == "nv":
             r["nv_kana"] = len(C.reading(r.get("asr", "")))

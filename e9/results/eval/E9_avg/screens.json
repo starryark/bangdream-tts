@@ -1,0 +1,95 @@
+{
+ "pass": true,
+ "checks": {
+  "S1_gated_ja_mid_leak": {
+   "value": 0.0155,
+   "bound": "<= 0.06 (new + Our-Notes-era + single ids, all seeds)",
+   "ok": true
+  },
+  "S2_gated_voice_ja_mid_leak": {
+   "value": {},
+   "bound": "no gated voice > 0.40",
+   "ok": true
+  },
+  "S3_v1_ja_mid_leak": {
+   "value": 0.0112,
+   "bound": "<= C0 0.0099 + 0.03",
+   "ok": true
+  },
+  "S3_v1_zh_leak": {
+   "value": 0.138,
+   "bound": "<= C0 0.1545 + 0.10",
+   "ok": true
+  },
+  "S4_v1_ja_cer": {
+   "value": 0.0258,
+   "bound": "<= C0 0.0251 + 0.01",
+   "ok": true
+  },
+  "S4_on_ja_cer": {
+   "value": 0.0541,
+   "bound": "<= real 0.042 + 0.02",
+   "ok": true
+  },
+  "S5_v1_zh_ser": {
+   "value": 0.0713,
+   "bound": "<= C0 0.0733 + 0.02",
+   "ok": true
+  },
+  "S5_v1_zh_lid": {
+   "value": -18.373,
+   "bound": "<= C0 -18.251 + 2.0",
+   "ok": true
+  },
+  "S5_v1_en_lid": {
+   "value": -9.058,
+   "bound": "<= C0 -9.232 + 2.0",
+   "ok": true
+  },
+  "S6_runaway": {
+   "value": 0.0001,
+   "bound": "<= 0.01",
+   "ok": true
+  }
+ },
+ "gated_ja_mid_leak_per_voice_all_seeds": {
+  "ikka_chieri": 0.0,
+  "ikka_miku": 0.05,
+  "ikka_raika": 0.013,
+  "ikka_shizuku": 0.0,
+  "ikka_yomogi": 0.175,
+  "mewtype_arale": 0.062,
+  "mewtype_miyako": 0.0,
+  "mewtype_nonoka": 0.013,
+  "mewtype_ritsu": 0.0,
+  "mewtype_yuno": 0.0,
+  "millsage_hotaru": 0.0,
+  "millsage_houka": 0.0,
+  "millsage_mahoro": 0.0,
+  "millsage_nagi": 0.0,
+  "millsage_natsume": 0.013,
+  "mujica_mortis": 0.0,
+  "mujica_mutsumi": 0.0,
+  "mujica_nyamu": 0.019,
+  "mujica_sakiko": 0.0,
+  "mujica_uika": 0.013,
+  "mujica_umiri": 0.0,
+  "mygo_anon": 0.0,
+  "mygo_raana": 0.017,
+  "mygo_soyo": 0.0,
+  "mygo_taki": 0.0,
+  "mygo_tomori": 0.0,
+  "ournotes_kanata": 0.05
+ },
+ "v1_era_share_assigned_to_own_character_reported": {
+  "mujica_mortis": 0.971,
+  "mujica_mutsumi": 1.0,
+  "mujica_sakiko": 0.911,
+  "mujica_uika": 0.944,
+  "mujica_umiri": 0.969,
+  "mygo_anon": 0.562,
+  "mygo_soyo": 1.0,
+  "mygo_taki": 0.455,
+  "mygo_tomori": 0.977
+ }
+}

@@ -392,6 +392,56 @@ class NewTokens:
         return text_emb + add * hit.unsqueeze(-1)
 
 
+class LearnedSpeakers:
+    """Learnable speaker rows (``--spk_lr``; BanG Dream E8): a trainable fp32 offset on each
+    shipped speaker's locked vector, with its own learning rate and no weight decay.
+
+    The locked vectors (Base speaker-encoder centroids) of similar voices are nearly
+    parallel, so the model has to separate them through tiny differences in its
+    conditioning; the offset lets training move crowded voices apart. Auxiliary (replay)
+    speakers further down the table stay locked. Indexing returns locked + offset, so
+    ``build_inputs`` and ``save_checkpoint`` use it exactly like the plain table.
+    """
+
+    def __init__(self, base, n_saved: int, device):
+        import torch
+        self.base, self.n = base, n_saved
+        self.delta = torch.nn.Parameter(torch.zeros(n_saved, base.shape[1], device=device,
+                                                    dtype=torch.float32))
+
+    def table(self):
+        import torch
+        head = self.base[:self.n] + self.delta.to(self.base.dtype)
+        return torch.cat([head, self.base[self.n:]], 0) if self.base.shape[0] > self.n else head
+
+    def __getitem__(self, idx):
+        return self.table()[idx]
+
+    def report(self, names: list[str]) -> str:
+        import torch
+        with torch.no_grad():
+            d = self.delta.detach().float().norm(dim=-1)
+            before = self.base[:self.n].float()
+            after = before + self.delta.detach().float()
+
+            def nn_cos(x):
+                c = torch.nn.functional.normalize(x - x.mean(0, keepdim=True), dim=-1)
+                s = c @ c.T
+                s.fill_diagonal_(-9.0)
+                return s
+            sb, sa = nn_cos(before), nn_cos(after)
+            top = torch.topk(sb.flatten(), 10).indices.tolist()
+            pairs = sorted({tuple(sorted((i // self.n, i % self.n))) for i in top})[:5]
+            i_max = int(d.argmax())
+            lines = [f"[speaker] learned offsets: |delta| mean {float(d.mean()):.3f}, max {float(d.max()):.3f} "
+                     f"({names[i_max]}); locked |row| mean {float(before.norm(dim=-1).mean()):.2f}; "
+                     f"nearest-neighbour centred cosine median {float(sb.max(1).values.median()):.3f} -> "
+                     f"{float(sa.max(1).values.median()):.3f}"]
+            lines += [f"[speaker]   {names[a]} ~ {names[b]}: {float(sb[a, b]):.3f} -> {float(sa[a, b]):.3f}"
+                      for a, b in pairs]
+        return chr(10).join(lines)
+
+
 def build_inputs(model, batch, spk_table, device, use_text_projection: bool,
                  new_tokens: NewTokens | None = None):
     """Text + codec + speaker -> one embedding sequence, exactly as inference builds it."""
@@ -500,6 +550,8 @@ def save_checkpoint(out_dir: Path, base_dir: Path, state_dict, spk_table,
     from safetensors.torch import save_file
 
     out_dir.mkdir(parents=True, exist_ok=True)
+    if hasattr(spk_table, "report"):
+        print(spk_table.report(speaker_names), flush=True)
     # Copy the tree but not the base weights - they are about to be overwritten.
     shutil.copytree(base_dir, out_dir, dirs_exist_ok=True,
                     ignore=lambda d, names: {"model.safetensors"} if Path(d) == Path(base_dir) else set())
@@ -624,6 +676,9 @@ def main() -> None:
     g.add_argument("--new_tokens", default=None,
                    help="JSON {token: [init words]} of tag tokens to add to the tokenizer")
     g.add_argument("--new_token_lr", type=float, default=1e-4)
+    g.add_argument("--spk_lr", type=float, default=None,
+                   help="learnable speaker rows: an fp32 offset per saved speaker with this lr "
+                        "(no weight decay); off by default (rows stay locked)")
     g.add_argument("--freeze", default="",
                    help="comma list of parameter-name substrings to keep frozen in --mode "
                         "full, e.g. 'model.text_embedding,text_projection' (the text path "
@@ -741,6 +796,15 @@ def main() -> None:
     spk = speaker_table(model, specs, device, dtype, run_dir / "spk_embedding.pt")
     # The checkpoint stores the rows in bf16; train on exactly those values.
     spk = spk.to(torch.bfloat16).to(dtype)
+    learned_spk = None
+    if args.spk_lr:
+        if dtype != torch.float32:
+            # In bf16 an offset step of ~lr rounds away against rows of norm ~17.
+            raise SystemExit("--spk_lr needs fp32 weights (--mode full --full_dtype fp32)")
+        learned_spk = LearnedSpeakers(spk, len(saved_speakers), device)
+        spk = learned_spk
+        print(f"[speaker] learnable offsets on {len(saved_speakers)} saved rows, lr {args.spk_lr:g}; "
+              f"{len(specs) - len(saved_speakers)} aux rows stay locked")
 
     new_tokens = None
     tokenizer_to_save = None
@@ -802,6 +866,9 @@ def main() -> None:
     if new_tokens is not None:
         groups.append({"params": [new_tokens.delta], "weight_decay": 0.0,
                        "lr_scale": args.new_token_lr / args.lr})
+    if learned_spk is not None:
+        groups.append({"params": [learned_spk.delta], "weight_decay": 0.0,
+                       "lr_scale": args.spk_lr / args.lr})
 
     optim_name = args.optimizer
     if optim_name == "auto":
@@ -1000,7 +1067,8 @@ def main() -> None:
                     if args.grad_clip:
                         torch.nn.utils.clip_grad_norm_(
                             [p for p in model.parameters() if p.requires_grad]
-                            + ([new_tokens.delta] if new_tokens is not None else []),
+                            + ([new_tokens.delta] if new_tokens is not None else [])
+                            + ([learned_spk.delta] if learned_spk is not None else []),
                             args.grad_clip)
                     optimizer.step()
                     optimizer.zero_grad(set_to_none=True)

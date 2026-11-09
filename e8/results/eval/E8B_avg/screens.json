@@ -1,0 +1,85 @@
+{
+ "pass": true,
+ "checks": {
+  "S1_on_ja_mid_leak": {
+   "value": 0.0174,
+   "bound": "<= 0.06",
+   "ok": true
+  },
+  "S2_on_voice_ja_mid_leak": {
+   "value": {},
+   "bound": "no voice > 0.40 (mygo_raana reported)",
+   "ok": true
+  },
+  "S3_v1_ja_mid_leak": {
+   "value": 0.009,
+   "bound": "<= C0 0.0103 + 0.03",
+   "ok": true
+  },
+  "S3_v1_zh_leak": {
+   "value": 0.1436,
+   "bound": "<= C0 0.1605 + 0.10",
+   "ok": true
+  },
+  "S4_v1_ja_cer": {
+   "value": 0.0261,
+   "bound": "<= C0 0.0252 + 0.01",
+   "ok": true
+  },
+  "S4_on_ja_cer": {
+   "value": 0.0509,
+   "bound": "<= real 0.042 + 0.02",
+   "ok": true
+  },
+  "S5_v1_zh_ser": {
+   "value": 0.0735,
+   "bound": "<= C0 0.0737 + 0.02",
+   "ok": true
+  },
+  "S5_v1_zh_lid": {
+   "value": -18.141,
+   "bound": "<= C0 -18.175 + 2.0",
+   "ok": true
+  },
+  "S5_v1_en_lid": {
+   "value": -9.017,
+   "bound": "<= C0 -9.113 + 2.0",
+   "ok": true
+  },
+  "S6_runaway": {
+   "value": 0.0,
+   "bound": "<= 0.01",
+   "ok": true
+  }
+ },
+ "on_ja_mid_leak_per_voice_all_seeds": {
+  "ikka_chieri": 0.0,
+  "ikka_miku": 0.037,
+  "ikka_raika": 0.037,
+  "ikka_shizuku": 0.0,
+  "ikka_yomogi": 0.225,
+  "mewtype_arale": 0.075,
+  "mewtype_miyako": 0.0,
+  "mewtype_nonoka": 0.0,
+  "mewtype_ritsu": 0.0,
+  "mewtype_yuno": 0.013,
+  "millsage_hotaru": 0.0,
+  "millsage_houka": 0.0,
+  "millsage_mahoro": 0.013,
+  "millsage_nagi": 0.0,
+  "millsage_natsume": 0.025,
+  "mujica_mortis": 0.025,
+  "mujica_mutsumi": 0.0,
+  "mujica_nyamu": 0.0,
+  "mujica_sakiko": 0.0,
+  "mujica_sakiko_tsuki": 0.0,
+  "mujica_uika": 0.0,
+  "mujica_umiri": 0.0,
+  "mygo_anon": 0.0,
+  "mygo_raana": 0.0,
+  "mygo_soyo": 0.0,
+  "mygo_taki": 0.025,
+  "mygo_tomori": 0.0,
+  "ournotes_kanata": 0.013
+ }
+}
