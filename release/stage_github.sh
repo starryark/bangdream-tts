@@ -42,7 +42,9 @@ cpf e6/*.py e6/*.sh e6/*.md e6/bundle/speakers.txt e6/bundle/rows_e6.json e6/bun
 cpf e7/*.py e7/*.sh e7/*.md e7/results/eval/selection.json e7/results/eval/selection.md \
     e7/results/eval/*/summary.json e7/results/exp/*/mix.json
 cpf release/publish_hf_v2.py release/card_tables_v2.py release/voices_v2_ournotes.json release/MODEL_CARD_v2.md \
-    release/space/app.py release/space/requirements.txt release/space/README.md
+    release/space/app.py release/space/requirements.txt release/space/README.md \
+    release/publish_hf_ournotes.py release/card_tables_ournotes.py release/MODEL_CARD_ournotes.md \
+    release/voices_ournotes.json release/voices_v1_main.json
 # E8 and E9 (2026-11-08/09): code, plans, results, screens, listening keys/answers/analyses. Never staged: listening
 # items and pages (line texts), renders, bundles with line texts (ja_rows, eval_rows, eval_short, nv_rows, zh_texts,
 # refs), e9/rows, pseudo rows, scored/manifest files, logs.

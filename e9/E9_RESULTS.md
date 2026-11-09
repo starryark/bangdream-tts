@@ -115,4 +115,10 @@ In E8, which replaced the v1 data with Our Notes data, Anon and Umiri were −7 
 - **All 16 new voices and all 9 Our-Notes-era ids sound like their characters** (absolute check, no weak voice).
 - **The persona aliases and the unchanged voices were not worse than v1.**
 
-They cannot ship as v2 under this plan, because the v1-era ids of the 11 shared characters regressed. Which next step to take is the user's decision; see the options in the hand-off message.
+They cannot ship as v2 under this plan, because the v1-era ids of the 11 shared characters regressed.
+
+## Decision after the verdict (user, 2026-11-09)
+
+**Hybrid release.** This is a new decision, separate from the rule; v1 stays the default everywhere.
+- **Hugging Face:** `main` stays v1 (49 voices). `E9_avg` is published as the separate, non-default branch `ournotes`, recommended only for its 25 passing voices: the 16 new voices and the 9 `_ournotes` ids.
+- **Demo Space:** each voice is served from v1 if v1 has it, otherwise from `ournotes`. So the 49 v1 voices come from v1 and the 25 from E9.

@@ -14,7 +14,7 @@ It is an unofficial fan project, with no affiliation to Bushiroad, Craft Egg, th
 
 | | |
 |---|---|
-| **Model** | [starrydark/BanG_Dream_Qwen3_TTS](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS) |
+| **Model** | [starrydark/BanG_Dream_Qwen3_TTS](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS) (v1, 49 voices); branch [`ournotes`](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS/tree/ournotes): 25 opt-in BanG Dream! Our Notes voices (E9) |
 | **Demo** | [Hugging Face Space](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS) (ZeroGPU; app in `release/space/`) |
 | **Results** | [E1 (released model)](e1/E1_RESULTS.md) · [E2](e2/E2_RESULTS.md) · [E4](e4/E4_RESULTS.md) · [E5](e5/E5_RESULTS.md) · [E6](e6/E6_RESULTS.md) · [E7](e7/E7_RESULTS.md) · [E8](e8/E8_RESULTS.md) · [E9](e9/E9_RESULTS.md) · [E0 data and probe](e0/e0_results.md) |
 | **Sibling projects** | [makise-kurisu-tts](https://github.com/starryark/makise-kurisu-tts) (where the trainer, language-id recipe and accent metrics started) · [tricolour-tts](https://github.com/starryark/tricolour-tts) |
@@ -66,6 +66,7 @@ The released model is **E1b epoch 2**, chosen by a rule fixed before training (`
    - **E9:** both eras were trained, one id per era.
      - All 16 new voices and all 9 Our-Notes-era voices were judged in character.
      - The v1-era voices of those characters were judged worse than v1, mainly on held-out game lines (mean −0.58 on a −3…+3 scale, p = 0.046).
+     - So v1 stays the default. E9 is published only as the opt-in `ournotes` branch for its 25 Our Notes voices, and the demo Space serves each voice from v1 if v1 has it, otherwise from that branch.
    - Details: `e8/E8_RESULTS.md`, `e9/E9_RESULTS.md`.
 
 ## Layout
@@ -96,7 +97,8 @@ kurisu_pod/  the Kurisu project's pod code this pipeline imports (train_sft.py t
 research/  approach research, data facts, rights notes and the recommendation behind the plan
 review/    independent code reviews and their check scripts
 release/   publish_hf.py (model upload), stage_github.sh (builds this repo), MODEL_CARD.md,
-           space/ (the demo Space's app), publish_hf_v2.py (unused: no v2 was released)
+           space/ (the demo Space's app), publish_hf_v2.py (unused: no v2 was released),
+           publish_hf_ournotes.py + MODEL_CARD_ournotes.md (the opt-in ournotes branch, E9)
 ```
 
 **Not in this repository:** audio of any kind, model weights, speaker vectors, game transcripts, reference-clip lists and per-clip evaluation files. The scripts default to the author's local folders (`bdcommon.py`; `BD_DIR`, `BD_DATA`, `BD_POD`, `BD_KPOD` override them), and the pod scripts expect `/workspace/bd`.

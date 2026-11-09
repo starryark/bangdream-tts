@@ -40,6 +40,8 @@ An unofficial, fan-made **text-to-speech model with 49 BanG Dream! character voi
 - **Each voice is called by its speaker id.** No reference audio is needed.
 - **Three languages:** Japanese (the characters' own language) plus Mandarin and English. Language ids, native replay and in-voice pseudo-Mandarin keep the Japanese accent out of Mandarin.
 - **Built on** Qwen3-TTS-12Hz-1.7B-Base, full fine-tune.
+- **Try it online:** [demo Space](https://huggingface.co/spaces/starrydark/BanG_Dream_Qwen3_TTS) (ZeroGPU; pick a voice, type text). Its output is AI-generated, under the same terms as this model.
+- **25 more voices, opt-in:** the [`ournotes` branch](https://huggingface.co/starrydark/BanG_Dream_Qwen3_TTS/tree/ournotes) is a separate checkpoint (E9) with voices trained on BanG Dream! Our Notes story audio: 16 new characters (一家Dumb Rock!, 夢限大みゅーたいぷ, millsage, 沢海奏多) and the Our Notes era of nine MyGO!!!!! / Ave Mujica characters (`*_ournotes`). Load it with `revision="ournotes"` for those 25 voices only, and keep using this revision for the 49 here. The demo Space serves both.
 
 **Code:** [github.com/starryark/bangdream-tts](https://github.com/starryark/bangdream-tts): data pipeline, fixed trainer, per-voice RVC route for native Mandarin, and every pre-registered plan and result.
 
@@ -165,10 +167,16 @@ Checkpoints were chosen by selection rules written down before each training run
 - **Japanese identity is at the real-recording level** (leak 0.014 against 0.012 for real clips through the same codec; the untrained floor is 0.100). The remaining errors are mostly inside persona pairs, plus `ppp_kasumi` (0.84).
 - **Mandarin accent stays at the floor** (SER 0.069 vs 0.077). With language ids and 13% native replay but only Japanese in the characters' voices (E1a), Mandarin comes out Japanese-accented (SER 0.177); adding 5% gated in-voice pseudo-Mandarin (this model) removes it.
 - **Mandarin identity is the open problem.** Voices that had no usable in-voice Mandarin rows fall back to the base model's timbre.
-- **Two follow-ups did not replace this model.**
+- **Six follow-ups did not replace this model.**
   - E2 (doubling the self-generated rows) diluted identity.
   - E5 trained per-voice RVC converters on each voice's Japanese clips, converted native Mandarin into 15 voices, and retrained. Mandarin identity improved (0.155 → 0.088, 34 → 40 voices; Eve, Kanon, Hagumi, Aya, Kaoru fixed), but it missed the adoption bar fixed before training (≤ 0.08, ≥ 43/49, targets ≤ 0.15). Following that rule, E5 is not released.
   - Details: `eval/E5_RESULTS.md`.
+  - E6 and E7 (2026-11-08) retrained on BanG Dream! Our Notes story audio: the MyGO!!!!! / Ave Mujica voices were replaced, and 16 new characters were added (E7 with own-voice Mandarin rows from the start). Neither passed its pre-registered guards. The main blockers were one new voice's Japanese identity (yomogi), Japanese CER on the new text (which real recordings themselves only just clear) and Mandarin accent on three voices. So v2 was not released. Details: `e6/E6_RESULTS.md` and `e7/E7_RESULTS.md` in the code repository.
+  - E8 and E9 (2026-11-09) were judged by blind listening against this model.
+    - E9 trained both eras of the MyGO!!!!! / Ave Mujica characters, with one id per era.
+    - Its 25 Our Notes voices were all judged in character, but its versions of this model's MyGO!!!!! / Ave Mujica voices were judged worse than these (mean −0.58 on −3…+3, p = 0.046).
+    - So this model stays the default, and E9 is published only as the opt-in `ournotes` branch for its 25 Our Notes voices.
+    - Details: `e9/E9_RESULTS.md` in the code repository and `eval/` on that branch.
 
 ## Training details
 
@@ -188,7 +196,7 @@ The code is in [the GitHub repository](https://github.com/starryark/bangdream-tt
 - Language id on every row, 25% of rows on the Auto prefix.
 - **Trainer:** the fixed multi-speaker trainer from the [Kurisu project](https://github.com/starryark/makise-kurisu-tts) (corrects the official `sft_12hz.py`'s label shift, sub-talker frame and `text_projection` bugs).
 
-**Compute:** one H100 80GB. The whole E1 study (smoke test, two arms × three epochs, floor and real-clip references, evaluation) took about 5 h, about $20; this model's own training took about 10 minutes. The follow-ups (E2, E5) are documented in the code repository.
+**Compute:** one H100 80GB. The whole E1 study (smoke test, two arms × three epochs, floor and real-clip references, evaluation) took about 5 h, about $20; this model's own training took about 10 minutes. The follow-ups (E2, E5–E9) are documented in the code repository.
 
 ## Limitations
 

@@ -1,7 +1,10 @@
 """BanG Dream! character voices (unofficial fan demo) on Qwen3-TTS, for the checkpoints in
 starrydark/BanG_Dream_Qwen3_TTS. Each checkpoint carries its voices as built-in speaker rows, so no
 reference audio is used or shipped. MODEL_VERSIONS picks what is served, e.g. "v1=main" (one model) or
-"v2=main,v1=v1" (v2 on main, v1 under its tag); the first entry is the default."""
+"v2=main,v1=v1" (v2 on main, v1 under its tag); the first entry is the default.
+
+An entry can merge revisions with "+": "v1=main+ournotes" offers every voice of main, plus the voices of the
+ournotes branch that main lacks, each served by the first revision that has it."""
 from __future__ import annotations
 
 import json
@@ -13,7 +16,8 @@ from pathlib import Path
 LOGGER = logging.getLogger("bangdream_tts")
 
 MODEL_REPO = os.getenv("MODEL_REPO", "starrydark/BanG_Dream_Qwen3_TTS").strip()
-MODEL_VERSIONS = [v.split("=", 1) for v in os.getenv("MODEL_VERSIONS", "v1=main").split(",") if "=" in v]
+MODEL_VERSIONS = [(n.strip(), [r.strip() for r in revs.split("+") if r.strip()])
+                  for n, revs in (v.split("=", 1) for v in os.getenv("MODEL_VERSIONS", "v1=main").split(",") if "=" in v)]
 DEFAULT_SPEAKER = "ppp_kasumi"
 MAX_TEXT_CHARACTERS = 200
 MAX_NEW_TOKENS = 512
@@ -68,15 +72,34 @@ def load_version(revision: str) -> tuple[Qwen3TTSModel, dict]:
     return model, voices
 
 
-MODELS: dict[str, Qwen3TTSModel] = {}
+def route(speakers_by_revision: list[tuple[str, list[str]]]) -> dict[str, str]:
+    """speaker -> the first revision (in the listed order) that has it."""
+    routes: dict[str, str] = {}
+    for revision, speakers in speakers_by_revision:
+        for s in speakers:
+            routes.setdefault(s, revision)
+    return routes
+
+
+LOADED: dict[str, tuple[Qwen3TTSModel, dict]] = {}
+ROUTES: dict[str, dict[str, str]] = {}      # version -> speaker -> revision
 CHOICES: dict[str, list[tuple[str, str]]] = {}
-for name, revision in MODEL_VERSIONS:
-    model, voices = load_version(revision)
-    speakers = sorted({s.lower() for s in model.get_supported_speakers()})
-    MODELS[name] = model
-    label = lambda s: f"{voices[s]['character']} ({voices[s].get('band', '')}) · {s}" if s in voices else s  # noqa: E731
-    CHOICES[name] = [(label(s), s) for s in speakers]
+for name, revisions in MODEL_VERSIONS:
+    for revision in revisions:
+        if revision not in LOADED:
+            LOADED[revision] = load_version(revision)
+    ROUTES[name] = route([(r, sorted({s.lower() for s in LOADED[r][0].get_supported_speakers()})) for r in revisions])
+    label = lambda s, v: f"{v[s]['character']} ({v[s].get('band', '')}) · {s}" if s in v else s  # noqa: E731
+    CHOICES[name] = [(label(s, LOADED[r][1]), s) for s, r in sorted(ROUTES[name].items())]
+    LOGGER.warning("version %s: %s", name, {r: sum(v == r for v in ROUTES[name].values()) for r in revisions})
 DEFAULT_VERSION = MODEL_VERSIONS[0][0]
+MERGED = any(len(revisions) > 1 for _, revisions in MODEL_VERSIONS)
+if MERGED:
+    ABOUT += """
+The voices from BanG Dream! Our Notes (16 new characters, and the Our Notes era of nine MyGO!!!!! / Ave Mujica
+characters, ids ending in `_ournotes`) come from a second checkpoint, the model's `ournotes` branch; every
+other voice comes from `main`. The status line names the checkpoint each clip came from.
+"""
 
 
 def validate_text(text: object) -> str:
@@ -116,17 +139,19 @@ def prepare_audio(wavs: object, sample_rate: object) -> tuple[int, np.ndarray]:
 def synthesize(text: str, version: str, speaker: str, language: str):
     try:
         normalized = validate_text(text)
-        if version not in MODELS:
+        if version not in ROUTES:
             raise ValueError(f"Unknown model version {version!r}.")
-        if speaker not in {s for _, s in CHOICES[version]}:
+        if speaker not in ROUTES[version]:
             raise ValueError(f"Voice {speaker!r} is not in {version}.")
+        revision = ROUTES[version][speaker]
         lang = pick_language(language, normalized)
         # ~1.6 codec frames per Japanese character at 12.5 Hz; ~2.5x that bounds a rare non-stopping sample.
-        wavs, sample_rate = MODELS[version].generate_custom_voice(
+        wavs, sample_rate = LOADED[revision][0].generate_custom_voice(
             text=normalized, speaker=speaker, language=lang, non_streaming_mode=True,
             max_new_tokens=min(MAX_NEW_TOKENS, 64 + 4 * len(normalized)))
         audio = prepare_audio(wavs, sample_rate)
-        return audio, f"AI-generated speech — {audio[1].size / audio[0]:.1f} s ({version}, {speaker}, {lang})."
+        source = revision if MERGED else version
+        return audio, f"AI-generated speech — {audio[1].size / audio[0]:.1f} s ({source}, {speaker}, {lang})."
     except ValueError as exc:
         return None, f"Input error: {exc}"
     except Exception:

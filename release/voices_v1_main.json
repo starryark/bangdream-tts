@@ -1,0 +1,345 @@
+{
+ "ppp_kasumi": {
+  "character": "戸山香澄",
+  "band": "Poppin'Party",
+  "source": "game",
+  "ja_clips": 258,
+  "ja_minutes": 35.48
+ },
+ "ppp_tae": {
+  "character": "花園たえ",
+  "band": "Poppin'Party",
+  "source": "game",
+  "ja_clips": 215,
+  "ja_minutes": 30.85
+ },
+ "ppp_rimi": {
+  "character": "牛込りみ",
+  "band": "Poppin'Party",
+  "source": "game",
+  "ja_clips": 163,
+  "ja_minutes": 24.44
+ },
+ "ppp_saaya": {
+  "character": "山吹沙綾",
+  "band": "Poppin'Party",
+  "source": "game",
+  "ja_clips": 334,
+  "ja_minutes": 47.37
+ },
+ "ppp_arisa": {
+  "character": "市ヶ谷有咲",
+  "band": "Poppin'Party",
+  "source": "game",
+  "ja_clips": 434,
+  "ja_minutes": 60.76
+ },
+ "ag_ran": {
+  "character": "美竹蘭",
+  "band": "Afterglow",
+  "source": "game",
+  "ja_clips": 173,
+  "ja_minutes": 26.14
+ },
+ "ag_moca": {
+  "character": "青葉モカ",
+  "band": "Afterglow",
+  "source": "game",
+  "ja_clips": 395,
+  "ja_minutes": 59.42
+ },
+ "ag_himari": {
+  "character": "上原ひまり",
+  "band": "Afterglow",
+  "source": "game",
+  "ja_clips": 292,
+  "ja_minutes": 44.93
+ },
+ "ag_tomoe": {
+  "character": "宇田川巴",
+  "band": "Afterglow",
+  "source": "game",
+  "ja_clips": 230,
+  "ja_minutes": 30.56
+ },
+ "ag_tsugumi": {
+  "character": "羽沢つぐみ",
+  "band": "Afterglow",
+  "source": "game",
+  "ja_clips": 197,
+  "ja_minutes": 30.33
+ },
+ "pp_aya": {
+  "character": "丸山彩",
+  "band": "Pastel*Palettes",
+  "source": "game",
+  "ja_clips": 372,
+  "ja_minutes": 51.86
+ },
+ "pp_hina": {
+  "character": "氷川日菜",
+  "band": "Pastel*Palettes",
+  "source": "game",
+  "ja_clips": 248,
+  "ja_minutes": 33.54
+ },
+ "pp_chisato": {
+  "character": "白鷺千聖",
+  "band": "Pastel*Palettes",
+  "source": "game",
+  "ja_clips": 197,
+  "ja_minutes": 25.71
+ },
+ "pp_maya": {
+  "character": "大和麻弥",
+  "band": "Pastel*Palettes",
+  "source": "game",
+  "ja_clips": 296,
+  "ja_minutes": 45.01
+ },
+ "pp_eve": {
+  "character": "若宮イヴ",
+  "band": "Pastel*Palettes",
+  "source": "game",
+  "ja_clips": 299,
+  "ja_minutes": 45.89
+ },
+ "ro_yukina": {
+  "character": "湊友希那",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 153,
+  "ja_minutes": 18.94
+ },
+ "ro_sayo": {
+  "character": "氷川紗夜",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 204,
+  "ja_minutes": 31.46
+ },
+ "ro_lisa": {
+  "character": "今井リサ",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 254,
+  "ja_minutes": 39.47
+ },
+ "ro_ako": {
+  "character": "宇田川あこ",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 102,
+  "ja_minutes": 8.35
+ },
+ "ro_ako_maou": {
+  "character": "宇田川あこ",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 44,
+  "ja_minutes": 5.42
+ },
+ "ro_rinko": {
+  "character": "白金燐子",
+  "band": "Roselia",
+  "source": "game",
+  "ja_clips": 270,
+  "ja_minutes": 41.52
+ },
+ "hhw_kokoro": {
+  "character": "弦巻こころ",
+  "band": "Hello, Happy World!",
+  "source": "game",
+  "ja_clips": 191,
+  "ja_minutes": 29.14
+ },
+ "hhw_kaoru": {
+  "character": "瀬田薫",
+  "band": "Hello, Happy World!",
+  "source": "game",
+  "ja_clips": 197,
+  "ja_minutes": 30.25
+ },
+ "hhw_hagumi": {
+  "character": "北沢はぐみ",
+  "band": "Hello, Happy World!",
+  "source": "game",
+  "ja_clips": 150,
+  "ja_minutes": 22.52
+ },
+ "hhw_kanon": {
+  "character": "松原花音",
+  "band": "Hello, Happy World!",
+  "source": "game",
+  "ja_clips": 241,
+  "ja_minutes": 36.38
+ },
+ "hhw_misaki": {
+  "character": "奥沢美咲",
+  "band": "Hello, Happy World!",
+  "source": "game",
+  "ja_clips": 244,
+  "ja_minutes": 36.67
+ },
+ "mo_mashiro": {
+  "character": "倉田ましろ",
+  "band": "Morfonica",
+  "source": "game",
+  "ja_clips": 149,
+  "ja_minutes": 22.72
+ },
+ "mo_touko": {
+  "character": "桐ヶ谷透子",
+  "band": "Morfonica",
+  "source": "game",
+  "ja_clips": 143,
+  "ja_minutes": 21.79
+ },
+ "mo_nanami": {
+  "character": "広町七深",
+  "band": "Morfonica",
+  "source": "game",
+  "ja_clips": 223,
+  "ja_minutes": 34.27
+ },
+ "mo_tsukushi": {
+  "character": "二葉つくし",
+  "band": "Morfonica",
+  "source": "game",
+  "ja_clips": 162,
+  "ja_minutes": 24.67
+ },
+ "mo_rui": {
+  "character": "八潮瑠唯",
+  "band": "Morfonica",
+  "source": "game",
+  "ja_clips": 184,
+  "ja_minutes": 26.36
+ },
+ "ras_layer": {
+  "character": "和奏レイ",
+  "band": "RAISE A SUILEN",
+  "source": "game",
+  "ja_clips": 220,
+  "ja_minutes": 33.09
+ },
+ "ras_lock": {
+  "character": "朝日六花",
+  "band": "RAISE A SUILEN",
+  "source": "game",
+  "ja_clips": 226,
+  "ja_minutes": 34.0
+ },
+ "ras_masking": {
+  "character": "佐藤ますき",
+  "band": "RAISE A SUILEN",
+  "source": "game",
+  "ja_clips": 151,
+  "ja_minutes": 22.52
+ },
+ "ras_pareo": {
+  "character": "鳰原令王那",
+  "band": "RAISE A SUILEN",
+  "source": "game",
+  "ja_clips": 154,
+  "ja_minutes": 22.25
+ },
+ "ras_chuchu": {
+  "character": "珠手ちゆ",
+  "band": "RAISE A SUILEN",
+  "source": "game",
+  "ja_clips": 282,
+  "ja_minutes": 42.21
+ },
+ "mygo_tomori": {
+  "character": "高松燈",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 216,
+  "ja_minutes": 29.88
+ },
+ "mygo_anon": {
+  "character": "千早愛音",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 88,
+  "ja_minutes": 11.0
+ },
+ "mygo_raana": {
+  "character": "要楽奈",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 272,
+  "ja_minutes": 12.53
+ },
+ "mygo_soyo": {
+  "character": "長崎そよ",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 77,
+  "ja_minutes": 9.82
+ },
+ "mygo_soyo_tsuki": {
+  "character": "長崎そよ",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 126,
+  "ja_minutes": 16.38
+ },
+ "mygo_taki": {
+  "character": "椎名立希",
+  "band": "MyGO!!!!!",
+  "source": "game",
+  "ja_clips": 196,
+  "ja_minutes": 26.96
+ },
+ "mujica_uika": {
+  "character": "三角初華",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 113,
+  "ja_minutes": 5.54
+ },
+ "mujica_mutsumi": {
+  "character": "若葉睦",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 61,
+  "ja_minutes": 2.8
+ },
+ "mujica_mortis": {
+  "character": "若葉睦",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 95,
+  "ja_minutes": 5.07
+ },
+ "mujica_umiri": {
+  "character": "八幡海鈴",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 71,
+  "ja_minutes": 3.11
+ },
+ "mujica_nyamu": {
+  "character": "祐天寺にゃむ",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 124,
+  "ja_minutes": 6.02
+ },
+ "mujica_sakiko": {
+  "character": "豊川祥子",
+  "band": "Ave Mujica",
+  "source": "mixed",
+  "ja_clips": 115,
+  "ja_minutes": 6.29
+ },
+ "mujica_sakiko_tsuki": {
+  "character": "豊川祥子",
+  "band": "Ave Mujica",
+  "source": "anime",
+  "ja_clips": 203,
+  "ja_minutes": 12.8
+ }
+}
